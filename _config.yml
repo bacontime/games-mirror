@@ -1,0 +1,7 @@
+title: "JTD test"
+remote_theme: pmarsceill/just-the-docs
+search_enabled: true
+
+color_scheme: solarized
+
+gh_edit_link: false  # show or hide edit this page link
