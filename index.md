@@ -1,8 +1,10 @@
 ---
-title: Game Rules and Tools
+title: Home
 nav_order: 1
+nav_exclude: true
 ---
 
+# Game Rules and Tools
 
 [Pagat](https://www.pagat.com/) is great and all, but sometimes I don't need  a detailed history of the game, with fifteen different regional variants and a detailed explanation of the regionally-favored shuffling technique.
 
