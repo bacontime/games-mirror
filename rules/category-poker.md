@@ -7,7 +7,7 @@ has_children: true
 
 ![](/imgs/fox.svg)
 
-![](4C.svg)
+![](4C.svg){:width="36px"}
 
 ![](paper_elemental.png)
 
