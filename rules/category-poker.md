@@ -7,8 +7,7 @@ has_children: true
 
 <style>
     .bigCard {
-        min-height: 3em; 
-        max-height: 4em; 
+        height: 2.5em; 
         vertical-align: text-bottom;
         }
 </style>
