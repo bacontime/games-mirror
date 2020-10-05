@@ -9,7 +9,7 @@ equipment: standard deck, no jokers
 
 ---
 
-<div id="newOutput"></div>
+<div id="newOutput" style="font-size: xx-large; text-align: center;"></div>
 
 ---
 
