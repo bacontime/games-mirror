@@ -2,6 +2,8 @@
 title: Random Word Generator
 ---
 
+*For Charades, Medium, Goldfish, etc.*
+
 <div class="fs-8" style="text-align: center;">
 <button  onclick='generateWord()' class="btn btn-green">Generate Word</button>
 </div>
@@ -134,7 +136,7 @@ title: Random Word Generator
     wordObjectList = [...critterWords, ...natureWords,];
 
     currentWord = ""; //Stores entire word object
-    previousWord = ""; //Stores entire word object
+    previousWord = {english:"Placeholder", chinese:"Nope",  symbol:"No"}; //Stores entire word object
     wordLog = " "; //Stores only the english portions of the words
 
     function generateWord(){
