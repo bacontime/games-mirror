@@ -6,6 +6,8 @@ nav_exclude: true
 
 # Game Rules and Tools
 
-[Pagat](https://www.pagat.com/) is great and all, but sometimes I don't need  a detailed history of the game, with fifteen different regional variants and a detailed explanation of the regionally-favored shuffling technique.
+[Pagat](https://www.pagat.com/) is a fantastic webstie, but sometimes I don't need  an in-depth history of the game, with fifteen different variants and a detailed explanation of the regionally-favored shuffling technique.
 
-Sometimes I just want some bullet points reminding me how to count the score.
+Sometimes I just want some bullet points reminding me how to score.
+
+Games I know how to play 
