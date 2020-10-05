@@ -1,19 +1,11 @@
 ---
 title: Random Word Generator
+players: 3+
+equipment: standard deck, no jokers
 ---
 
 
-<button style='font-family:inherit; font-size: xx-large' onclick='generateWord()'>Generate Word</button>
-
-
-<hr>
-
-<b><h1 id='newOutput' style=' font-size: xx-large'> <br> </h1></b>
-
-<hr>
-<p id='oldOutputs' style='font-family:inherit; font-size: large'></p>
-
-</center>
+<button  onclick='generateWord()'>Generate Word</button>
 
 
 
