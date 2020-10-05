@@ -6,8 +6,6 @@ title: Random Word Generator
 <button  onclick='generateWord()' class="btn">Generate Word</button>
 </div>
 
-<button  onclick='generateWord()'>Generate Word</button>
-
 ---
 
 <div id="newOutput" style="font-size: xx-large; text-align: center;"></div>
@@ -137,7 +135,7 @@ title: Random Word Generator
 
     currentWord = ""; //Stores entire word object
     previousWord = ""; //Stores entire word object
-    wordLog = ""; //Stores only the english portions of the words
+    wordLog = " "; //Stores only the english portions of the words
 
     function generateWord(){
         //Move the words around
