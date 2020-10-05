@@ -424,7 +424,7 @@ codenamesWords = [
         //Choose a random word from the wordlist
         currentWord = rD(wordObjectList);
         //rewrite page content
-        document.getElementById("newOutput").innerHTML = currentWord.english + "<br>" + currentWord.chinese  + "   " + currentWord.symbol ;
+        document.getElementById("newOutput").innerHTML = currentWord.english + "<br>" + currentWord.hanzi  + "   " + currentWord.symbol ;
         document.getElementById("oldOutputs").innerHTML = wordLog;
 
 
