@@ -3,7 +3,7 @@ title: Random Word Generator
 ---
 
 <div class="fs-8" style="text-align: center;">
-<button  onclick='generateWord()' class="btn">Generate Word</button>
+<button  onclick='generateWord()' class="btn btn-green">Generate Word</button>
 </div>
 
 ---
