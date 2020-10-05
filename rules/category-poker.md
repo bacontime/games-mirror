@@ -13,7 +13,7 @@ has_children: true
         }
 </style>
 
-<table style="font-size: large;">
+<table style="">
     <tr><td><h3>Straight Flush</h3></td><td>
         <img class="bigCard" src="imgs/9C.svg">
         <img class="bigCard" src="imgs/8C.svg">
