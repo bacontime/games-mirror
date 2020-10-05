@@ -7,7 +7,9 @@ has_children: true
 
 ![](/imgs/fox.svg)
 
-![](4C.svg){:width="36px"}
+![](4C.svg){:height="4em"}
+![](4C.svg){:height="4em"}
+![](4C.svg){:height="4em"}
 
 ![](paper_elemental.png)
 
