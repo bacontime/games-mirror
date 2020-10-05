@@ -7,7 +7,7 @@ has_children: true
 
 ![](/imgs/fox.svg)
 
-![](4c.svg)
+![](4C.svg)
 
 ![](paper_elemental.png)
 
