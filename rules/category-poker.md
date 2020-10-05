@@ -7,7 +7,7 @@ has_children: true
 
 ![](/imgs/fox.svg)
 
-![](4C.svg){:height="4em"}
+![](4C.svg){:width="4em"}
 
 ![](4C.svg){:height="4em"}
 ![](4C.svg){:height="4em"}
@@ -15,7 +15,7 @@ has_children: true
 <img class="bigCard" height="4em" src="/imgs/9C.svg">
 <img class="bigCard" height="4em" src="imgs/9C.svg">
 
-<img src="https://github.com/favicon.ico" width="48">
+<img src="paper_elemental.png" width="48">
 
 ![](paper_elemental.png)
 
