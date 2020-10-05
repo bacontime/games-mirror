@@ -7,7 +7,7 @@ has_children: true
 
 <style>
     .bigCard {
-        min-height: 4em; 
+        min-height: 3em; 
         max-height: 4em; 
         vertical-align: text-bottom;
         }
@@ -72,8 +72,6 @@ To break ties between hands:
 - Look at the ranks of the cards that count towards the hand.
 - Look at the rank of other cards in the hole.
 - Compare the suits.
-
-With two cards of the same rank, the ♠ is ranked highest, followed by ♥, ♦ , and then ♣. Reverse of alphabetical order: SHDC.
 
 
 <p>With two cards of the same rank, the <b><span style="color:black">♠</span></b> is ranked highest, followed by  <b><span style="color:red">♥</span></b>,  <b><span style="color:blue">♦</span></b> , and then  <b><span style="color:green">♣</span></b>. Reverse of alphabetical order: SHDC.</p>
