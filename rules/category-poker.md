@@ -19,18 +19,18 @@ has_children: true
         <img class="bigCard" src="imgs/7C.svg">
         <img class="bigCard" src="imgs/6C.svg">
         <img class="bigCard" src="imgs/5C.svg"></td></tr>
-    <tr><td><h3>Full House</h3></td><td>
-        <img class="bigCard" src="imgs/card3.svg">
-        <img class="bigCard" src="imgs/card3.svg">
-        <img class="bigCard" src="imgs/card3.svg">
-        <img class="bigCard" src="imgs/card8.svg">
-        <img class="bigCard" src="imgs/card8.svg"></td></tr>
     <tr><td><h3>4 of a Kind</h3></td><td>
         <img class="bigCard" src="imgs/cardK.svg">
         <img class="bigCard" src="imgs/cardK.svg">
         <img class="bigCard" src="imgs/cardK.svg">
         <img class="bigCard" src="imgs/cardK.svg">
         <img class="bigCard" src="imgs/cardBlank.svg"></td></tr>
+    <tr><td><h3>Full House</h3></td><td>
+        <img class="bigCard" src="imgs/card3.svg">
+        <img class="bigCard" src="imgs/card3.svg">
+        <img class="bigCard" src="imgs/card3.svg">
+        <img class="bigCard" src="imgs/card8.svg">
+        <img class="bigCard" src="imgs/card8.svg"></td></tr>
     <tr><td><h3>Flush</h3></td><td>
         <img class="bigCard" src="imgs/D.svg">
         <img class="bigCard" src="imgs/D.svg">
@@ -73,5 +73,5 @@ To break ties between hands:
 - Compare the suits.
 
 
-<p>With two cards of the same rank, the <b><span style="color:black">♠</span></b> is ranked highest, followed by  <b><span style="color:red">♥</span></b>,  <b><span style="color:blue">♦</span></b> , and then  <b><span style="color:green">♣</span></b>. Reverse of alphabetical order: SHDC.</p>
+<p>With two hands of the same rank, the <b><span style="color:black">♠</span></b> is ranked highest, followed by  <b><span style="color:red">♥</span></b>,  <b><span style="color:blue">♦</span></b> , and then  <b><span style="color:green">♣</span></b>. Reverse of alphabetical order: SHDC.</p>
 
