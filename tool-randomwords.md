@@ -2,10 +2,9 @@
 title: Random Word Generator
 ---
 
-
+*For Charades, Medium, Goldfish, etc.*  
 
 <div class="fs-8" style="text-align: center;">
-*For Charades, Medium, Goldfish, etc.*  
 <button  onclick='generateWord()' class="btn btn-red">Generate Word</button>
 </div>
 
@@ -136,9 +135,9 @@ title: Random Word Generator
 
     wordObjectList = [...critterWords, ...natureWords,];
 
-    currentWord = ""; //Stores entire word object
-    previousWord = {english:"Placeholder", chinese:"Nope",  symbol:"No"}; //Stores entire word object
-    wordLog = " "; //Stores only the english portions of the words
+    currentWord = {english:""}; //Stores entire word object/ Initialized as placeholder
+    previousWord = ""; //Stores entire word object
+    wordLog = ""; //Stores only the english portions of the words
 
     function generateWord(){
         //Move the words around
@@ -153,19 +152,6 @@ title: Random Word Generator
 
     }
 
-    function generateWordOld(){
-        //Choose a random word from the wordlist
-        word = rD(wordList);
-        //Get the old words 
-        previousWord = document.getElementById("newOutput").innerHTML;
-        wordLog = document.getElementById("oldOutputs").innerHTML;
-        //move the words around. Add previous word to log, set new word as the main one at the top
-        wordLog = previousWord + "<br>" + wordLog;
-        document.getElementById("newOutput").innerHTML = word;
-        document.getElementById("oldOutputs").innerHTML = wordLog;
-
-
-    }
 
 
 </script>

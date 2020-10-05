@@ -150,7 +150,7 @@
 
     wordObjectList = [...critterWords, ...natureWords,];
 
-    currentWord = ""; //Stores entire word object
+    currentWord = {english:"", chinese:"Nope",  symbol:"No"}; //Stores entire word object
     previousWord = ""; //Stores entire word object
     wordLog = ""; //Stores only the english portions of the words
 
@@ -167,19 +167,7 @@
 
     }
 
-    function generateWordOld(){
-        //Choose a random word from the wordlist
-        word = rD(wordList);
-        //Get the old words 
-        previousWord = document.getElementById("newOutput").innerHTML;
-        wordLog = document.getElementById("oldOutputs").innerHTML;
-        //move the words around. Add previous word to log, set new word as the main one at the top
-        wordLog = previousWord + "<br>" + wordLog;
-        document.getElementById("newOutput").innerHTML = word;
-        document.getElementById("oldOutputs").innerHTML = wordLog;
-
-
-    }
+  
 
 
 </script>
