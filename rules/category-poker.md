@@ -5,20 +5,6 @@ has_children: true
 
 # Poker Games
 
-![](/imgs/fox.svg)
-
-![](4C.svg){:width="4em"}
-
-![](4C.svg){:height="4em"}
-![](4C.svg){:height="4em"}
-![](4C.svg){:height="4em"}
-<img class="bigCard" height="4em" src="/imgs/9C.svg">
-<img class="bigCard" height="4em" src="imgs/9C.svg">
-
-<img src="paper_elemental.png" width="48">
-
-![](paper_elemental.png)
-
 <style>
     .bigCard {
         min-height: 4em; 
@@ -27,50 +13,43 @@ has_children: true
         }
 </style>
 
-<table style="font-size: larger;">
-    <tr><th></th><th></th></tr>
+<table style="font-size: large;">
     <tr><td><h3>Straight Flush</h3></td><td>
         <img class="bigCard" src="imgs/9C.svg">
         <img class="bigCard" src="imgs/8C.svg">
         <img class="bigCard" src="imgs/7C.svg">
         <img class="bigCard" src="imgs/6C.svg">
         <img class="bigCard" src="imgs/5C.svg"></td></tr>
-
     <tr><td><h3>Full House</h3></td><td>
         <img class="bigCard" src="imgs/card3.svg">
         <img class="bigCard" src="imgs/card3.svg">
         <img class="bigCard" src="imgs/card3.svg">
         <img class="bigCard" src="imgs/card8.svg">
         <img class="bigCard" src="imgs/card8.svg"></td></tr>
-
     <tr><td><h3>4 of a Kind</h3></td><td>
         <img class="bigCard" src="imgs/cardK.svg">
         <img class="bigCard" src="imgs/cardK.svg">
         <img class="bigCard" src="imgs/cardK.svg">
         <img class="bigCard" src="imgs/cardK.svg">
         <img class="bigCard" src="imgs/cardBlank.svg"></td></tr>
-
     <tr><td><h3>Flush</h3></td><td>
         <img class="bigCard" src="imgs/D.svg">
         <img class="bigCard" src="imgs/D.svg">
         <img class="bigCard" src="imgs/D.svg">
         <img class="bigCard" src="imgs/D.svg">
         <img class="bigCard" src="imgs/D.svg"></td></tr>
-
     <tr><td><h3>Straight</h3></td><td>
         <img class="bigCard" src="imgs/card6.svg">
         <img class="bigCard" src="imgs/card5.svg">
         <img class="bigCard" src="imgs/card4.svg">
         <img class="bigCard" src="imgs/card3.svg">
         <img class="bigCard" src="imgs/card2.svg"></td></tr>
-
     <tr><td><h3>Two Pair</h3></td><td>
         <img class="bigCard" src="imgs/cardQ.svg">
         <img class="bigCard" src="imgs/cardQ.svg">
         <img class="bigCard" src="imgs/card10.svg">
         <img class="bigCard" src="imgs/card10.svg">
         <img class="bigCard" src="imgs/cardBlank.svg"></td></tr>
-
     <tr><td><h3>One Pair</h3></td><td>
         <img class="bigCard" src="imgs/cardA.svg">
         <img class="bigCard" src="imgs/cardA.svg">
