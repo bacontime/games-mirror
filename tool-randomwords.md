@@ -7,6 +7,11 @@ equipment: standard deck, no jokers
 
 <button  onclick='generateWord()'>Generate Word</button>
 
+---
+
+<div id="newOutput"></div>
+
+---
 
 
 <script>
@@ -139,7 +144,7 @@ equipment: standard deck, no jokers
         currentWord = rD(wordObjectList);
         //rewrite page content
         document.getElementById("newOutput").innerHTML = currentWord.english + "<br>" + currentWord.chinese  + "   " + currentWord.symbol ;
-        document.getElementById("oldOutputs").innerHTML = wordLog;
+        //document.getElementById("oldOutputs").innerHTML = wordLog;
 
 
     }
