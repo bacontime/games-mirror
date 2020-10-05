@@ -1,3 +1,8 @@
+---
+title: Games Rules and Tools
+nav_order: 1
+---
+
 ## Welcome to GitHub Pages
 
 🚀 🐼 weee
