@@ -3,7 +3,7 @@ title: Random Word Generator
 ---
 
 <div class="fs-8" style="text-align: center;">
-[Link button](http://example.com/){: .btn }
+<button  onclick='generateWord()' class="btn">Generate Word</button>
 </div>
 
 <button  onclick='generateWord()'>Generate Word</button>
