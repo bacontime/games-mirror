@@ -1,9 +1,10 @@
 ---
 title: Random Word Generator
-players: 3+
-equipment: standard deck, no jokers
 ---
 
+<div class="fs-8" style="text-align: center;">
+[Link button](http://example.com/){: .btn }
+</div>
 
 <button  onclick='generateWord()'>Generate Word</button>
 
@@ -12,6 +13,8 @@ equipment: standard deck, no jokers
 <div id="newOutput" style="font-size: xx-large; text-align: center;"></div>
 
 ---
+
+<div id="oldOutputs" style="font-size: large; text-align: center;"></div>
 
 
 <script>
@@ -144,7 +147,7 @@ equipment: standard deck, no jokers
         currentWord = rD(wordObjectList);
         //rewrite page content
         document.getElementById("newOutput").innerHTML = currentWord.english + "<br>" + currentWord.chinese  + "   " + currentWord.symbol ;
-        //document.getElementById("oldOutputs").innerHTML = wordLog;
+        document.getElementById("oldOutputs").innerHTML = wordLog;
 
 
     }
