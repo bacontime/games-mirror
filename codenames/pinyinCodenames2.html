@@ -1,0 +1,205 @@
+<html>
+<head>
+<style>
+    svg{
+        float:none;
+    }
+    body{
+        text-align: center;
+        font-size: 0;
+    }
+</style>
+<script>
+    //----------------------------------------------------------------------------------------------------------------------------------
+    //                 ***    EDIT THE LIST BELOW WITH CARD INFORMATION   ***
+    // You can copy and paste to make more entries, and the page will automatically resize
+    // You'll need the number of entries to be a multiple of 18 for the page to print properly.
+    // Example entry:         ["ENGLISH", "PINYIN", "HANZI"],
+    //    ["ENGLISH",		 "PINYIN", 		"HANZI"],
+    //    ["ENGLISH",				"PINYIN",				"HANZI"],
+    //                 ***    EDIT THE LIST BELOW WITH CARD INFORMATION   ***
+    //----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+	var oldCardLists = [
+        ["Moon",				"Yuè",					"月"],
+        ["Mountain",				"Shān",					"山"],
+        ["Fire",				"Huǒ",					"火"],
+        ["Wood",				"Mù",					"木"],
+        ["Eye",				"Mù",					"目"],
+        ["Man",				"Rén",					"人"],
+        ["Hand",				"Shǒu",					"手"],
+        ["Mouth",				"Kǒu",					"口"],
+        ["Knife",				"Dāo",					"刀"],
+        ["Car",				"Chē",					"车"],
+        ["Net",				"Wǎng",					"网"],
+        ["Jade",				"Yù",					"玉"],
+        ["Soil",				"Tǔ",					"土"],
+        ["Plum",				"Méi",					"梅"],
+        ["Board",				"Bǎn",					"板"],
+        ["Scepter",				"Rúyì",					"如意"],//ceremonial backscratcher
+        ["Turtle",				"Guī",					"龟"],
+        ["Radish",				"Luóbo",				"萝卜"],
+		
+		
+        ["Egg",				"Dàn",					"蛋"],
+        ["Chair",				"Yǐzi",					"椅子"],
+        ["Cellphone",				"Shǒujī",				"手机"],
+        ["Noon",				"Zhōngwǔ",				"中午"],
+        ["ENGLISH",				"Wàimiàn",				"外面"],
+        ["Beer",				"Píjiǔ",				"啤酒"],
+        ["Weekend",				"Zhōumò",				"周末"],
+        ["Basketball",				"Lánqiú",				"篮球"],
+        ["Water",				"Shuǐ",					"水"],
+        ["Movie",				"Diànyǐng",				"电影"],
+        ["Today",				"Jīntiān",				"今天"],
+        ["Money",				"Qián",					"钱"],
+        ["Photo",				"Zhàopiàn",				"照片"],
+        ["Cat",				"Māo",					"猫"],
+        ["Daughter",				"Nǚér",					"女儿"],
+        ["Son",				"Érzi",					"儿子"],
+        ["Little Brother",				"Dìdi",					"弟弟"],
+        ["Little Sister",				"Mèimei",				"妹妹"],
+		
+		
+        ["United States",				"Měiguó",				"美国"],
+        ["Fish",				"Yú",					"鱼"],
+        ["Shrimp",				"Xiā",					"虾"],
+        ["Beef",				"Niúròu",				"牛肉"],
+        ["Mutton",				"Yángròu",				"羊肉"],
+        ["Vowel",				"Yuányīn",				"元音"],
+        ["First Name",				"Míngzi",				"名字"],
+        ["China",				"Zhōngguó",				"中国"],
+        ["Book",				"Shū",					"书"],
+        ["Dog",				"Gǒu",					"狗"],
+        ["House",				"Fángzi",				"房子"],
+        ["Student",				"Xuéshēng",				"学生"],
+        ["Teacher",				"Lǎoshī",				"老师"],
+        ["Coffee",				"Kāfēi",				"咖啡"],
+        ["Father",				"Bàba",					"爸爸"],
+        ["Mother",				"Māma",					"妈妈"],
+        ["Big Brother",				"Gēge",					"哥哥"],
+        ["Big Sister",				"Jiějie",				"姐姐"],
+		
+		
+		
+        ["Woman",				"Nǚ",					"女"],
+        ["Peace",				"Ān",					"安"],
+        ["Fruit",				"Guǒ",					"果"],
+        ["Field",				"Tián",					"田"],
+        ["Gold",				"Jīn",					"金"],
+        ["Silver",				"Yín",					"银"],
+        ["Lead",				"Qiān",					"铅"],
+        ["Tin",				"Xī",					"锡"],
+        ["Copper",				"Tóng",					"铜"],
+        ["Quicksilver",				"Gǒng",					"汞"],
+        ["Air",				"Kōngqì",				"空气"],
+        ["Wind",				"Fēng",					"风"],
+        ["Snow",				"Xuě",					"雪"],
+        ["Rain",				"Yǔ",					"雨"],
+        ["Sled",				"Xuěqiāo",				"雪橇"],
+        ["Squirrel",				"Sōngshǔ",				"松鼠"],
+        ["Mouse",				"Shǔ",					"鼠"],
+        ["Rabbit",				"Tùzǐ",					"兔子"],
+		
+	]
+		
+
+
+    var cardList = [
+        ["Corgi",				"Kē jī", 				"柯基"],
+        ["Poodle/VIP",			"Guìbīn", 				"贵宾"],
+        ["ENGLISH",				"Yēsū", 				"耶稣"],
+        ["Confucius",			"Kǒngzǐ", 				"孔子"],
+        ["Jesus",				"Lǎohǔ", 				"老虎"],
+        ["Wang Mang",	 		"Wángmǎng", 			"王莽"],
+        ["Sun Tzu",		 		"Sūnzi", 				"孙子"], //also means grandson
+        ["Mulan",				"Mùlán", 				"木兰"],
+        ["Yellow River", 		"Huánghé", 				"黄河"],
+        ["Spear",				"Máo",					"矛"],
+        ["Pharoah",				"Fǎlǎo",				"法老"],
+        ["Moses",				"Móxī",					"摩西"],
+        ["Anaconda",			"Shuǐ mǎng",			"水蟒"],
+        ["Hippo",				"Hémǎ",					"河马"],
+        ["Ghost",				"Guǐ",					"鬼"],
+        ["Witch",				"Wū",					"巫"],
+        ["Broom",				"Sàozhǒu",				"扫帚"],
+        ["Castle",				"Chéngbǎo",				"城堡"],
+		
+		
+        ["Beard",				"Húzi",					"胡子"],
+        ["England",				"Yīngguó",				"英国"],
+        ["Yi qi (dino)",		"Yìqí",					"翼奇"],
+        ["Tooth",				"Chǐ",					"齿"],
+        ["Feather",				"Yǔ",					"羽"],
+        ["Rice Cake",			"Niángāo",				"年糕"],
+        ["Lettuce",				"Shēngcài",				"生菜"],
+        ["Chopsticks",			"Kuàizi",				"筷子"],
+        ["Steak",				"Niú bā",				"牛扒"],
+        ["Kebab",				"Kǎoròu",				"烤肉"],
+        ["String",				"Chuàn",				"串"],
+        ["Paper",				"Zhǐ",					"纸"],
+        ["Shallot",				"Cōng",					"葱"],
+        ["Electricity",			"Diàn",					"电"],//电力   Diànlì   电子  is electron
+        ["Gravity",				"Zhòng",				"重"], //力        ?weight  
+        ["Atom",				"Yuánzǐ",				"原子"],
+        ["Radiation",			"Fúshè",				"辐射"],
+        ["Acid",				"Fúshè",				"酸"],
+    ];
+//booger bug baby milk
+
+
+
+
+
+
+
+
+
+
+
+    //----------------------------------------------------------------------------------------------------------------------------------
+    //                             ***    THE REST OF THIS IS SCRIPTING ***
+    //                 ***     EDIT THE LIST ABOVE TO CHANGE THE CARD INFO***
+    //----------------------------------------------------------------------------------------------------------------------------------
+	
+	var cardTemplate = `<?xml version="1.0" encoding="UTF-8"?><svg width="63mm" height="41mm" version="1.1" viewBox="0 0 63 41" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g fill="none" stroke="#000" stroke-miterlimit="7">  <rect transform="rotate(-90)" x="-41" y="7.7716e-16" width="41" height="63" stroke-width=".5"/>  <circle transform="rotate(-90)" cx="-20.5" cy="17.006" r="10.388" stroke-linecap="round" stroke-width=".52"/>  <g transform="matrix(0 -1.078 1.0374 0 -11.012 59.308)" stroke-linecap="round" stroke-width=".50024">   <path d="m55 18a25.4 25.4 0 0 1-9.2886 6.6522"/>   <path d="M 26.2886,24.6522 A 25.4,25.4 0 0 1 17,18"/>  </g> </g> <text id="a" x="43.584743" y="26.666677" letter-spacing="0px" text-align="center" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="43.584743" y="26.666677" font-family="Symbola" font-size="7.7611px" stroke-width=".26458" text-align="center" text-anchor="middle">女</tspan><tspan x="43.584743" y="34.427776" font-family="Symbola" font-size="7.7611px" stroke-width=".26458" text-align="center" text-anchor="middle">PINYIN</tspan></text> <use transform="matrix(-.44472 0 0 -.44472 62.97 24.872)" width="100%" height="100%" fill="#4d4d4d" xlink:href="#a"/> <text transform="rotate(-90)" x="-20.500406" y="20.745541" font-family="'Century Schoolbook'" font-size="10.583px" letter-spacing="-1.3229px" stroke-width=".26458" word-spacing="-.0052917px" style="line-height:1" xml:space="preserve"><tspan x="-21.161865" y="20.745541" font-family="'Ma Shan Zheng'" font-size="10.583px" letter-spacing="-1.3229px" stroke-width=".26458" text-align="center" text-anchor="middle" word-spacing="-.0052917px">女</tspan></text></svg>`;
+
+</script>
+</head>
+<body>
+
+<div id="cards"></div>
+
+
+<script>
+
+	//For each  entry in the list of cards, make a copy of the card template and replace PINYIN with the pinyin and replace 女 with the han characters for the word.
+	var cardHolder = document.getElementById("cards");
+	
+	function generateCard(listEntry){
+		var pinyin = listEntry[1];
+		var hanzi = listEntry[2];
+		var cardSVG = cardTemplate;
+		cardSVG = cardSVG.replace("PINYIN",pinyin),cardTemplate;
+		cardSVG = cardSVG.replaceAll("女",hanzi);
+		return cardSVG;
+		
+	}
+
+	cardBlock = "";
+	
+	var i;
+	for (i = 0; i < cardList.length; i++) {
+	  cardBlock += generateCard(cardList[i]);
+	} 
+
+	cardHolder.innerHTML = cardBlock;
+</script>
+
+
+</body>
+</html>
