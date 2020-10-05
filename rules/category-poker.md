@@ -12,8 +12,10 @@ has_children: true
 ![](4C.svg){:height="4em"}
 ![](4C.svg){:height="4em"}
 ![](4C.svg){:height="4em"}
-<img class="bigCard" height="4em" src=/imgs/9C.svg>
-<img class="bigCard" height="4em" src=imgs/9C.svg>
+<img class="bigCard" height="4em" src="/imgs/9C.svg">
+<img class="bigCard" height="4em" src="imgs/9C.svg">
+
+<img src="https://github.com/favicon.ico" width="48">
 
 ![](paper_elemental.png)
 
