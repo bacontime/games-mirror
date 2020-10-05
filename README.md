@@ -1,6 +1,4 @@
----
-nav_order: 1
----
+
 
 # Game Rules and Tools
 
