@@ -2,10 +2,11 @@
 title: Random Word Generator
 ---
 
-*For Charades, Medium, Goldfish, etc.*
+
 
 <div class="fs-8" style="text-align: center;">
-<button  onclick='generateWord()' class="btn btn-green">Generate Word</button>
+*For Charades, Medium, Goldfish, etc.*  
+<button  onclick='generateWord()' class="btn btn-red">Generate Word</button>
 </div>
 
 ---
