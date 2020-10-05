@@ -5,7 +5,11 @@ has_children: true
 
 # Poker Games
 
+![](/imgs/fox.svg)
 
+![](4c.svg)
+
+![](paper_elemental.png)
 
 <table style="font-size: larger;">
     <tr><th></th><th></th></tr>
