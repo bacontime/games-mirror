@@ -1,5 +1,5 @@
 ---
-title: Dameo
+title: Ayu
 parent: Abstract Games
 ---
 
