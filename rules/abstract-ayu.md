@@ -20,7 +20,7 @@ A group of allied pieces orthogonally connected. (Like in Go)
 
 - The distance between two units is the shortest orthogonal path connecting them.
 - When you move a unit you *must* reduce the distance to one of its closest neighbors.
-    - If there is move that lets you do this, you win.
+    - If there is no move that lets you do this, you win.
 - Singleton units move one space orthogonally.
 - Bigger units move like an amoeba. 
     - Take a piece from the unit and place it somewhere else adjacent to the unit
