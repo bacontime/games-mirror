@@ -64,7 +64,7 @@ has_children: true
 
 Individual Cards are ranked AKQJT98765432A, highest-to-lowest.
 
-Ace can be high or low, but not both. So you can have a run of A2345 or 10JQKA, but not QKA23.
+Ace can be high or low, but not both. So you can have a run of A2345 or TJQKA, but not QKA23.
 
 To break ties between hands:
 
