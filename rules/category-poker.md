@@ -7,7 +7,7 @@ has_children: true
 
 <style>
     .bigCard {
-        height: 2.5em; 
+        width: 15%; 
         vertical-align: text-bottom;
         }
 </style>
