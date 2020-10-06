@@ -73,5 +73,14 @@ To break ties between hands:
 - Compare the suits.
 
 
-<p>With two hands of the same rank, the <b><span style="color:black">♠</span></b> is ranked highest, followed by  <b><span style="color:red">♥</span></b>,  <b><span style="color:blue">♦</span></b> , and then  <b><span style="color:green">♣</span></b>. Reverse of alphabetical order: SHDC.</p>
+<p>With two cards of the same rank, the <b><span style="color:black">♠</span></b> is ranked highest, followed by  <b><span style="color:red">♥</span></b>,  <b><span style="color:blue">♦</span></b> , and then  <b><span style="color:green">♣</span></b>. Reverse of alphabetical order: SHDC.</p>
+
+<span id="tiebreaker"></span>
+
+<script>
+function rD(i){return i[Math.floor(Math.random()*i.length)];} //draw a random item from a list.
+
+document.getElementById("tiebreaker").innerHTML = "hello there general kenobi;
+
+</script>
 

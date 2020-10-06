@@ -10,7 +10,9 @@ nav_exclude: true
 
 Sometimes I just want some bullet points reminding me how to score.
 
-Tiny rules blurbs for games
+Rules blurbs for games
 I know how to play,
 and assorted little widgets 
 can be found in the navigation menu.
+
+Card games should be assumed to use a standard 52 card deck unless otherwise mentioned. 
