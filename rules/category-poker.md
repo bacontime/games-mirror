@@ -7,7 +7,7 @@ has_children: true
 
 <style>
     .bigCard {
-        width: 15%; 
+        width: 19%; 
         vertical-align: text-bottom;
         }
 </style>
@@ -75,12 +75,32 @@ To break ties between hands:
 
 <p>With two cards of the same rank, the <b><span style="color:black">♠</span></b> is ranked highest, followed by  <b><span style="color:red">♥</span></b>,  <b><span style="color:blue">♦</span></b> , and then  <b><span style="color:green">♣</span></b>. Reverse of alphabetical order: SHDC.</p>
 
-<span id="tiebreaker"></span>
+With two exactly identical hands, the winner is <span id="tiebreaker"></span>.
 
 Maybe I need to update the markdown to get it to build?
 
 <script>
 function rD(i){return i[Math.floor(Math.random()*i.length)];} //draw a random item from a list.
-document.getElementById("tiebreaker").innerHTML = "hello there general kenobi;
+tiebreakerList = [
+    "determined via arm wrestling",
+    "the tallest player",
+    "the youngest player",
+    "the player with the cleanest hands",
+    "the first player to slap the table",
+    "chosen randomly",
+    "chosen via vote",
+    "chosen by Mom",
+    "determined via bake-off",
+    "determined via cash auction",
+    "both players together. Friendship is more important",
+    "the northern-most player",
+    "whichever player makes the biggest fuss",
+    "whichever player has spent the most time in Texas",
+    "determined via sudden-death Ping Pong",
+    "chosen via Rock Paper Scissors",
+    "determined via Chess match",
+    "determined via a math of The Campaign for North Africa",
+]
+document.getElementById("tiebreaker").innerHTML = rD(tiebreakerList);
 </script>
 
