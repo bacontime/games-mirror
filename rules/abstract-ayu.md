@@ -14,7 +14,11 @@ Join all your pieces into one unit, or trick your opponent into making it so you
 
 ## Units
 
-A group of allied pieces orthogonally connected. (Like in Go)
+Units
+: A group of allied pieces orthogonally connected. (Like in Go)
+
+Distance
+: The distance between two units is the shortest orthogonal path connecting them.
 
 ## Moving
 
