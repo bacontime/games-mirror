@@ -3,10 +3,10 @@ title: Ayu
 parent: Abstract Games
 ---
 
-![](abstract-ayu.jpg)
 
-# Attach Your Units
 
+# Attach Your Units  
+![Setup of the board with two sparse interleaved grids of pieces.](abstract-ayu.jpg)  
 *Shuffle pieces around to form them into a big blob.*
 
 ## Winning

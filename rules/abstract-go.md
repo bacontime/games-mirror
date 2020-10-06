@@ -3,7 +3,7 @@ title: Go
 parent: Abstract Games
 ---
 
-![](abstract-dameo.jpg)
+
 
 # Go / Weiqi / Baduk
 

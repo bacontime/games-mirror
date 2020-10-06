@@ -3,14 +3,13 @@ title: Dameo
 parent: Abstract Games
 ---
 
-![](abstract-dameo.jpg)
+
 
 # Dameo
 
-![](abstract-dameo.jpg)  
+![Setup your pieces by placing them in a trapezoid on the first three rows of your board.](abstract-dameo.jpg)  
 *More complex Checkers Variant, diagonal movement and orthogonal capture.*
 
-![](abstract-dameo.jpg)
 
 ## Winning
 Capture all your opponent's pieces or make it so they can't move.
