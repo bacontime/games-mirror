@@ -10,4 +10,7 @@ nav_exclude: true
 
 Sometimes I just want some bullet points reminding me how to score.
 
-Games I know how to play 
+Tiny rules blurbs for games
+I know how to play,
+and assorted little widgets 
+can be found in the navigation menu.
