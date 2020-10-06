@@ -77,10 +77,10 @@ To break ties between hands:
 
 <span id="tiebreaker"></span>
 
+Maybe I need to update the markdown to get it to build?
+
 <script>
 function rD(i){return i[Math.floor(Math.random()*i.length)];} //draw a random item from a list.
-
 document.getElementById("tiebreaker").innerHTML = "hello there general kenobi;
-
 </script>
 
