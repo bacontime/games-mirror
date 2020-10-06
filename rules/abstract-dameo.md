@@ -6,6 +6,7 @@ parent: Abstract Games
 
 
 # Dameo
+#### by Christian Freeling
 
 ![Setup your pieces by placing them in a trapezoid on the first three rows of your board.](abstract-dameo.jpg)  
 *More complex Checkers Variant, diagonal movement and orthogonal capture.*
