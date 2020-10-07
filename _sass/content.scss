@@ -69,7 +69,7 @@
     }
   }
 
-  /* I do not like this thing where it makes nested lists use the same style
+  /* I do not like this thing where it makes nested lists use the same style*/
   ul {
     list-style: none;
 
@@ -78,10 +78,10 @@
         position: absolute;
         margin-left: -1.4em;
         color: $grey-dk-000;
-        content: "•";
+        content: "G";
       }
     }
-  }*/
+  }
 
   .task-list {
     padding-left: 0;
