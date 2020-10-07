@@ -18,5 +18,5 @@ parent: Abstract Games
 9.  The player with more territory wins.
 
 ---
-
+Traditional game.
 [These Rules are copied from here](http://home.snafu.de/jasiek/element.html). Credit to Jame Davies

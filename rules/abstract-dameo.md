@@ -1,6 +1,7 @@
 ---
 title: Dameo
 parent: Abstract Games
+nav_exclude: true
 ---
 
 
@@ -18,7 +19,7 @@ Capture all your opponent's pieces or make it so they can't move.
 
 - Men can move **forward** or **diagonally forward**: ↖⬆↗
     - one space by itself
-    - by jumping over a straight  unbroken line of their allies (equivalently, move the entire line)
+    - by jumping over a straight  unbroken line of allied men (equivalently, move the entire line of men)
 - Kings move like **chess-queens**
 - If a Man ends his move on the back row, he is promoted to a King.
 
@@ -35,4 +36,5 @@ Capture all your opponent's pieces or make it so they can't move.
 
 ---
 
-[Full Rules and Strategy](https://mindsports.nl/index.php/arena/dameo)
+Game by Christian Freeling.
+[Full Rules](https://boardgamegeek.com/thread/1747520/dameo-rule-set) [and Strategy](https://mindsports.nl/images/stories/arena/damvar/Dameo.pdf) 
