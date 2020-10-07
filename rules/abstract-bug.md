@@ -1,7 +1,6 @@
 ---
 title: Bug
 parent: Abstract Games
-nav_exclude: true
 ---
 
 
@@ -16,11 +15,11 @@ You win if you cannot place a stone. This happens if the board is full of your b
 
 ## Bugs
 
-Bugs are the name for connected groups of allied stones.
+Bugs are the name for connected groups of allied stones. (Hex board, so no diagonals.)
 
 ## Each Turn
 
-1. Grow - Place a stone to either:
+1. Grow - Place a stone on the hexagonal board to either:
     - Start a new bug
     - Grow an existing bug
       - You can't merge bugs
