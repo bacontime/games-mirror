@@ -1,9 +1,9 @@
 ---
-title: Poker Hand Games
-parent: Trick-taking Games
+title: Lamarckian Poker
+parent: Poker Hand Games
 ---
 
-# Oh Hell!
+# Lamarckian Poker
 
 *Dad is freakishly good at this.*
 

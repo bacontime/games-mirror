@@ -15,7 +15,7 @@ parent: Trick-taking Games
 - End-of-hand:
     - Earn +1 point for each <span class="cH">♥&#xFE0E;</span> card you have taken.
     - Earn +13 points for taking <span class="cS">Q♠&#xFE0E;</span>
-    - Shooting the moon: If you took all 13 <span class="cH">♥&#xFE0E;</span> and the <span class="cS">Q♠&#xFE0E;</span>, then instead:
+    - **Shooting the moon**: If you took all 13 <span class="cH">♥&#xFE0E;</span> and the <span class="cS">Q♠&#xFE0E;</span>, then instead:
         - Earn -26 points, OR
         - Give each other player +26 points.
     - Game ends if a player now has 100+ points.
