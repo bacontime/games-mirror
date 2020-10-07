@@ -6,8 +6,8 @@
 
 .main-content ul {
     list-style: none;
-    background-color: blue;
-
+    background-color: red;
+/*
     > li {
       &::before {
         position: absolute;
@@ -15,7 +15,7 @@
         color: $grey-dk-000;
         content: "G";
       }
-    }
+    }*/
   }
 
 
