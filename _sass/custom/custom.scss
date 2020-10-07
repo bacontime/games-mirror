@@ -4,7 +4,21 @@
   display: none;
 }
 
+. main-content ul {
+    list-style: none;
 
+    > li {
+      &::before {
+        position: absolute;
+        margin-left: -1.4em;
+        color: $grey-dk-000;
+        content: "G";
+      }
+    }
+  }
+
+
+  
 
 .cC {color:green; font-weight: bold; font-family: "mySymbols"; 
     background-color: white; 
