@@ -7,7 +7,7 @@
 .main-content ul {
     list-style: none;
 
-    > ul {
+    > li > ul {
         background-color: red;
         list-style-type: circle;
     }
