@@ -7,9 +7,13 @@
 .main-content ul {
     list-style: none;
 
-    > li > ul {
-        background-color: red;
-        list-style-type: circle;
+    > li > ul > li{
+        &::before {
+          position: absolute;
+          margin-left: -1.4em;
+          color: $grey-dk-000;
+          content: "◦";
+        }
     }
 /*
     > li {
