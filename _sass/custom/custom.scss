@@ -6,7 +6,11 @@
 
 .main-content ul {
     list-style: none;
-    background-color: red;
+
+    > ul {
+        background-color: red;
+        list-style-type: circle;
+    }
 /*
     > li {
       &::before {
