@@ -12,8 +12,8 @@ has_children: true
 - During a **trick**, each player plays one card:
     - The **lead player** plays any card from their hand. The suit of this card is now the **lead suit**.
     - Then going around the table, every other player plays a card:
-- If they have any cards in the lead suit, they must follow suit and play such a card.
-- If they don't have any cards in the lead suit, they can play any card from their hand.
+        - If they have any cards in the lead suit, they must follow suit and play such a card.
+        - If they don't have any cards in the lead suit, they can play any card from their hand.
 - At the end of each trick, find the highest ranked card:
     - Trump-suit cards are more highly ranked than any other card.
     - Cards of the lead suit are more highly ranked than all non-trumps.
