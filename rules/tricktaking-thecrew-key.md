@@ -44,10 +44,10 @@ grand_parent: Trick-taking Games
 ## Other restrictions
 
 ❓
-: Communication can only reveal a card, not indicated whether it's your highest/lowest/only card in that suit.
+: Interference. Communication can only reveal a card, not indicate whether it's your highest/lowest/only card in that suit.
 
 🙈
-: The Captain is the only one who looks at the tasks, and chooses one other player to assign all the tasks to. The players can only tell the captain whether their hand is "good" or "bad".
+: Solo assignment. The Captain is the only one who looks at the tasks, and chooses one other player to assign all the tasks to. The players can only tell the captain whether their hand is "good" or "bad".
 
 ⚖️
 : Tricks must be balanced. You fail the mission if at any point a player has won 2 more tricks than any other player.

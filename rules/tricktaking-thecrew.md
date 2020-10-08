@@ -9,7 +9,7 @@ has_children: true
 *Cooperative mission-based trick-taking for 2-5*
 
 Players
-: 2-5
+: 2-5 (variants for 2,3,5)
 
 Deck
 : 2-10 in 4 suites, + 4 trumps;
@@ -25,13 +25,12 @@ mission tokens
 
 ### Goal of the Game: **Fulfill All Tasks**
 
-- The second deck is task cards
 - Tasks are distributed among players face-up
     - A task is fulfilled if its owner takes the trick with the cooresponding cards.
     - A mission is failed if a task is taken by the wrong player.
     - A mission is immediately won  if all tasks are fulfilled.
 - At the start of a mission:
-    - The tasks are dealt face-up into the middle of the table.
+    - Some tasks are dealt face-up into the middle of the table.
     - The *Captain* is the player dealt the highest trump.
     - Starting with the Captain, players choose tasks.
     - Captain leads first trick.
@@ -51,10 +50,6 @@ mission tokens
 
 
 
-
-| Players | Deck | Equipment |
-|:-:|:-:|:-:|
-| 2-5     | 2-10 in 4 suites, + 4 trumps;  | a second deck with no trumps; <br>   tokens for missions,  <br>  tokens for communications <br> |
 
 
 ---

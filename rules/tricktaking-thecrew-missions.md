@@ -4,10 +4,7 @@ parent: Ship's Crew
 grand_parent: Trick-taking Games
 ---
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
+
 
 # Mission List for Ship's Crew
 
@@ -69,7 +66,7 @@ grand_parent: Trick-taking Games
 
 1. *Each player decides how many tricks the player to their left must take.*
 2. 4 tricks; *all four tasks must be fulfilled in subsequent tricks.*
-3. 4 tasks; *The tasks are specifically* <span class="cS">2♠︎&#xFE0E;</span>, <span class="cS">3♠︎&#xFE0E;</span>, <span class="cS">4♠︎&#xFE0E;</span>, and <span class="cS">5♠︎&#xFE0E;</span>.
+3. 4 tasks; *The tasks are specifically* <span class="cD">2♦︎&#xFE0E;</span>, <span class="cD">3♦︎&#xFE0E;</span>, <span class="cD">4♦︎&#xFE0E;</span>, and <span class="cD">5♦︎&#xFE0E;</span>.
 
 ### Deimos Missions
 
@@ -90,7 +87,7 @@ grand_parent: Trick-taking Games
 1. 22 tasks. *A failed task doesn't end the mission. Try to fulfill as many as you can.*
 2. 4+ tasks; *No communication. If successful, restart and +1 task. Try to go as far as possible.*
 3. 5 tasks. *Tasks can't be fulfilled until the 3rd trick. If sucessful, restart and tasks can't be fulfilled until 4th trick, etc. Try to go as far as possible.*
-4. *Every 9 card must win a trick. If successful, restart, but now every 7 must win a trick.*
+4. *Every 9 card must win a trick. If successful, restart, but now every 8 must win a trick. etc. Try to go as far as possible.*
 
 
 ---
