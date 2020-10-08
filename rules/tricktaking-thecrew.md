@@ -51,21 +51,11 @@ mission tokens
 
 
 
-|                | Mission 1 | Mission 2 | Mission 3 | Mission 4 | Mission 5 | 
-|----------------|-----------|-----------|-----------|-----------|-----------|
-| **# of Tasks** | 1 Task    | 2 Tasks   | 2 Tasks   | 3 Tasks   |           |
-|**Restrictions**|           |           | [1],[2]   |           |           |
-
-
-
 
 | Players | Deck | Equipment |
 |:-:|:-:|:-:|
 | 2-5     | 2-10 in 4 suites, + 4 trumps;  | a second deck with no trumps; <br>   tokens for missions,  <br>  tokens for communications <br> |
 
----
-
-P
 
 ---
 

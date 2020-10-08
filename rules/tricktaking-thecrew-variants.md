@@ -4,22 +4,22 @@ parent: Ship's Crew
 grand_parent: Trick-taking Games
 ---
 
-## 2-player Variant: Jarvis
+## 2-player Variant: Bubbles the Monkey
 
-A third "computer" player, named Jarvis, is simulated with two rows of cards.
+A third dummy player, named Bubbles, is simulated with two rows of cards.
 
 ### Setup:
 
 1. Set aside the highest trump.
-2. Build Jarvis from the other 39 cards:
+2. Build Bubbles' hand from the other 39 cards:
    1. Deal a row of 7 cards face-down
    2. Deal a second row of 7 face-up on top of it.
 3. Shuffle the top trump back in and deal 13 cards to each player.
-4. Captain chooses tasks for Jarvis
+4. Captain chooses tasks for Bubbles
 
 ### During play:
 
-- The Captain chooses which face-up card to play on Jarvis' turn
+- The Captain chooses which face-up card to play on Bubbles' turn
 - A face-down card is flipped after the card on top of it is played.
 
 

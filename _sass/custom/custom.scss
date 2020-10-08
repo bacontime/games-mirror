@@ -15,7 +15,7 @@
           position: absolute;
           margin-left: -1.4em;
           color: $grey-dk-000;
-          content: "☞";
+          content: "•";
         }
       }
 
@@ -28,12 +28,12 @@
         }
     }
 
-    > li > ul > li >ul > li{
+    > li > ul > li > ul > li{
         &::before {
           position: absolute;
           margin-left: -1.4em;
           color: $grey-dk-000;
-          content: "‣";
+          content: "⁃";
         }
     }
 
