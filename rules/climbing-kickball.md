@@ -18,6 +18,6 @@ parent: Climbing Games
     - Otherwise,
         - The last to go out gives the rest of their hand to the other team.
         - The last to go out gives their *taken* cards to the first to go out.
-        - Each team scores +5 points for each taken **[5]**, +10 for each <span class="card">10</span>, and +10 for each <span class="card">10</span>.
+        - Each team scores +5 points for each taken <span class="card">5</span>, +10 for each <span class="card">10</span>, and +10 for each <span class="card">K</span>.
 
 
