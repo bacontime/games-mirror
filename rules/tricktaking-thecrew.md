@@ -17,9 +17,8 @@ Deck
 Task Deck
 : Second deck with no trumps;  
 
-Other Equipment
-: Tokens for communication and tasks  
-mission tokens
+Equipment
+: Tokens for communication and tasks 
 
 ## Rules
 

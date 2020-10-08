@@ -5,9 +5,9 @@ parent: Trick-taking Games
 
 # Hearts
 
-*The classic game of trying not to take certain tricks*
+*The hearts are poison.*
 
-
+- 4 players
 - There is no trump suit.
 - Each hand, the entire deck is dealt out. 13 cards to each player.
 - Each player passes three cards to their left/right/opposite/no-pass. The direction changes each hand.
