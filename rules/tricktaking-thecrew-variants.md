@@ -1,7 +1,7 @@
 ---
 title: Variants for different player counts
 parent: Ship's Crew 
-grandparent: Trick-taking Games
+grand_parent: Trick-taking Games
 ---
 
 ## 2-player Variant: Jarvis
@@ -15,11 +15,11 @@ A third "computer" player, named Jarvis, is simulated with two rows of cards.
    1. Deal a row of 7 cards face-down
    2. Deal a second row of 7 face-up on top of it.
 3. Shuffle the top trump back in and deal 13 cards to each player.
-4. Commander chooses tasks for Jarvis
+4. Captain chooses tasks for Jarvis
 
 ### During play:
 
-- The commander chooses which face-up card to play on Jarvis' turn
+- The Captain chooses which face-up card to play on Jarvis' turn
 - A face-down card is flipped after the card on top of it is played.
 
 

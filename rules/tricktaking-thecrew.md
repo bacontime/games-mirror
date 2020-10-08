@@ -1,7 +1,7 @@
 ---
 title: Ship's Crew 
 parent: Trick-taking Games
-has-children: true
+has_children: true
 ---
 
 # Ship's Crew 
@@ -32,10 +32,11 @@ mission tokens
     - A mission is immediately won  if all tasks are fulfilled.
 - At the start of a mission:
     - The tasks are dealt face-up into the middle of the table.
-    - The *commander* is the player dealt the highest trump.
-    - Starting with the commander, players choose tasks.
-    - Commander leads first trick.
-- Some missions have *task conditions*, restrictions added onto the tasks as they are drawn
+    - The *Captain* is the player dealt the highest trump.
+    - Starting with the Captain, players choose tasks.
+    - Captain leads first trick.
+- Some missions have additional conditions attached to tasks as they are drawn and marked by task tokens.
+
 
 ### Communication
 
