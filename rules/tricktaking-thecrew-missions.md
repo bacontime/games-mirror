@@ -4,6 +4,11 @@ parent: Ship's Crew
 grand_parent: Trick-taking Games
 ---
 
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+
 # Mission List for Ship's Crew
 
 
