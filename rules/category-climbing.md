@@ -31,11 +31,11 @@ The goal typically involves being the first to play out all your cards.
 - Play can continue multiple times around the table like this.
 - If all but one players pass in a row, then the last player to not pass takes all cards played, places them facedown, and leads with another pattern.
 - Typical Valid Patterns:
-    - Single: **A**, Double: **AA**, or Triple: **AAA**
-    - Full House: **AAAJJ** or Three-and-One: **AAAJ**
+    - Single: **[A]**, Double: **[A][A]**, or Triple: **[A][A][[A]**
+    - Full House: **[A][A][A][J][J]** or Three-and-One: **[A][A][A][J]**
     - Runs of any of the above. (Runs of singles must have at least 5 cards.)
-      - Ex: **555J** **666Q**
-    - **Bombs**: Four of a Kind: **AAAA**, and a pair of Jokers: **⭑⭒**
+      - Ex: **[5][5][5][J]** **[6][6][6][Q]**
+    - **Bombs**: Four of a Kind: **[A][A][A][A]**, and a pair of Jokers: **[⭑][⭒]**
 
 
 
