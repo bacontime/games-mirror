@@ -5,7 +5,7 @@ parent: Trick-taking Games
 
 # Hearts
 
-*Good for teaching the concept of trick-taking.*
+*The classic game of trying not to take certain tricks*
 
 
 - There is no trump suit.

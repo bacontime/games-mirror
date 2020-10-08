@@ -4,8 +4,20 @@
   display: none;
 }
 
+
+
+/*I shouldn't have to go through this much effort just to fix this silly bullet point format*/
 .main-content ul {
     list-style: none;
+
+    > li {
+        &::before {
+          position: absolute;
+          margin-left: -1.4em;
+          color: $grey-dk-000;
+          content: "☞";
+        }
+      }
 
     > li > ul > li{
         &::before {
@@ -15,15 +27,17 @@
           content: "◦";
         }
     }
-/*
-    > li {
-      &::before {
-        position: absolute;
-        margin-left: -1.4em;
-        color: $grey-dk-000;
-        content: "G";
-      }
-    }*/
+
+    > li > ul > li >ul > li{
+        &::before {
+          position: absolute;
+          margin-left: -1.4em;
+          color: $grey-dk-000;
+          content: "‣";
+        }
+    }
+
+    
   }
 
 
