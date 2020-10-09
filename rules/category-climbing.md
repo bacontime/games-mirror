@@ -1,6 +1,7 @@
 ---
 title: Climbing Games
 has_children: true
+nav_order: 1
 ---
 
 # Climbing / Shedding Games
@@ -19,6 +20,7 @@ has_children: true
     - Runs of any of the above. (Runs of singles must have at least 5 cards.)
       - Ex: <span class="card">5</span><span class="card">5</span><span class="card">5</span><span class="card">J</span> <span class="card">6</span><span class="card">6</span><span class="card">6</span><span class="card">Q</span>
     - **Bombs**: Four of a Kind: <span class="card">A</span><span class="card">A</span><span class="card">A</span><span class="card">A</span>, or a pair of Jokers: <span class="card">⭑</span><span class="card">⭒</span>
+- 2 are often treated as a high card
 
 The goal typically involves being the first to play out all your cards.
 

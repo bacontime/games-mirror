@@ -1,6 +1,7 @@
 ---
 title: Trick-taking Games
 has_children: true
+nav_order: 3
 ---
 
 # Trick Taking Games

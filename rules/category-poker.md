@@ -1,6 +1,7 @@
 ---
 title: Poker Hand Games
 has_children: true
+nav_order: 2
 ---
 
 # Poker Hands
