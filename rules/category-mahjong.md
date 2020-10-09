@@ -1,5 +1,5 @@
 ---
-title: Mahjong Games
+title: Mahjong Set Games
 has_children: true
 nav_order: 1.9
 ---
