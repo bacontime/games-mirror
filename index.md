@@ -17,3 +17,4 @@ can be found in the navigation menu.
 
 Card games should be assumed to use a standard 52 card deck unless otherwise mentioned. 
 
+See also Kevan Davis' [Freeze-dried Game Pack](https://kevan.org/fdgp/index.php).
