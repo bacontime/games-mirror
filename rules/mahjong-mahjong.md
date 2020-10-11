@@ -1,6 +1,7 @@
 ---
 title: Simple Mahjong
 parent: Mahjong Set Games
+nav_order: 1
 ---
 
 # 🀄 Simple Mahjong 🀄
