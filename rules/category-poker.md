@@ -50,6 +50,12 @@ nav_order: 2
         <img class="bigCard" src="imgs/card4.svg">
         <img class="bigCard" src="imgs/card3.svg">
         <img class="bigCard" src="imgs/card2.svg"></td></tr>
+    <tr><td><h3>Three of a Kind</h3></td><td>
+        <img class="bigCard" src="imgs/card8.svg">
+        <img class="bigCard" src="imgs/card8.svg">
+        <img class="bigCard" src="imgs/card8.svg">
+        <img class="bigCard" src="imgs/cardBlank.svg">
+        <img class="bigCard" src="imgs/cardBlank.svg"></td></tr>
     <tr><td><h3>Two Pair</h3></td><td>
         <img class="bigCard" src="imgs/cardQ.svg">
         <img class="bigCard" src="imgs/cardQ.svg">

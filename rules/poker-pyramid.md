@@ -14,7 +14,8 @@ Like mahjong style tiles.
 2. Players take turns putting cards onto a pyramid
     - Place the card so you can see its face but your opponent cannot
 3. Next, players take turns removing cards from the pyramid.
-   - When you take a card, place it in one of three face-up "hands" in front of you: left, center, or right. At the end of the game, each player will have three complete hands of five tiles each.
+   - When you take a card, place it in one of three face-up "hands" in front of you: left, center, or right. 
+   - At the end of the game, each player will have three complete hands of five tiles each.
    - You can't change which hand it's in after you place it.
 4. After all cards are taken, compare each pair of hands. Winner is whoever wins 2 out of 3 of these matchups.
 
