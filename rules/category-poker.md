@@ -14,6 +14,12 @@ nav_order: 2
 </style>
 
 <table style="">
+    <tr><td><h3>5 of a Kind</h3></td><td>
+        <img class="bigCard" src="imgs/cardA.svg">
+        <img class="bigCard" src="imgs/cardA.svg">
+        <img class="bigCard" src="imgs/cardA.svg">
+        <img class="bigCard" src="imgs/cardA.svg">
+        <img class="bigCard" src="imgs/cardA.svg"></td></tr>
     <tr><td><h3>Straight Flush</h3></td><td>
         <img class="bigCard" src="imgs/9C.svg">
         <img class="bigCard" src="imgs/8C.svg">
@@ -74,7 +80,7 @@ To break ties between hands:
 - Compare the suits.
 
 
-<p>With two cards of the same rank, the <b><span style="color:black">♠</span></b> is ranked highest, followed by  <b><span style="color:red">♥</span></b>,  <b><span style="color:blue">♦</span></b> , and then  <b><span style="color:green">♣</span></b>. Reverse of alphabetical order: SHDC.</p>
+<p>When comparing two exactly identical hands, <b><span style="color:black">♠</span></b> is ranked highest, followed by  <b><span style="color:red">♥</span></b>,  <b><span style="color:blue">♦</span></b> , and then  <b><span style="color:green">♣</span></b>. Reverse of alphabetical order: SHDC.</p>
 
 With two exactly identical hands, the winner is <span id="tiebreaker"></span>.
 
