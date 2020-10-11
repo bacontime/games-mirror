@@ -79,7 +79,7 @@ grand_parent: Trick-taking Games
 9.  *No player can take two tricks in a row.*
 4. *One player must take no tricks. Another player must take exactly one trick.*
 5. 2 tasks per player. Each player must fulfill both of their tasks in the same trick.
-6. $The lowest trump must win a trick with at least one 2 card in it.$
+6. *The lowest trump must win a trick with at least one 2 card in it.*
 7. 2 tasks per player. Tasks are assigned randomly.
 
 ### Deimos Endurance Missions
