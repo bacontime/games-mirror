@@ -8,10 +8,10 @@ parent: Mahjong Set Games
 You can substitute a poker deck for a mahjong set 
 and still use [standard poker hands](category-poker):
 
-- remove the flowers and seasons
+- Remove the flowers and seasons
 - Pip cards (coins, strings and myriads) are normal suits ranked 987654321
-- dragons and winds are put together in a suit of "specials"
-    - the special suit cannot be used to form straights
+- Dragons and winds are put together in a suit of "specials"
+    - The special suit cannot be used to form straights
     - but for tiebreakers, specials are ranked higher than pip cards:
         1. Red dragon
         2. Green dragon
@@ -28,4 +28,4 @@ The *probability ranking* will be the same.
 
 ---
 
-[Pyramid Poker](https://www.robertmwinslow.com/games/rules/poker-pyramid.html) is a game in which fits this use of Mahjong Tiles 
+This tweak is useful for playing [Pyramid Poker](https://www.robertmwinslow.com/games/rules/poker-pyramid.html).
