@@ -1,7 +1,7 @@
 ---
 title: Dameo
 parent: Abstract Games
-nav_exclude: false
+nav_exclude: true
 ---
 
 

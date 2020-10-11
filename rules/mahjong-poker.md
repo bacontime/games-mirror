@@ -25,3 +25,7 @@ and still use [standard poker hands](category-poker):
 Although the probabilities of each hand will be different,
 The *probability ranking* will be the same. 
 4-of-a-kind will be more rare than full house etc.
+
+---
+
+[Pyramid Poker](https://www.robertmwinslow.com/games/rules/poker-pyramid.html) is a game in which fits this use of Mahjong Tiles 

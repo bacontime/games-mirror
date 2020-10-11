@@ -1,6 +1,7 @@
 ---
 title: Fox in the Forest
 parent: Trick-taking Games
+nav_exclude: true
 ---
 
 # Fox in the Forest

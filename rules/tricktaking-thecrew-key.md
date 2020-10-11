@@ -1,5 +1,5 @@
 ---
-title: Icon Key
+title: Icon Key for Missions
 parent: Ship's Crew 
 grand_parent: Trick-taking Games
 ---
