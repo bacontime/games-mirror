@@ -99,7 +99,8 @@ tiebreakerList = [
     "determined via sudden-death Ping Pong",
     "chosen via Rock Paper Scissors",
     "determined via Chess match",
-    "determined via a math of The Campaign for North Africa",
+    "determined via a match of The Campaign for North Africa",
+    "you personally — the person reading this — even if you aren't one of the players",
 ]
 document.getElementById("tiebreaker").innerHTML = rD(tiebreakerList);
 </script>

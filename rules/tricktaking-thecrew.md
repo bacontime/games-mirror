@@ -27,7 +27,7 @@ Equipment
 - Tasks are distributed among players face-up
     - A task is fulfilled if its owner takes the trick with the cooresponding cards.
     - A mission is failed if a task is taken by the wrong player.
-    - A mission is immediately won  if all tasks are fulfilled.
+    - A mission is immediately won if all tasks are fulfilled.
 - At the start of a mission:
     - Some tasks are dealt face-up into the middle of the table.
     - The *Captain* is the player dealt the highest trump.

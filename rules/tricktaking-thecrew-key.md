@@ -9,35 +9,35 @@ grand_parent: Trick-taking Games
 
 ## Task Tokens:
 
-<span class="card">1</span>
+<span class="crewtile">1</span>
 : Must be the first task fulfilled.
 
-<span class="card">2</span>
+<span class="crewtile">2</span>
 : Must be the second task fulfilled.
 
-<span class="card">3</span>
+<span class="crewtile">3</span>
 : Must be the third task fulfilled.
 
-<span class="card">4</span>
+<span class="crewtile">4</span>
 : Must be the fourth task fulfilled.
 
-<span class="card">5</span>
+<span class="crewtile">5</span>
 : Must be the fifth task fulfilled.
 
-<span class="card">Ω</span>
+<span class="crewtile">Ω</span>
 : Must be the last task fulfilled.
 
-<span class="card">α</span>
-: Must be fulfilled before <span class="card">β</span>.
+<span class="crewtile">α</span>
+: Must be fulfilled before <span class="crewtile">β</span>.
 
-<span class="card">β</span>
-: Must be fulfilled after <span class="card">α</span>.
+<span class="crewtile">β</span>
+: Must be fulfilled after <span class="crewtile">α</span>.
 
-<span class="card">γ</span>
-: Must be fulfilled after <span class="card">β</span>.
+<span class="crewtile">γ</span>
+: Must be fulfilled after <span class="crewtile">β</span>.
 
-<span class="card">δ</span>
-: Must be fulfilled after <span class="card">γ</span>.
+<span class="crewtile">δ</span>
+: Must be fulfilled after <span class="crewtile">γ</span>.
 
 
 

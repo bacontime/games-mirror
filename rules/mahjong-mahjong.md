@@ -6,7 +6,7 @@ nav_order: 1
 
 # 🀄 Simple Mahjong 🀄
 
-*The game stripped to its bare essentials.*
+*Simple Rummy-style game.*
 
 - Use all tiles except the flowers and seasons.
 - Shuffle the tiles into a wall and deal 13 to each player.
