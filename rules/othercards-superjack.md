@@ -78,7 +78,7 @@ A creature may not have more than 4 cards equipped this way.
 
 ### Summoning a Creature
 
-**A creature's cost must be paid using mana of that creature's color.** (Each player should have two different colors of cards.)
+A creature's cost must be paid using mana of that creature's color. (Each player should have two different colors of cards.)
 
 Instead of summoning an Ace, you may cast it as a spell.
 
@@ -161,4 +161,4 @@ Reminder: Color matters for summoning creatures, performing a royal sacrifice, a
 
 ---
 
-Game found on reddit. [Full rules here.](https://www.superjackthegame.com/). Technically, this ruleset is a bit offkilter because the original uses red and black for colors. So if you steal an opponent's creature, you can use it in a royal sacrifice. Oh well.
+Game found on reddit. [Full rules here.](https://www.superjackthegame.com/). <!--Technically, this ruleset is a bit offkilter because the original uses red and black for colors. So if you steal an opponent's creature, you can use it in a royal sacrifice. Oh well.-->

@@ -23,10 +23,13 @@ Equipment
     - Places a chip on the active card to avoid taking it.
     - OR takes the active card and the chips on it, and flips a new card.
 - After all cards have been taken, scoring:
-    -   Each card scores its face value.
-    -   <span class="cD">♦︎</span> scores +0; Each <span class="cS">♠︎</span> +10; Each <span class="cH">♥︎</span> +20; Each  <span class="cC">♣︎</span> +30
-    -   If you have a mono-suit run of cards, only score the lowest card in the run.
-    -   Each chip is -1 Point.
+    - Each card scores its face value plus a suit-dependent bonus:
+      - <span class="cD">♦︎</span> scores +0; 
+      - Each <span class="cS">♠︎</span> +10; 
+      - Each <span class="cH">♥︎</span> +20; 
+      - Each  <span class="cC">♣︎</span> +30
+    - If you have a mono-suit run of cards, only score the lowest card in the run.
+    - Each chip is -1 Point.
 - *Fewest* points wins.
 
 
