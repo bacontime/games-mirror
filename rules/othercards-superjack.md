@@ -137,26 +137,25 @@ At instant speed, tap a Jack, a Queen, and a King all of one color; and sacrific
 Color matters for summoning creatures, performing a royal sacrifice, and pairing lands as equipment.
 
 | Rank | Sac Ability |
-|------|-------------|
+|:-:|-------------|
 |<span class="card">2</span> or <span class="card">3</span>| 2 damage to creature or 1 to player. |
 |<span class="card">4</span> or <span class="card">5</span>| Add 3 mana.|
 |<span class="card">6</span> or <span class="card">7</span>| Draw a card.|
 
 |Length | Straight Ability |
-|---|---|
+|:-:|---|
 | 3 | +1 Life |
 | 4 | Draw then discard. |
 | 5 | Sac land, revive creature. |
 | 6 | Sac land, steal creature. |
 
 | Name | Stats and Abilities |
-|---|---|
+|:-:|---|
 | King | 5 mana; 3/3 |
 | Queen | 4 mana; 2/2 |
 | Jack | 2 mana; 1/1; Stacking |
 | Superjack | 8/8; Trample |
 | Ace | 3 mana; 1/1; Haste, Flash |
-|||
 | Ace | 3 mana; Instant; Destroy land/Counter Ace |
 
 When cast with a straight, creature enters with Haste and evasion.
