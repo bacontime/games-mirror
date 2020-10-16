@@ -136,21 +136,21 @@ Reminder: Color matters for summoning creatures, performing a royal sacrifice, a
 ---
 
 <table>
-    <tr><th>hello</th><th>This is a test of how tables are rendered.</th></tr>
-    <tr><td></td><td></td></tr>
-    <tr><td>a</td><td></td></tr>
+    <tr><th>hello</th><th>This is a test of how tables are rendered.</th><th></th></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td>a</td><td></td><td></td></tr>
 </table>
 
 <table>
-    <tr><td>hello</td><td>This is a test of how tables are rendered.</td></tr>
-    <tr><td></td><td></td></tr>
-    <tr><td>b</td><td></td></tr>
+    <tr><td>hello</td><td>This is a test of how tables are rendered.</td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td>b</td><td></td><td></td></tr>
 </table>
 
-|hello|This is a test of how tables are rendered.|
-|---|---|
-|||
-|c||
+|hello|This is a test of how tables are rendered.||
+|---|---|---|
+||||
+|c|||
 
 
 |||||
