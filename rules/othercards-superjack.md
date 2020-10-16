@@ -11,7 +11,8 @@ nav_exclude: true
 Decks
 : 40 card deck for each player.  
 Use 2-7,J,Q,K,A. Remove 8,9,10,Jokers.  
-One player plays with <span class="cD">♦︎</span>s and <span class="cS">♠︎</span>s. Other plays with <span class="cH">♥︎</span>s and <span class="cC">♣︎</span>s.
+One player plays with <span class="cD">♦︎</span>s and <span class="cS">♠︎</span>s.  
+Other plays with <span class="cH">♥︎</span>s and <span class="cC">♣︎</span>s.
 
 ## Basic Ideas
 
@@ -34,13 +35,13 @@ One player plays with <span class="cD">♦︎</span>s and <span class="cS">♠�
 
 Tap and sacrifice a land to activate one of the following abilities, based on the rank of that land:
 
-<span class="card">2</span> or <span class="card">3</span> - Fireball 🔥
-: Deal 2 damage to target creature or 1 damage to target player.
+<span class="card">2</span> or <span class="card">3</span>
+: Fireball 🔥. Deal 2 damage to target creature or 1 damage to target player.
 
-<span class="card">4</span> or <span class="card">5</span> - Mine ⛏️
-: Add 3 mana of that land's color.
+<span class="card">4</span> or <span class="card">5</span>
+: Mine ⛏️. Add 3 mana of that land's color.
 
-<span class="card">6</span> or <span class="card">7</span> - Draw 🃏
+<span class="card">6</span> or <span class="card">7</span>
 : Draw a card.
 
 
@@ -131,33 +132,34 @@ At instant speed, tap a Jack, a Queen, and a King all of one color; and sacrific
 
 ---
 
-Reminder: Color matters for summoning creatures, performing a royal sacrifice, and 
+## Rules Reminders
 
----
+Color matters for summoning creatures, performing a royal sacrifice, and pairing lands as equipment.
 
-<table>
-    <tr><th>hello</th><th>This is a test of how tables are rendered.</th><th></th></tr>
-    <tr><td></td><td></td><td></td></tr>
-    <tr><td>a</td><td></td><td></td></tr>
-</table>
+| Rank | Sac Ability |
+|------|-------------|
+|<span class="card">2</span> or <span class="card">3</span>| 2 damage to creature or 1 to player. |
+|<span class="card">4</span> or <span class="card">5</span>| Add 3 mana.|
+|<span class="card">6</span> or <span class="card">7</span>| Draw a card.|
 
-<table>
-    <tr><td>hello</td><td>This is a test of how tables are rendered.</td><td></td></tr>
-    <tr><td></td><td></td><td></td></tr>
-    <tr><td>b</td><td></td><td></td></tr>
-</table>
+|Length | Straight Ability |
+|---|---|
+| 3 | +1 Life |
+| 4 | Draw then discard. |
+| 5 | Sac land, revive creature. |
+| 6 | Sac land, steal creature. |
 
-|hello|This is a test of how tables are rendered.||
-|---|---|---|
-||||
-|c|||
+| Name | Stats and Abilities |
+|---|---|
+| King | 5 mana; 3/3 |
+| Queen | 4 mana; 2/2 |
+| Jack | 2 mana; 1/1; Stacking |
+| Superjack | 8/8; Trample |
+| Ace | 3 mana; 1/1; Haste, Flash |
+|||
+| Ace | 3 mana; Instant; Destroy land/Counter Ace |
 
-
-|||||
-|---|---|---|---|
-|||||
-|||||
-
+When cast with a straight, creature enters with Haste and evasion.
 
 ---
 
