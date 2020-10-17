@@ -10,7 +10,8 @@ nav_exclude: true
 
 Decks
 : 40 card deck for each player.  
-Use 2-7,J,Q,K,A. Remove 8,9,10,Jokers.  
+Use 2-7,J,Q,K,A.  
+Remove 8,9,10,Jokers.  
 One player plays with <span class="cD">♦︎</span>s and <span class="cS">♠︎</span>s.  
 Other plays with <span class="cH">♥︎</span>s and <span class="cC">♣︎</span>s.
 
