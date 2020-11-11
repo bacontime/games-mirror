@@ -11,8 +11,14 @@ uncharted regions of space, deal with aliens both friendly and deadly, and defen
 worlds against space dangers. **CAPTAIN DARCY** has been overcome by the strange psychic entity
 known as *Something Else*, leaving you to fend for yourselves while he recovers in a medical pod.
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 - TOC
 {:toc}
+</details>
 
 ## Rules:
 
@@ -23,9 +29,9 @@ When you do something risky, roll **1d6**. Add **+1d6** if you’re
 
 Roll your dice and compare each die result to your
 stat **number**:
-- If you use **LASERS** you want to roll **under** your stat number.
+- If you use **LASERS** you succeed by rolling **under** your number.
     - LASERS means science, reason, technology, cold rationality, and calm precise action.
-- If you use **FEELINGS** you want to roll **over** your number. 
+- If you use **FEELINGS** you succeed by rolling **over** your number. 
   - FEELINGS means rapport, diplomacy, intuition, seduction, and wild passionate action.
 
 Success varies on number of dice that succeed: 
@@ -74,8 +80,8 @@ for space walks),
 
 ### Ship Creation
 
-1. Choose 2 **Strengths**: Fast, Nimble, Well-armed, Powerful Shields, Superior Sensors, Cloaking Device, Fightercraft
-2. Choose 1 **Problem**: Fuel Hog (Always needs energy crystals),Only One Medical Pod (and Captain Darcy is in it), Horrible Circuit Breakers (In battle, consoles tend to explode on the bridge), Grim reputation (Captain Darcy did some bad stuff in the past).
+1. Choose 2 **Strengths**: Fast, Nimble, Well-armed, Powerful Shields, Superior Sensors, Cloaking Device, TrRansporters, Fightercraft
+2. Choose 1 **Problem**: Fuel Hog (Always needs energy crystals),Only One Medical Pod (and Captain Darcy is in it), Horrible Circuit Breakers (In battle, consoles tend to explode on the bridge), Grim reputation (Captain Darcy did some bad stuff in the past), Twitchy Hyperdrive, Sketchy Life Support, Unreliable Com System
 
 ### GM: Adventure Creation
 
@@ -99,6 +105,54 @@ Roll (4d6) or choose from below:
 - Call for a roll when the situation is uncertain. 
 - Use failures to push the action forward. The situation always changes after a roll, for good or ill.
 
+
+
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th colspan="4">A THREAT…</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Zorgon the Conqueror</td>
+      <td>Destroy or Corrupt</td>
+      <td>Quantum Tunnel</td>
+      <td>Destroy a Solar System</td>
+    </tr>
+    <tr>
+      <td>The Hive Armada</td>
+      <td>Steal or Capture</td>
+      <td>Space Pirate King</td>
+      <td>Reverse Time</td>
+    </tr>
+    <tr>
+      <td>Rogue Captain</td>
+      <td>Bond with</td>
+      <td>Void Crystals</td>
+      <td>Enslave a Planet</td>
+    </tr>
+    <tr>
+      <td>Space Pirates</td>
+      <td>Protect or Empower</td>
+      <td>Star Dreadnought</td>
+      <td>Start a War</td>
+    </tr>
+    <tr>
+      <td>Cyber Zombies</td>
+      <td>Build or Synthesize</td>
+      <td>Ancient Space Ruin</td>
+      <td>Rip a Hole in Reality</td>
+    </tr>
+    <tr>
+      <td>Alien Brain Worms</td>
+      <td>Pacify or Occupy</td>
+      <td>Alien Artifact</td>
+      <td>Fix Everything</td>
+    </tr>
+  </tbody>
+</table></div>
 
 <!--**A THREAT...**
 
