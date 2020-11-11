@@ -64,30 +64,30 @@ grand_parent: Trick-taking Games
 
 ### ISS Mission Expansion
 
-1. *Each player decides how many tricks the player to their left must take.*
-2. 4 tricks; *all four tasks must be fulfilled in subsequent tricks.*
-3. 4 tasks; *The tasks are specifically* <span class="cD">2♦︎&#xFE0E;</span>, <span class="cD">3♦︎&#xFE0E;</span>, <span class="cD">4♦︎&#xFE0E;</span>, *and* <span class="cD">5♦︎&#xFE0E;</span> *(the lowest four cards of one suit).*
+1. (P1) *Each player decides how many tricks the player to their left must take.*
+2. (P2) 4 tricks; *all four tasks must be fulfilled in four successive tricks.*
+3. (P3) 4 tasks; *The tasks are specifically* <span class="cD">2♦︎&#xFE0E;</span>, <span class="cD">3♦︎&#xFE0E;</span>, <span class="cD">4♦︎&#xFE0E;</span>, *and* <span class="cD">5♦︎&#xFE0E;</span> *(the lowest four cards of one suit).*
 
 ### Deimos Missions
 
-1. *A non-trump 5 must win a trick containing a 10.*
-2. *The Captain must take exactly three tricks, and cannot take any 8, 9, or 10 cards in these tricks.*
-4. *Without Captain's input, the crew decides exactly how many tricks the captain needs to win.*
-5. 1 task; *Captain asigns task. The player with the task may only take one trick.*
-7. *You can't lead tricks with trumps nor <span class="cD">♦︎&#xFE0E;</span> cards*.
-8.  *A non-trump 2 must win a trick containing two 10s.*
-9.  *No player can take two tricks in a row.*
-4. *One player must take no tricks. Another player must take exactly one trick.*
-5. 2 tasks per player. Each player must fulfill both of their tasks in the same trick.
-6. *The lowest trump must win a trick with at least one 2 card in it.*
-7. 2 tasks per player. Tasks are assigned randomly.
+1. (A1) *A non-trump 5 must win a trick containing a 10.*
+2. (A2) *The Captain must take exactly three tricks, and cannot take any 8, 9, or 10 cards in these tricks.*
+4. (B1) *Without Captain's input, the crew decides exactly how many tricks the captain needs to win.*
+5. (B2) 1 task; *Captain asigns task. The player with the task must take *only* that one trick.*
+7. (C1) *You can't lead tricks with trumps nor <span class="cD">♦︎&#xFE0E;</span> cards*.
+8. (C2) *A non-trump 2 (lowest pip) must win a trick containing two 10s. (The highest pip cards.)*
+9. (D1) *No player can take two tricks in a row.*
+4. (D2) *One player must take no tricks. Another player must take exactly one trick.*
+5. (D3) 2 tasks per player. *Each player must fulfill both of their tasks in the same trick.*
+6. (E1) *The lowest trump must win a trick with at least one 2 card (lowest pip) in it.*
+7. (E2) 2 tasks per player. *Tasks are assigned randomly.* (With 5 players, 1 task per person.)
 
 ### Deimos Endurance Missions
 
-1. 22 tasks. *A failed task doesn't end the mission. Try to fulfill as many as you can.*
-2. 4+ tasks; *No communication. If successful, restart and +1 task. Try to go as far as possible.*
-3. 5 tasks. *Tasks can't be fulfilled until the 3rd trick. If sucessful, restart and tasks can't be fulfilled until 4th trick, etc. Try to go as far as possible.*
-4. *Every 9 card must win a trick. If successful, restart, but now every 8 must win a trick. etc. Try to go as far as possible.*
+1. (A3) 22 tasks. *A failed task doesn't end the mission. Try to fulfill as many as you can.*
+2. (B3) 4+ tasks; *No communication. If successful, restart and +1 task. Try to go as far as possible.*
+3. (c3) 5 tasks. *Tasks can't be fulfilled until the 3rd trick. If sucessful, restart and tasks can't be fulfilled until 4th trick, etc. Try to go as far as possible.*
+4. (E3) must win a trick. If successful, restart, but now every 8 must win a trick. etc. Try to go as far as possible.*
 
 
 ---
