@@ -99,28 +99,28 @@ HoneyCon is being held in a...
   </thead>
   <tbody>
     <tr>
-      <td >Creepy</td>
-      <td >Lakeside camp</td>
+      <td ><strong>1 - </strong>Creepy</td>
+      <td ><strong>1 - </strong>Lakeside camp</td>
     </tr>
     <tr>
-      <td >Busy</td>
-      <td >Fishing Village</td>
+      <td ><strong>2 - </strong>Busy</td>
+      <td ><strong>2 - </strong>Fishing Village</td>
     </tr>
     <tr>
-      <td >Run-down</td>
-      <td >Metropolis</td>
+      <td ><strong>3 - </strong>Run-down</td>
+      <td ><strong>3 - </strong>Metropolis</td>
     </tr>
     <tr>
-      <td >Beautiful</td>
-      <td >Convention Center</td>
+      <td ><strong>4 - </strong>Beautiful</td>
+      <td ><strong>4 - </strong>Convention Center</td>
     </tr>
     <tr>
-      <td >Dangerous</td>
-      <td >Truck Convoy</td>
+      <td ><strong>5 - </strong>Dangerous</td>
+      <td ><strong>5 - </strong>Truck Convoy</td>
     </tr>
     <tr>
-      <td >Lavish</td>
-      <td >Wilderness Retreat</td>
+      <td ><strong>6 - </strong>Lavish</td>
+      <td ><strong>6 - </strong>Wilderness Retreat</td>
     </tr>
   </tbody>
 </table>
@@ -136,12 +136,87 @@ HoneyCon is being held in a...
 
 |Aside from loads of honey, the prize is…|
 |---|
-|**1.** Ultra-dense mega-honey from especially posh bees|
-|**2.** A briefcase of pure Manuka extract worth over $5 million|
-|**3.** The Queen of All Bees, Once Exiled, Now Returned|
-|**4.** Black Orchid Honey, which turns anyone who eats it into a goth|
-|**5.** Abraham Lincoln’s beehive, thought to be haunted by his ghost|
-|**6.** Miss Universe 2018, an especially attractive bee|
+|**1 -** Ultra-dense mega-honey from especially posh bees|
+|**2 -** A briefcase of pure Manuka extract worth over $5 million|
+|**3 -** The Queen of All Bees, Once Exiled, Now Returned|
+|**4 -** Black Orchid Honey, which turns anyone who eats it into a goth|
+|**5 -** Abraham Lincoln’s beehive, thought to be haunted by his ghost|
+|**6 -** Miss Universe 2018, an especially attractive bee|
+
+|The convention’s prizes are protected by… (*roll twice*)|
+|---|
+|**1 -** Armed Guards|
+|**2 -** Electronically-locked doors|
+|**3 -** Laser tripwire grids|
+|**4 -** CCTG network|
+|**5 -** An “impenetrable” vault|
+|**6 -** Poison gas|
+
+<table>
+  <thead >
+    <tr>
+      <th  colspan="2">The convention’s prizes are protected by… <em>(roll twice)</em></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td ><strong>1 - </strong>Creepy</td>
+      <td ><strong>4 - </strong>Lakeside camp</td>
+    </tr>
+    <tr>
+      <td ><strong>2 - </strong>Busy</td>
+      <td ><strong>5 - </strong>Fishing Village</td>
+    </tr>
+    <tr>
+      <td ><strong>3 - </strong>Run-down</td>
+      <td ><strong>6 - </strong>Metropolis</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead >
+    <tr>
+      <th  colspan="2">You know that the convention organizer is…</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td ><strong>1 - </strong>Cunning and Sly</td>
+      <td ><strong>4 - </strong>Greedy and Wicked</td>
+    </tr>
+    <tr>
+      <td ><strong>2 - </strong>Clueless and exploitable</td>
+      <td ><strong>5 - </strong>Maybe too obsessed with honey</td>
+    </tr>
+    <tr>
+      <td ><strong>3 - </strong>A spoiled trust fund kid</td>
+      <td ><strong>6 - </strong>Ruthless and corrupt</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead >
+    <tr>
+      <th  colspan="2">But little do you know…</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td ><strong>1 - </strong>This place is rigged to blow!</td>
+      <td ><strong>4 - </strong>The cops are en route! </td>
+    </tr>
+    <tr>
+      <td ><strong>2 - </strong>Look – a rival team of bears! </td>
+      <td ><strong>5 - </strong>They’ve been set up!</td>
+    </tr>
+    <tr>
+      <td ><strong>3 - </strong>The prize is a fake!</td>
+      <td ><strong>6 - </strong>The bees are angry!</td>
+    </tr>
+  </tbody>
+</table>
 
 |Quality|Location|The Prize|The Organizer|
 |:-:|:-:|:-:|:-:|
