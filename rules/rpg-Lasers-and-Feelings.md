@@ -11,8 +11,53 @@ uncharted regions of space, deal with aliens both friendly and deadly, and defen
 worlds against space dangers. **CAPTAIN DARCY** has been overcome by the strange psychic entity
 known as *Something Else*, leaving you to fend for yourselves while he recovers in a medical pod.
 
+- TOC
+{:toc}
 
-## Character Creation
+## Rules:
+
+### Rolling Dice
+
+When you do something risky, roll **1d6**. Add **+1d6** if you’re
+**prepared** and **+1d6** if you’re an **expert**.
+
+Roll your dice and compare each die result to your
+stat **number**:
+- If you use **LASERS** you want to roll **under** your stat number.
+    - LASERS means science, reason, technology, cold rationality, and calm precise action.
+- If you use **FEELINGS** you want to roll **over** your number. 
+  - FEELINGS means rapport, diplomacy, intuition, seduction, and wild passionate action.
+
+Success varies on number of dice that succeed: 
+
+<ol start="0">
+    <li>Fail.</li>
+    <li>Partial Success.</li>
+    <li>Success.</li>
+    <li>Critical success! The GM tells you some extra effect you get.</li>
+</ol>
+
+### Laser Feelings
+If you **roll your number exactly**, then you get a special insight
+into what’s going on. 
+- Ask the GM a question and they’ll answer you honestly. 
+- You can change your action if you want to, 
+- then roll again.
+
+### Helping
+
+If you want to help someone else who’s rolling,
+say how you try to help and make a roll. 
+If you succeed, give them **+1d6** for that action.
+
+
+
+
+
+
+## Setting up the Game:
+
+### Character Creation
 
 1. Choose a **style**: Alien, Android, Dangerous, Hot-shot, Intrepid, Savvy, Sexy.
 2. Choose a **role**: Doctor, Envoy, Engineer, Explorer, Pilot, Scientist, Soldier.
@@ -27,14 +72,14 @@ for space walks),
 - a super-sweet space-phone-camera-communicator-scanner thing (with universal translator),
 - a variable-beam phase pistol (set to stun, usually).
 
-## Ship Creation
+### Ship Creation
 
 1. Choose 2 **Strengths**: Fast, Nimble, Well-armed, Powerful Shields, Superior Sensors, Cloaking Device, Fightercraft
 2. Choose 1 **Problem**: Fuel Hog (Always needs energy crystals),Only One Medical Pod (and Captain Darcy is in it), Horrible Circuit Breakers (In battle, consoles tend to explode on the bridge), Grim reputation (Captain Darcy did some bad stuff in the past).
 
-## GM: Adventure Creation
+### GM: Adventure Creation
 
-Roll or choose from below:
+Roll (4d6) or choose from below:
 
 |A THREAT...|WANTS TO...|THE...|WHICH WILL...|
 |---|---|---|---|---|
@@ -45,6 +90,14 @@ Roll or choose from below:
 |Cyber Zombies|Build or Synthesize|Ancient Space Ruin|Rip a Hole in Reality|
 |Alien Brain Worms|Pacify or Occupy|Alien Artifact|Fix Everything|
 
+
+### GM: Set the Scene
+
+- Play to find out how they defeat the threat. 
+- Introduce the threat by showing evidence of its recent badness. 
+- Before a threat does something to the characters, show signs that it’s about to happen, then ask them what they do.
+- Call for a roll when the situation is uncertain. 
+- Use failures to push the action forward. The situation always changes after a roll, for good or ill.
 
 
 <!--**A THREAT...**
