@@ -107,7 +107,7 @@ Roll (4d6) or choose from below:
 
 
 
-<table>
+<!--<table>
   <thead>
     <tr>
       <th colspan="2">A THREAT…</th>
@@ -285,7 +285,7 @@ Roll (4d6) or choose from below:
       <td>Fix Everything</td>
     </tr>
   </tbody>
-</table>
+</table>-->
 
 <!--**A THREAT...**
 
