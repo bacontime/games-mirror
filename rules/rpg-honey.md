@@ -62,12 +62,12 @@ Roll 3d6 for your Description, Role, and Species
 
 |Descriptor|Species and Skill|Role|
 |:-:|:-:|:-:|
-|Rookie|Grizzly (Terrify)|Hacker|
-|Washed-Up|Polar (Swim)|Muscle|
-|Retired|Panda (Eat anything that looks like bamboo.)|Brains|
-|Unhinged|Black (Climb)|Thief|
-|Slick|Sun (Sense Honey)|Driver|
-|Incompetent|Honey Badger (Carnage)|Face|
+|Rookie|Grizzly (*Terrify*)|Hacker|
+|Washed-Up|Polar (*Swim*)|Muscle|
+|Retired|Panda (*Eat anything that looks like bamboo.*)|Brains|
+|Unhinged|Black (*Climb*)|Thief|
+|Slick|Sun (*Sense Honey*)|Driver|
+|Incompetent|Honey Badger (*Carnage*)|Face|
 
 Name your bear, if you want. You’re not a talking bear, per se, but
 you can sort of mangle human speech through your bear mouth,
@@ -81,6 +81,7 @@ And finally, if you would like, you may optionally roll on the
 The GM rolls on these tables to set up the adventure.
 
 HoneyCon is being held in a...
+
 |Quality|Location|
 |:-:|:-:|
 |Creepy|Lakeside camp|
