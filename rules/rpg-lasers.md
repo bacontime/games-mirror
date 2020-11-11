@@ -116,17 +116,18 @@ Roll (4d6) or choose from below:
   </thead>
   <tbody>
     <tr>
-      <td>Zorgon the Conqueror</td>
-      <td>Destroy or Corrupt</td>
+      <td>1. Zorgon the Conqueror</td>
+      <td>4. Space Pirates</td>
       <td>Quantum Tunnel</td>
       <td>Destroy a Solar System</td>
     </tr>
-    
+  </tbody>
   <thead>
     <tr>
       <th colspan="4">WANTS TO…</th>
     </tr>
   </thead>
+  <tbody>
     <tr>
       <td>The Hive Armada</td>
       <td>Steal or Capture</td>

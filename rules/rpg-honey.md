@@ -6,10 +6,10 @@ has_children: true
 
 # Honey Heist
 
-You are the crew of the interstellar scout ship **RAPTOR**. Your mission is to explore
-uncharted regions of space, deal with aliens both friendly and deadly, and defend the Consortium
-worlds against space dangers. **CAPTAIN DARCY** has been overcome by the strange psychic entity
-known as *Something Else*, leaving you to fend for yourselves while he recovers in a medical pod.
+It’s HoneyCon 2018 . You are about to undertake The Greatest Heist
+the World Has Ever Seen. Two things:  
+**One**: You have a complex plan that requires precise planning.  
+**Two**: You are a *goddamn bear*.
 
 <details open markdown="block">
   <summary>
@@ -22,137 +22,44 @@ known as *Something Else*, leaving you to fend for yourselves while he recovers 
 
 ## Rules:
 
+### Stats
+
+You have two stats: **Bear** and **Criminal**. Both Start at 3.
+
+**Use Bear to:** maul stuff, run and climb, shrug off damage, scare
+people, and generally do bear stuff.  
+**Use Criminal to:** do anything not directly related to being a bear.
+
 ### Rolling Dice
 
-When you do something risky, roll **1d6**. Add **+1d6** if you’re
-**prepared** and **+1d6** if you’re an **expert**.
+When you do something risky, roll **1d6**. If the result is $\leq$ the relevant stat, you succeed. If it's over the stat, then you fail.
 
-Roll your dice and compare each die result to your
-stat **number**:
-- If you use **LASERS** you succeed by rolling **under** your number.
-    - LASERS means science, reason, technology, cold rationality, and calm precise action.
-- If you use **FEELINGS** you succeed by rolling **over** your number. 
-  - FEELINGS means rapport, diplomacy, intuition, seduction, and wild passionate action.
+If you're doing something related to your Species or Role, roll 2d6 and take the lowest.
 
-Success varies on number of dice that succeed: 
 
-<ol start="0">
-    <li>Fail.</li>
-    <li>Partial Success.</li>
-    <li>Success.</li>
-    <li>Critical success! The GM tells you some extra effect you get.</li>
-</ol>
+### Changing States
 
-### Laser Feelings
-If you **roll your number exactly**, then you get a special insight
-into what’s going on. 
-- Ask the GM a question and they’ll answer you honestly. 
-- You can change your action if you want to, 
-- then roll again.
+**Frustration**: When the plan fails and you run into difficulty, move
+one point from Criminal into Bear.  
+**Greed**: When the plan goes off without a hitch, move one point from
+Bear into Criminal.
 
-### Helping
+**Flashback Scene:** You can voluntarily move a point from Bear to Criminal by doing a flashback scene in which you and the other bears plan out the heist over coffee and cigarettes in the back room of a seedy bar.  
+**Feed:** You can voluntarily move one point from Criminal to Bear by
+eating a load of honey.
 
-If you want to help someone else who’s rolling,
-say how you try to help and make a roll. 
-If you succeed, give them **+1d6** for that action.
+
+### The End
+
+**If your Criminal stat reaches 6**, you are lured
+into a life of crime and betray the party.  
+**If your bear stat ever reaches 6**, you flip out bear-style and lose it, presumably to be picked up by animal
+control in half an hour or so.
 
 
 
 
 
-
-## Setting up the Game:
-
-### Character Creation
-
-1. Choose a **style**: Alien, Android, Dangerous, Hot-shot, Intrepid, Savvy, Sexy.
-2. Choose a **role**: Doctor, Envoy, Engineer, Explorer, Pilot, Scientist, Soldier.
-3. Choose a **number** from 2-5. High means good at **LASERS**. Low means good at **FEELINGS**.
-4. Choose a **cool space name**.
-5. Choose a **Goal**: Become Captain, Meet Sexy Aliens, Shoot Bad Guys, Find New Worlds, Solve Weird Space Mysteries, Prove Yourself, Keep Being Awesome (you have nothing to prove).
-
-You have the following stuff:
-
-- a Consortium uniform (with built-in vacc-suit
-for space walks), 
-- a super-sweet space-phone-camera-communicator-scanner thing (with universal translator),
-- a variable-beam phase pistol (set to stun, usually).
-
-### Ship Creation
-
-1. Choose 2 **Strengths**: Fast, Nimble, Well-armed, Powerful Shields, Superior Sensors, Cloaking Device, TrRansporters, Fightercraft
-2. Choose 1 **Problem**: Fuel Hog (Always needs energy crystals),Only One Medical Pod (and Captain Darcy is in it), Horrible Circuit Breakers (In battle, consoles tend to explode on the bridge), Grim reputation (Captain Darcy did some bad stuff in the past), Twitchy Hyperdrive, Sketchy Life Support, Unreliable Com System
-
-### GM: Adventure Creation
-
-Roll (4d6) or choose from below:
-
-|A THREAT...|WANTS TO...|THE...|WHICH WILL...|
-|---|---|---|---|---|
-|Zorgon the Conqueror|Destroy or Corrupt|Quantum Tunnel|Destroy a Solar System|
-|The Hive Armada|Steal or Capture|Space Pirate King|Reverse Time|
-|Rogue Captain|Bond with|Void Crystals|Enslave a Planet|
-|Space Pirates|Protect or Empower|Star Dreadnought|Start a War |
-|Cyber Zombies|Build or Synthesize|Ancient Space Ruin|Rip a Hole in Reality|
-|Alien Brain Worms|Pacify or Occupy|Alien Artifact|Fix Everything|
-
-
-### GM: Set the Scene
-
-- Play to find out how they defeat the threat. 
-- Introduce the threat by showing evidence of its recent badness. 
-- Before a threat does something to the characters, show signs that it’s about to happen, then ask them what they do.
-- Call for a roll when the situation is uncertain. 
-- Use failures to push the action forward. The situation always changes after a roll, for good or ill.
-
-
-
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="4">A THREAT…</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Zorgon the Conqueror</td>
-      <td>Destroy or Corrupt</td>
-      <td>Quantum Tunnel</td>
-      <td>Destroy a Solar System</td>
-    </tr>
-    <tr>
-      <td>The Hive Armada</td>
-      <td>Steal or Capture</td>
-      <td>Space Pirate King</td>
-      <td>Reverse Time</td>
-    </tr>
-    <tr>
-      <td>Rogue Captain</td>
-      <td>Bond with</td>
-      <td>Void Crystals</td>
-      <td>Enslave a Planet</td>
-    </tr>
-    <tr>
-      <td>Space Pirates</td>
-      <td>Protect or Empower</td>
-      <td>Star Dreadnought</td>
-      <td>Start a War</td>
-    </tr>
-    <tr>
-      <td>Cyber Zombies</td>
-      <td>Build or Synthesize</td>
-      <td>Ancient Space Ruin</td>
-      <td>Rip a Hole in Reality</td>
-    </tr>
-    <tr>
-      <td>Alien Brain Worms</td>
-      <td>Pacify or Occupy</td>
-      <td>Alien Artifact</td>
-      <td>Fix Everything</td>
-    </tr>
-  </tbody>
-</table>
 
 
 ---
