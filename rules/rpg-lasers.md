@@ -1,5 +1,5 @@
 ---
-title: Lasers and Feelings
+title: Lasers & Feelings
 parent: Micro RPGs
 has_children: true
 ---
