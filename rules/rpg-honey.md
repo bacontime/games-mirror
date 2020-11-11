@@ -61,35 +61,45 @@ control in half an hour or so.
 Roll 3d6 for your Description, Role, and Species
 
 |Descriptor|Species and Skill|Role|
-|:-:|:-:|:-:|
-|Rookie|Grizzly (*Terrify*)|Hacker|
-|Washed-Up|Polar (*Swim*)|Muscle|
-|Retired|Panda (*Eat anything that looks like bamboo.*)|Brains|
-|Unhinged|Black (*Climb*)|Thief|
-|Slick|Sun (*Sense Honey*)|Driver|
-|Incompetent|Honey Badger (*Carnage*)|Face|
+|:--|:--|:--|
+|**1 -** Rookie|**1 -** Grizzly (*Terrify*)|**1 -** Hacker|
+|**2 -** Washed-Up|**2 -** Polar (*Swim*)|**2 -** Muscle|
+|**3 -** Retired|**3 -** Panda (*Eat anything that looks like bamboo.*)|**3 -** Brains|
+|**4 -** Unhinged|**4 -** Black (*Climb*)|**4 -** Thief|
+|**5 -** Slick|**5 -** Sun (*Sense Honey*)|**5 -** Driver|
+|**6 -** Incompetent|**6 -** Honey Badger (*Carnage*)|**6 -** Face|
 
 Name your bear, if you want. You’re not a talking bear, per se, but
 you can sort of mangle human speech through your bear mouth,
 maybe? (You can talk to each other, though.)
 
-And finally, if you would like, you may optionally roll on the 
+And finally, if you would like, you may optionally roll on the following table of fashions to determine your human disguise:
+
+|Top|Bottom|Accessory|
+|:--|:--|:--|
+|**1 -** Mittens|**1 -** Y Fronts|**1 -** A badge that says HUMAN MAN|
+|**2 -** Crop Top|**2 -**  Jorts|**2 -** Plastic Crown|
+|**3 -** Small Tie Dyed T-shirt|**3 -**  Knee-Length Skirt|**3 -** Cowboy Hat|
+|**4 -** Tuxedo Jacket|**4 -**  Tight Denim Jeans|**4 -** Tophat and Monocle|
+|**5 -** Ugly Sweater|**5 -**  Bell-bottoms|**5 -** Blonde Wig|
+|**6 -** Tartan Cloak|**6 -**  Cargo Pants|**6 -** Cool Shades|
+|**7 -** Trench Coat|**7 -**  Smart Trousers|**7 -** Ski Mask|
+|**8 -** Roll Twice More|**8 -**  Roll Twice More|**8 -** Roll Twice More|
+
+<!--||||
+|:--|:--|:--|
+|**1 -** |**1 -**  |**1 -** |
+|**2 -** |**2 -**  |**2 -** |
+|**3 -** |**3 -**  |**3 -** |
+|**4 -** |**4 -**  |**4 -** |
+|**5 -** |**5 -**  |**5 -** |
+|**6 -** |**6 -**  |**6 -** |-->
+
 
 
 ## Setting and Scenario
 
 The GM rolls on these tables to set up the adventure.
-
-HoneyCon is being held in a...
-
-|Quality|Location|
-|:-:|:-:|
-|Creepy|Lakeside camp|
-|Busy|Fishing Village|
-|Run-down|Metropolis|
-|Beautiful|Convention Center|
-|Dangerous|Truck Convoy|
-|Lavish|Wilderness Retreat|
 
 <table>
   <thead >
@@ -127,30 +137,12 @@ HoneyCon is being held in a...
 
 |Aside from loads of honey, the prize is…|
 |---|
-|Ultra-dense mega-honey from especially posh bees|
-|A briefcase of pure Manuka extract worth over $5 million|
-|The Queen of All Bees, Once Exiled, Now Returned|
-|Black Orchid Honey, which turns anyone who eats it into a goth|
-|Abraham Lincoln’s beehive, thought to be haunted by his ghost|
-|Miss Universe 2018, an especially attractive bee|
-
-|Aside from loads of honey, the prize is…|
-|---|
 |**1 -** Ultra-dense mega-honey from especially posh bees|
 |**2 -** A briefcase of pure Manuka extract worth over $5 million|
 |**3 -** The Queen of All Bees, Once Exiled, Now Returned|
 |**4 -** Black Orchid Honey, which turns anyone who eats it into a goth|
 |**5 -** Abraham Lincoln’s beehive, thought to be haunted by his ghost|
 |**6 -** Miss Universe 2018, an especially attractive bee|
-
-|The convention’s prizes are protected by… (*roll twice*)|
-|---|
-|**1 -** Armed Guards|
-|**2 -** Electronically-locked doors|
-|**3 -** Laser tripwire grids|
-|**4 -** CCTG network|
-|**5 -** An “impenetrable” vault|
-|**6 -** Poison gas|
 
 <table>
   <thead >
@@ -218,6 +210,16 @@ HoneyCon is being held in a...
   </tbody>
 </table>
 
+<!--
+|Quality|Location|
+|:-:|:-:|
+|Creepy|Lakeside camp|
+|Busy|Fishing Village|
+|Run-down|Metropolis|
+|Beautiful|Convention Center|
+|Dangerous|Truck Convoy|
+|Lavish|Wilderness Retreat|
+
 |Quality|Location|The Prize|The Organizer|
 |:-:|:-:|:-:|:-:|
 |Creepy|||Cunning and Sly|
@@ -226,7 +228,7 @@ HoneyCon is being held in a...
 |Beautiful|||Maybe too obsessed with
 honey|
 |Dangerous|||A spoiled trust fund kid|
-|Lavish|||Ruthless and corrupt|
+|Lavish|||Ruthless and corrupt|-->
 
 
 
