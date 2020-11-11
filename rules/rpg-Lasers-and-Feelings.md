@@ -14,32 +14,11 @@ known as *Something Else*, leaving you to fend for yourselves while he recovers 
 
 ## Character Creation
 
-1. Choose a **style**: 
-   - Alien, 
-   - Android, 
-   - Dangerous, 
-   - Hot-shot, 
-   - Intrepid, 
-   - Savvy, 
-   - Sexy.
-2. Choose a **role**: 
-   - Doctor, 
-   - Envoy, 
-   - Engineer, 
-   - Explorer, 
-   - Pilot, 
-   - Scientist, 
-   - Soldier.
+1. Choose a **style**: Alien, Android, Dangerous, Hot-shot, Intrepid, Savvy, Sexy.
+2. Choose a **role**: Doctor, Envoy, Engineer, Explorer, Pilot, Scientist, Soldier.
 3. Choose a **number** from 2-5. High means good at **LASERS**. Low means good at **FEELINGS**.
 4. Choose a **cool space name**.
-5. Choose a **Goal**: 
-   - Become Captain, 
-   - Meet Sexy Aliens, 
-   - Shoot Bad Guys, 
-   - Find New Worlds, 
-   - Solve Weird Space Mysteries, 
-   - Prove Yourself, 
-   - Keep Being Awesome (you have nothing to prove).
+5. Choose a **Goal**: Become Captain, Meet Sexy Aliens, Shoot Bad Guys, Find New Worlds, Solve Weird Space Mysteries, Prove Yourself, Keep Being Awesome (you have nothing to prove).
 
 You have the following stuff:
 
@@ -50,25 +29,14 @@ for space walks),
 
 ## Ship Creation
 
-1. Choose 2 **Strengths**: 
-   - Fast, 
-   - Nimble, 
-   - Well-armed, 
-   - Powerful Shields, 
-   - Superior Sensors, 
-   - Cloaking Device, 
-   - Fightercraft
-2. Choose 1 **Problem**: 
-   - Fuel Hog (Always needs energy crystals),
-   - Only One Medical Pod (and Captain Darcy is in it), 
-   - Horrible Circuit Breakers (In battle, consoles tend to explode on the bridge), 
-   - Grim reputation (Captain Darcy did some bad stuff in the past).
+1. Choose 2 **Strengths**: Fast, Nimble, Well-armed, Powerful Shields, Superior Sensors, Cloaking Device, Fightercraft
+2. Choose 1 **Problem**: Fuel Hog (Always needs energy crystals),Only One Medical Pod (and Captain Darcy is in it), Horrible Circuit Breakers (In battle, consoles tend to explode on the bridge), Grim reputation (Captain Darcy did some bad stuff in the past).
 
 ## GM: Adventure Creation
 
-Roll or choose on from below:
+Roll or choose from below:
 
-|A THREAT|WANTS TO|THE|WHICH WILL|
+|A THREAT...|WANTS TO...|THE...|WHICH WILL...|
 |---|---|---|---|---|
 |Zorgon the Conqueror|Destroy or Corrupt|Quantum Tunnel|Destroy a Solar System|
 |The Hive Armada|Steal or Capture|Space Pirate King|Reverse Time|
@@ -77,21 +45,9 @@ Roll or choose on from below:
 |Cyber Zombies|Build or Synthesize|Ancient Space Ruin|Rip a Hole in Reality|
 |Alien Brain Worms|Pacify or Occupy|Alien Artifact|Fix Everything|
 
-<details>
-  <summary>Epcot Center</summary>
-  
-||A THREAT|WANTS TO|THE|WHICH WILL|
-|---|---|---|---|---|---|
-|1|Zorgon the Conqueror||||
-||The Hive Armada||||
-||Rogue Captain||||
-||Space Pirates||||
-||Cyber Zombies||||
-||Alien Brain Worms||||
 
-</details>
 
-**A THREAT...**
+<!--**A THREAT...**
 
 1. Zorgon the Conqueror
 2. The Hive Armada
@@ -100,7 +56,7 @@ Roll or choose on from below:
 5. Cyber Zombies
 6. Alien Brain Worms 
 
-WANTS TO...
+**WANTS TO...**
 
 1. Destroy or Corrupt
 2. Steal or Capture
@@ -109,7 +65,7 @@ WANTS TO...
 5. Build or Synthesize
 6. Pacify or Occupy
 
-THE...
+**THE...**
 
 1. Space Pirate King
 2. Void Crystals
@@ -118,14 +74,14 @@ THE...
 5. Ancient Space Ruin
 6. Alien Artifact
 
-WHICH WILL...
+**WHICH WILL...**
 
 1. Destroy a Solar System
 2. Reverse Time
 3. Enslave a Planet
 4. Start a War 
 5. Rip a Hole in Reality
-6. Fix Everything
+6. Fix Everything-->
 
 ---
 
