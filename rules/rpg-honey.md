@@ -91,6 +91,57 @@ HoneyCon is being held in a...
 |Dangerous|Truck Convoy|
 |Lavish|Wilderness Retreat|
 
+<table>
+  <thead >
+    <tr>
+      <th  colspan="2">HoneyCon is being held in a...</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td >Creepy</td>
+      <td >Lakeside camp</td>
+    </tr>
+    <tr>
+      <td >Busy</td>
+      <td >Fishing Village</td>
+    </tr>
+    <tr>
+      <td >Run-down</td>
+      <td >Metropolis</td>
+    </tr>
+    <tr>
+      <td >Beautiful</td>
+      <td >Convention Center</td>
+    </tr>
+    <tr>
+      <td >Dangerous</td>
+      <td >Truck Convoy</td>
+    </tr>
+    <tr>
+      <td >Lavish</td>
+      <td >Wilderness Retreat</td>
+    </tr>
+  </tbody>
+</table>
+
+|Aside from loads of honey, the prize is…|
+|---|
+|Ultra-dense mega-honey from especially posh bees|
+|A briefcase of pure Manuka extract worth over $5 million|
+|The Queen of All Bees, Once Exiled, Now Returned|
+|Black Orchid Honey, which turns anyone who eats it into a goth|
+|Abraham Lincoln’s beehive, thought to be haunted by his ghost|
+|Miss Universe 2018, an especially attractive bee|
+
+|Aside from loads of honey, the prize is…|
+|---|
+|**1.** Ultra-dense mega-honey from especially posh bees|
+|**2.** A briefcase of pure Manuka extract worth over $5 million|
+|**3.** The Queen of All Bees, Once Exiled, Now Returned|
+|**4.** Black Orchid Honey, which turns anyone who eats it into a goth|
+|**5.** Abraham Lincoln’s beehive, thought to be haunted by his ghost|
+|**6.** Miss Universe 2018, an especially attractive bee|
 
 |Quality|Location|The Prize|The Organizer|
 |:-:|:-:|:-:|:-:|

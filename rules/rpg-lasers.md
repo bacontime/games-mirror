@@ -80,7 +80,7 @@ for space walks),
 
 ### Ship Creation
 
-1. Choose 2 **Strengths**: Fast, Nimble, Well-armed, Powerful Shields, Superior Sensors, Cloaking Device, TrRansporters, Fightercraft
+1. Choose 2 **Strengths**: Fast, Nimble, Well-armed, Powerful Shields, Superior Sensors, Cloaking Device, Transporters, Fightercraft
 2. Choose 1 **Problem**: Fuel Hog (Always needs energy crystals),Only One Medical Pod (and Captain Darcy is in it), Horrible Circuit Breakers (In battle, consoles tend to explode on the bridge), Grim reputation (Captain Darcy did some bad stuff in the past), Twitchy Hyperdrive, Sketchy Life Support, Unreliable Com System
 
 ### GM: Adventure Creation
