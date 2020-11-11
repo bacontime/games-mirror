@@ -1,10 +1,10 @@
 ---
-title: Lasers and Feelings
+title: Honey Heist
 parent: Micro RPGs
 has_children: true
 ---
 
-# Lasers & Feelings
+# Honey Heist
 
 You are the crew of the interstellar scout ship **RAPTOR**. Your mission is to explore
 uncharted regions of space, deal with aliens both friendly and deadly, and defend the Consortium
@@ -121,12 +121,6 @@ Roll (4d6) or choose from below:
       <td>Quantum Tunnel</td>
       <td>Destroy a Solar System</td>
     </tr>
-    
-  <thead>
-    <tr>
-      <th colspan="4">WANTS TO…</th>
-    </tr>
-  </thead>
     <tr>
       <td>The Hive Armada</td>
       <td>Steal or Capture</td>
@@ -160,43 +154,7 @@ Roll (4d6) or choose from below:
   </tbody>
 </table>
 
-<!--**A THREAT...**
-
-1. Zorgon the Conqueror
-2. The Hive Armada
-3. Rogue Captain
-4. Space Pirates
-5. Cyber Zombies
-6. Alien Brain Worms 
-
-**WANTS TO...**
-
-1. Destroy or Corrupt
-2. Steal or Capture
-3. Bond with
-4. Protect or Empower
-5. Build or Synthesize
-6. Pacify or Occupy
-
-**THE...**
-
-1. Space Pirate King
-2. Void Crystals
-3. Star Dreadnought
-4. Quantum Tunnel
-5. Ancient Space Ruin
-6. Alien Artifact
-
-**WHICH WILL...**
-
-1. Destroy a Solar System
-2. Reverse Time
-3. Enslave a Planet
-4. Start a War 
-5. Rip a Hole in Reality
-6. Fix Everything-->
 
 ---
 
-Game by [John Harper](http://www.onesevendesign.com/laserfeelings/).  
-[CC BY-NC-SA 3.0 US](https://creativecommons.org/licenses/by-nc-sa/3.0/us/)
+[Game](https://gshowitt.itch.io/) by [Grant](https://rowanrookanddecard.com/) [Howitt](http://lookrobot.co.uk/games/)
