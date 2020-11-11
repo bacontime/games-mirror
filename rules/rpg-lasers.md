@@ -107,6 +107,132 @@ Roll (4d6) or choose from below:
 
 
 
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">A THREAT…</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Zorgon the Conqueror</td>
+      <td>4. Space Pirates</td>
+    </tr>
+    <tr>
+      <td>2. Zorgon the Conqueror</td>
+      <td>5. Space Pirates</td>
+    </tr>
+    <tr>
+      <td>3. Zorgon the Conqueror</td>
+      <td>6. Space Pirates</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">A THREAT…</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Zorgon the Conqueror</td>
+      <td>4. Space Pirates</td>
+    </tr>
+    <tr>
+      <td>2. Zorgon the Conqueror</td>
+      <td>5. Space Pirates</td>
+    </tr>
+    <tr>
+      <td>3. Zorgon the Conqueror</td>
+      <td>6. Space Pirates</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">A THREAT…</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Zorgon the Conqueror</td>
+      <td>4. Space Pirates</td>
+    </tr>
+    <tr>
+      <td>2. Zorgon the Conqueror</td>
+      <td>5. Space Pirates</td>
+    </tr>
+    <tr>
+      <td>3. Zorgon the Conqueror</td>
+      <td>6. Space Pirates</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">A THREAT…</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Zorgon the Conqueror</td>
+      <td>4. Space Pirates</td>
+    </tr>
+    <tr>
+      <td>2. Zorgon the Conqueror</td>
+      <td>5. Space Pirates</td>
+    </tr>
+    <tr>
+      <td>3. Zorgon the Conqueror</td>
+      <td>6. Space Pirates</td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="2">A THREAT…</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Zorgon the Conqueror</td>
+      <td>4. Space Pirates</td>
+    </tr>
+    <tr>
+      <td>2. Zorgon the Conqueror</td>
+      <td>5. Space Pirates</td>
+    </tr>
+    <tr>
+      <td>3. Zorgon the Conqueror</td>
+      <td>6. Space Pirates</td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="2">A THREAT…</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Zorgon the Conqueror</td>
+      <td>4. Space Pirates</td>
+    </tr>
+    <tr>
+      <td>2. Zorgon the Conqueror</td>
+      <td>5. Space Pirates</td>
+    </tr>
+    <tr>
+      <td>3. Zorgon the Conqueror</td>
+      <td>6. Space Pirates</td>
+    </tr>
+  </tbody>
+</table>
 
 <table>
   <thead>
