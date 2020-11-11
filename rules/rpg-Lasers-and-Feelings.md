@@ -70,7 +70,7 @@ Roll or choose on from below:
 
 ||A THREAT|WANTS TO|THE|WHICH WILL|
 |---|---|---|---|---|---|
-|1|Zorgon the Conqueror||||||||
+|1|Zorgon the Conqueror||||
 ||The Hive Armada||||
 ||Rogue Captain||||
 ||Space Pirates||||
@@ -82,7 +82,7 @@ Roll or choose on from below:
   
 ||A THREAT|WANTS TO|THE|WHICH WILL|
 |---|---|---|---|---|---|
-|1|Zorgon the Conqueror||||||||
+|1|Zorgon the Conqueror||||
 ||The Hive Armada||||
 ||Rogue Captain||||
 ||Space Pirates||||
@@ -91,14 +91,41 @@ Roll or choose on from below:
 
 </details>
 
-A THREAT...
+**A THREAT...**
 
-1. Zorgon
+1. Zorgon the Conqueror
 2. The Hive Armada
 3. Rogue Captain
 4. Space Pirates
 5. Cyber Zombies
 6. Alien Brain Worms 
+
+WANTS TO...
+
+1. Destroy or Corrupt
+2. Steal or Capture
+3. Bond with
+4. Protect or Empower
+5. Build or Synthesize
+6. Pacify or Occupy
+
+THE...
+
+1. Space Pirate King
+2. Void Crystals
+3. Star Dreadnought
+4. Quantum Tunnel
+5. Ancient Space Ruin
+6. Alien Artifact
+
+WHICH WILL...
+
+1. Destroy a Solar System
+2. Reverse Time
+3. Enslave a Planet
+4. Start a War 
+5. Rip a Hole in Reality
+6. Fix Everything
 
 ---
 
