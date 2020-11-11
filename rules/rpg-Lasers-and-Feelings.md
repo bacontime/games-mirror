@@ -68,15 +68,37 @@ for space walks),
 
 Roll or choose on from below:
 
+||A THREAT|WANTS TO|THE|WHICH WILL|
+|---|---|---|---|---|---|
+|1|Zorgon the Conqueror||||||||
+||The Hive Armada||||
+||Rogue Captain||||
+||Space Pirates||||
+||Cyber Zombies||||
+||Alien Brain Worms||||
+
 <details>
   <summary>Epcot Center</summary>
   
-    ||A THREAT|WANTS TO|THE|WHICH WILL|
-    |---|---|---|---|---|---|
-    |Zorgon the Conqueror|||||
+||A THREAT|WANTS TO|THE|WHICH WILL|
+|---|---|---|---|---|---|
+|1|Zorgon the Conqueror||||||||
+||The Hive Armada||||
+||Rogue Captain||||
+||Space Pirates||||
+||Cyber Zombies||||
+||Alien Brain Worms||||
 
 </details>
 
+A THREAT...
+
+1. Zorgon
+2. The Hive Armada
+3. Rogue Captain
+4. Space Pirates
+5. Cyber Zombies
+6. Alien Brain Worms 
 
 ---
 
