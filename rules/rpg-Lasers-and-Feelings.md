@@ -68,14 +68,14 @@ for space walks),
 
 Roll or choose on from below:
 
-||A THREAT|WANTS TO|THE|WHICH WILL|
-|---|---|---|---|---|---|
-|1|Zorgon the Conqueror||||
-||The Hive Armada||||
-||Rogue Captain||||
-||Space Pirates||||
-||Cyber Zombies||||
-||Alien Brain Worms||||
+|A THREAT|WANTS TO|THE|WHICH WILL|
+|---|---|---|---|---|
+|Zorgon the Conqueror|Destroy or Corrupt|Quantum Tunnel|Destroy a Solar System|
+|The Hive Armada|Steal or Capture|Space Pirate King|Reverse Time|
+|Rogue Captain|Bond with|Void Crystals|Enslave a Planet|
+|Space Pirates|Protect or Empower|Star Dreadnought|Start a War |
+|Cyber Zombies|Build or Synthesize|Ancient Space Ruin|Rip a Hole in Reality|
+|Alien Brain Worms|Pacify or Occupy|Alien Artifact|Fix Everything|
 
 <details>
   <summary>Epcot Center</summary>
