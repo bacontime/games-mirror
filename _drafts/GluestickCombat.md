@@ -25,7 +25,7 @@ D4  | .988  | .914  | .747  | .555 | .382 | .215
 D5  | .996  | .965  |  .872 | .723 | .557 | .387
 D6  | .999  | .986  | .940  | .843 | .708 | .553
 
-Chance to roll at least t# sucesses on defense when rolling d# dice and ❗ counts as 3 successes
+Chance to roll at least t# sucesses on defense when rolling d# dice and ❗ counts as 3 successes.
 
 |  |  t1 |  t2 |  t3 | t4 | t5 | t6
 ---|---|---|---|---|---|---
@@ -49,6 +49,19 @@ D5  | .868 | .539 | .201 | .045 | .004 | 0
 D6  | .912 | .649 | .320 | .100 | .018 | .001 
 
 
+
+
+
+Chance that an attacker rolling AD# dice rolls strictly more successes than a defender rolling DD# dice. ❗ counts as 3 successes for either.
+
+|  | DD1 | DD2 | DD3 | DD4 | DD5 | DD6 
+---|---|---|---|---|---|---
+| AD1 | .389 | .241 | .153 | .097 | .061 | .038 | 
+| AD2 | .662 | .477 | .339 | .238 | .165 | .113 | 
+| AD3 | .808 | .651 | .509 | .389 | .291 | .215 | 
+| AD4 | .891 | .773 | .648 | .529 | .422 | .330 | 
+| AD5 | .940 | .857 | .757 | .650 | .546 | .448 | 
+| AD6 | .969 | .913 | .837 | .749 | .654 | .560 | 
 
 
 
