@@ -33,7 +33,8 @@ This is a tweaked version of [these rules.](https://geekorthodoxy.com/downloads/
     2. Place Manuever Template
     3. Roll Skid Dice (up to handling score)
         - Optionally **Push It**: reroll dice and gain +1 Hazard
-    4. Apply Results
+    4. Apply Shifts results
+    5. Gain Hazard from other results
     5. Resolve Slide
     6. Move Kart (check for collisions)
     7. Resolve Spin (up to 90°)
