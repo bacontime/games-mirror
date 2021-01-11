@@ -51,7 +51,7 @@ In Continental Rummy, players can buy the top discard at any time but taking ext
 ## Some Interesting Phases
 
 - Any two 5-card poker hands
-- # cards the same color
+- /# cards the same color
 - Runs
 - Sets
 - RUn of sets
