@@ -3,7 +3,7 @@ title: Kickball
 parent: Climbing Games
 ---
 
-# Hearts
+# Kickball
 
 *Symetric Do Dizhu.*
 
