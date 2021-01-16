@@ -34,5 +34,6 @@ nav_order: 1
 - Some games play with an extra set pattern called the Kong, which is a quadruplet of identical tiles. After claiming the discard to complete a Kong, draw one extra tile on your turn before discarding.
 - If playing wih flower tiles, you may flip them and draw an extra tile as replacement.
 - With fewer than 4 players, place a ghost player in between each actual player. The ghost simply draws and discards a random tile whenever they take a turn, and never claims a discarded tile.
+- [Here](http://www.zj-mahjong.info/book_en/App%20C%20-%20Mahjong%20Rules.html) is another well-written explanation of the game.
 
 
