@@ -11,7 +11,7 @@
         - -?: Awaken a GOO. *(-? power)*
         - -1: Move a unit. *(-1 power)*
         - -1: Start a battle. *(-1 power)*
-        - -1: Capture a dude. *(-1 power)*
+        - -1: Capture an unprotected dude. *(-1 power)*
     - Freely move your dudes on or off Gates.
     - If you've accomplished all 6 of your goals, you can start as many battles as you want on your turn, but only one per area on the board.
 2. **Gather Power Phase:**
