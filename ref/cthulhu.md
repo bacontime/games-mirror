@@ -1,3 +1,9 @@
+---
+title: Cthulhu Wars
+parent: Rules References
+---
+
+
 ### Cthulhu Wars Reference
 
 
