@@ -24,6 +24,7 @@
 3. **Determine First Player**
     - Give first player token to the player with the most power.
         - Tiebreaker is previous round's First Player.  
+        - (Before the game begins, choose starting player randomly, but Cthulhu player gets dibs.)
     - That player decides whether the round goes clockwise or widdershins.
 4. **Doom Phase:** (Doom is points.)
     - Each player gains 1 ~~point~~ Doom for each Gate they control.
@@ -63,6 +64,8 @@ Among the players who have done so, then the one with the most ~~points~~ Doom w
 
 
 --- 
+
+See also the https://necronomicon.app/ for the game.
 
 
 [Cthulhu Wars](https://petersengames.com/cthulhu-wars/) is a game by Sandy Peterson
