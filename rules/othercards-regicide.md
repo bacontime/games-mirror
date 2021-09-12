@@ -73,11 +73,10 @@ Players
     1. Deal *X* damage to the Royal.
         - If the Royal's health < 0, then place the Royal in the discard pile.
         - If the Royal's health = 0, then place the Royal on top of the Tavern deck.
-    3. Flip over the next Royal.
-    4. Wipe the table clean.
+    3. Flip over the next Royal, and discard all cards on the table.
     5. The current player immediately starts a new turn.
 4. **Suffer damage by discarding cards.**
-    - The current player discards cards until the total value of the discarded cards meets or exceeds the Royal's attack power.
+    - Discard cards until the total value of the discarded cards meets or exceeds the Royal's attack power.
     - If the current player runs out, then the next player has to start discarding cards.
     - If all the players run out of cards, then they lose.
 
