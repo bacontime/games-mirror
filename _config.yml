@@ -1,5 +1,5 @@
 title: "Game Rules"
-remote_theme: pmarsceill/just-the-docs
+remote_theme: RMWinslow/just-the-docs-tweaked
 search_enabled: true
 
 color_scheme: solarized
@@ -12,6 +12,6 @@ compress_html:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
-
-  
