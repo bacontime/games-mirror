@@ -51,7 +51,6 @@ Players
     - Play a matching set of low valued cards. *X* = the total sum of those cards.
         - The cards must be the same rank.
         - Their sum must be no greater than 10.
-        - Examples: a pair of 5s (10 atk), a triplet of 3s (9 atk), a quartet of 2s (8 atk).
     - Play an Ace along with any other non-joker card. The Ace adds +1 to the other card's *X*.
     - Play a joker:
         - The current Royal's immunity is cancelled. 
@@ -59,7 +58,7 @@ Players
         - Choose which player takes the next turn.
     - Or yield. *X* = 0. 
         - The rest of the turn still happens.
-2. **Activate the Suit Power of the cards played.**
+2. **Activate the Suit Powers of the cards played.**
     - If you played multiple cards, then activate the power of each played suit.
     - <b><span style="color:red">♥</span></b> Hearts: Refill the deck.
         1. Shuffle the discard pile.
@@ -71,20 +70,17 @@ Players
         - The current Royal's attack is permanently reduced by *X*.
     - <b><span style="color:green">♣</span></b> Clubs: Double damage towards beating the royal.
 3. **Check if the Royal is Defeated.** 
-    - If the total attack value is > the Royal's health, then place the Royal in the discard pile.
-    - If the total attack value = the Royal's health, then place the Royal on top of the Tavern deck.
-    - Flip over the next Royal.
-    - Wipe the table clean.
-    - The current player immediately starts a new turn.
+    1. Deal *X* damage to the Royal.
+        - If the Royal's health < 0, then place the Royal in the discard pile.
+        - If the Royal's health = 0, then place the Royal on top of the Tavern deck.
+    3. Flip over the next Royal.
+    4. Wipe the table clean.
+    5. The current player immediately starts a new turn.
 4. **Suffer damage by discarding cards.**
-    - Look at the Royal's attack power.
-        - (Reduce it according to the Shields that have been played.)
-    - The current player discards cards until the total attack value of the discarded cards meets or exceeds the Royal's attack power.
+    - The current player discards cards until the total value of the discarded cards meets or exceeds the Royal's attack power.
     - If the current player runs out, then the next player has to start discarding cards.
     - If all the players run out of cards, then they lose.
 
 ---
-
- is ranked highest, followed by  ,   , and then  . 
 
 [Regicide](https://www.badgersfrommars.com/regicide), by Paul Abrahams, Luke Badger, and Andy Richdale
