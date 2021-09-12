@@ -16,13 +16,12 @@ Players
 | 3 | 1 | 6 |
 | 4 | 2 | 5 |
 
+
 ## Setup
 
 - Build the *Castle Deck*:
-    1. Shuffle the 4 Kings
-    2. Shuffle the 4 Queens and put them on top of the Kings
-    3. Shuffle the 4 Jacks and put them on top of the Queens
-    4. Flip the top card.
+    - Shuffled Jacks, on top of shuffled Queens, on top of Shuffled Kings.
+    - Flip the top card.
 - Shuffle all the non-face cards together into the *Tavern Deck*
     - Everyone draws up to maximum hand size.
     - (Mulligan if you don't have any diamonds.)
@@ -39,41 +38,38 @@ Players
 
 - A Royal is "immune" to their own suit. 
     - Those cards can still be used to attack, 
-    - but their suit abilities don't activate while a matching Royal is active.
+    - but suit abilities don't activate while a matching Royal is active.
+    - Jokers cancel immunity.
 
 
 
 ## Each Turn:
 
-1. **Play a card or cards onto the table.** Do one of the following and determine your *attack value*.
-    - Play a single card. Your attack value is the rank of that card.
-        - Aces count as 1.
+1. **Play a card or cards onto the table.** Do one of the following and determine *X*.
+    - Play a single card. *X* = the rank of that card.
         - Jacks count as 10, Queens as 15, Kings as 20.
-    - Play a matching set of low valued cards. Your attack value is the total sum of those cards.
+    - Play a matching set of low valued cards. *X* = the total sum of those cards.
         - The cards must be the same rank.
         - Their sum must be no greater than 10.
-        - Examples: a pair of 5s, a triplet of 3s, a quartet of 2s.
-    - Play an Ace along with any other non-joker card. Your attack value is 1 + the attack value of the second card.
+        - Examples: a pair of 5s (10 atk), a triplet of 3s (9 atk), a quartet of 2s (8 atk).
+    - Play an Ace along with any other non-joker card. The Ace adds +1 to the other card's *X*.
     - Play a joker:
         - The current Royal's immunity is cancelled. 
         - Skip the rest of the turn (The Royal doesn't get to attack.)
         - Choose which player takes the next turn.
-    - Or yield. Your attack value is 0. 
+    - Or yield. *X* = 0. 
         - The rest of the turn still happens.
 2. **Activate the Suit Power of the cards played.**
     - If you played multiple cards, then activate the power of each played suit.
-    - Hearts: Refill the deck.
-        - Shuffle the discard pile.
-        - Draw [attack power] cards at random from the discard pile.
-        - Put those cards on the bottom of the Tavern Deck (without looking at them).
-    - Diamonds: Draw cards.
-        - Starting with the current player, go around in clockwise order drawing cards.
-        - If a player is at max hand size, then skip their draw.
-        - Keep going until a total of [attack power] cards have been drawn or all players have full hands.
-    - Clubs: Shield.
-        - The Royal's attack is reduced by [attack power].
-        - This persists until the current royal is defeated.
-    - Spades: Double the current attack's attack power.
+    - <b><span style="color:red">♥</span></b> Hearts: Refill the deck.
+        1. Shuffle the discard pile.
+        2. Draw *X* cards at random from the discard pile.
+        3. Put those cards on the bottom of the Tavern Deck (without looking at them).
+    - <b><span style="color:blue">♦</span></b> Diamonds: Draw cards.
+        - Starting with the current player, go around in clockwise order drawing cards until *X* cards have been drawn or hands are full.
+    - <b><span style="color:black">♠</span></b> Spades: Shield.
+        - The current Royal's attack is permanently reduced by *X*.
+    - <b><span style="color:green">♣</span></b> Clubs: Double damage towards beating the royal.
 3. **Check if the Royal is Defeated.** 
     - If the total attack value is > the Royal's health, then place the Royal in the discard pile.
     - If the total attack value = the Royal's health, then place the Royal on top of the Tavern deck.
@@ -88,5 +84,7 @@ Players
     - If all the players run out of cards, then they lose.
 
 ---
+
+ is ranked highest, followed by  ,   , and then  . 
 
 [Regicide](https://www.badgersfrommars.com/regicide), by Paul Abrahams, Luke Badger, and Andy Richdale
