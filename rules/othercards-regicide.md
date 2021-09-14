@@ -82,4 +82,13 @@ Players
 
 ---
 
+## Single Player Variant
+
+8-card max hand size, 0 jokers in deck. 
+Twice per game, you can discard your hand to refill back to 8 cards.
+
+
+
+---
+
 [Regicide](https://www.badgersfrommars.com/regicide), by Paul Abrahams, Luke Badger, and Andy Richdale
