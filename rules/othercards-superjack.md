@@ -1,6 +1,6 @@
 ---
 title: Superjack
-parent: Other Card Games
+parent: NULL
 nav_exclude: true
 ---
 
