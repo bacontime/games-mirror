@@ -1,10 +1,9 @@
 ---
 title: Honey Heist
 parent: Micro RPGs
+layout: post
 has_children: true
 ---
-
-# Honey Heist
 
 It’s HoneyCon 2018 . You are about to undertake The Greatest Heist
 the World Has Ever Seen. Two things:  
