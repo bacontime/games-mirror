@@ -1,5 +1,6 @@
 ---
 title: Game Rules and Tools
+nav_exclude: true
 ---
 
 This subsite contains abridged game rules, mostly for card games. 
