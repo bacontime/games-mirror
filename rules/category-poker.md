@@ -4,7 +4,7 @@ has_children: true
 nav_order: 2
 ---
 
-# Poker Hands
+# Poker Hand Rankings
 
 <style>
     .bigCard {
@@ -14,55 +14,55 @@ nav_order: 2
 </style>
 
 <table style="">
-    <tr><td><h3>5 of a Kind</h3></td><td>
+    <tr><td><span>5 of a Kind</span></td><td>
         <img class="bigCard" src="imgs/cardA.svg">
         <img class="bigCard" src="imgs/cardA.svg">
         <img class="bigCard" src="imgs/cardA.svg">
         <img class="bigCard" src="imgs/cardA.svg">
         <img class="bigCard" src="imgs/cardA.svg"></td></tr>
-    <tr><td><h3>Straight Flush</h3></td><td>
+    <tr><td><span>Straight Flush</span></td><td>
         <img class="bigCard" src="imgs/9C.svg">
         <img class="bigCard" src="imgs/8C.svg">
         <img class="bigCard" src="imgs/7C.svg">
         <img class="bigCard" src="imgs/6C.svg">
         <img class="bigCard" src="imgs/5C.svg"></td></tr>
-    <tr><td><h3>4 of a Kind</h3></td><td>
+    <tr><td><span>4 of a Kind</span></td><td>
         <img class="bigCard" src="imgs/cardK.svg">
         <img class="bigCard" src="imgs/cardK.svg">
         <img class="bigCard" src="imgs/cardK.svg">
         <img class="bigCard" src="imgs/cardK.svg">
         <img class="bigCard" src="imgs/cardBlank.svg"></td></tr>
-    <tr><td><h3>Full House</h3></td><td>
+    <tr><td><span>Full House</span></td><td>
         <img class="bigCard" src="imgs/card3.svg">
         <img class="bigCard" src="imgs/card3.svg">
         <img class="bigCard" src="imgs/card3.svg">
         <img class="bigCard" src="imgs/card8.svg">
         <img class="bigCard" src="imgs/card8.svg"></td></tr>
-    <tr><td><h3>Flush</h3></td><td>
+    <tr><td><span>Flush</span></td><td>
         <img class="bigCard" src="imgs/D.svg">
         <img class="bigCard" src="imgs/D.svg">
         <img class="bigCard" src="imgs/D.svg">
         <img class="bigCard" src="imgs/D.svg">
         <img class="bigCard" src="imgs/D.svg"></td></tr>
-    <tr><td><h3>Straight</h3></td><td>
+    <tr><td><span>Straight</span></td><td>
         <img class="bigCard" src="imgs/card6.svg">
         <img class="bigCard" src="imgs/card5.svg">
         <img class="bigCard" src="imgs/card4.svg">
         <img class="bigCard" src="imgs/card3.svg">
         <img class="bigCard" src="imgs/card2.svg"></td></tr>
-    <tr><td><h3>3 of a Kind</h3></td><td>
+    <tr><td><span>3 of a Kind</span></td><td>
         <img class="bigCard" src="imgs/card8.svg">
         <img class="bigCard" src="imgs/card8.svg">
         <img class="bigCard" src="imgs/card8.svg">
         <img class="bigCard" src="imgs/cardBlank.svg">
         <img class="bigCard" src="imgs/cardBlank.svg"></td></tr>
-    <tr><td><h3>Two Pair</h3></td><td>
+    <tr><td><span>Two Pair</span></td><td>
         <img class="bigCard" src="imgs/cardQ.svg">
         <img class="bigCard" src="imgs/cardQ.svg">
         <img class="bigCard" src="imgs/card10.svg">
         <img class="bigCard" src="imgs/card10.svg">
         <img class="bigCard" src="imgs/cardBlank.svg"></td></tr>
-    <tr><td><h3>One Pair</h3></td><td>
+    <tr><td><span>One Pair</span></td><td>
         <img class="bigCard" src="imgs/cardA.svg">
         <img class="bigCard" src="imgs/cardA.svg">
         <img class="bigCard" src="imgs/cardBlank.svg">
@@ -100,7 +100,8 @@ tiebreakerList = [
     "the player with the cleanest hands",
     "the first player to slap the table",
     "chosen randomly",
-    "chosen via vote",
+    "chosen via popular vote",
+    "chosen via electoral college",
     "chosen by Mom",
     "determined via bake-off",
     "determined via cash auction",
