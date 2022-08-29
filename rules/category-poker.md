@@ -8,7 +8,7 @@ nav_order: 2
 
 <style>
     .bigCard {
-        width: 17%; 
+        width: 60px; 
         vertical-align: text-bottom;
         }
 </style>
@@ -83,13 +83,11 @@ To break ties between hands:
 
 - Look at the ranks of the cards that count towards the hand.
 - Look at the rank of other cards in the hole.
-- Compare the suits.
+- Compare the suits. <b><span style="color:black">♠</span></b> is ranked highest, followed by  <b><span style="color:red">♥</span></b>,  <b><span style="color:blue">♦</span></b> , and then  <b><span style="color:green">♣</span></b>. (Reverse of alphabetical order: SHDC)
 
-
-<p>When comparing two exactly identical hands, <b><span style="color:black">♠</span></b> is ranked highest, followed by  <b><span style="color:red">♥</span></b>,  <b><span style="color:blue">♦</span></b> , and then  <b><span style="color:green">♣</span></b>. Reverse of alphabetical order: SHDC.</p>
 
 With two exactly identical hands, the winner is <span id="tiebreaker"></span>.
-
+<!-- onclick="drawTiebreaker();"-->
 
 <script>
 function rD(i){return i[Math.floor(Math.random()*i.length)];} //draw a random item from a list.
@@ -115,6 +113,9 @@ tiebreakerList = [
     "determined via a match of The Campaign for North Africa",
     "you personally — the person reading this — even if you aren't one of the players",
 ]
-document.getElementById("tiebreaker").innerHTML = rD(tiebreakerList);
+function drawTiebreaker() {
+    document.getElementById("tiebreaker").innerHTML = rD(tiebreakerList);
+}
+drawTiebreaker();
 </script>
 
