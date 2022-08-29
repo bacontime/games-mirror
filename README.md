@@ -1,6 +1,6 @@
-
-
-## Game Rules and Tools
+---
+title: Game Rules and Tools
+---
 
 This subsite contains abridged game rules, mostly for card games. 
 
@@ -12,4 +12,3 @@ Sometimes I just want some bullet points reminding me how to count the score.
 
 Additionally, this site is not a general reference for all card games.
 It contains only the rules for games that I personally have played.
-
