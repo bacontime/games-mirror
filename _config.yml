@@ -1,17 +1,14 @@
-title: "Game Rules"
+title: Game Rules
+author: Robert Winslow
 remote_theme: RMWinslow/just-the-docs-tweaked
 search_enabled: true
-
-color_scheme: solarized
-
-gh_edit_link: false  # show or hide edit this page link
+page_excerpts: true
+gh_edit_link: false
 
 compress_html:
   ignore:
     envs: all
 
+
 plugins:
   - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-
