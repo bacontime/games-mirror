@@ -2,6 +2,7 @@
 title: Pool Wagering
 parent: Micro RPGs
 has_children: false
+nav_exclude: true
 ---
 
 # Pool Betting Mechanic

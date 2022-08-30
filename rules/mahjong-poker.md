@@ -1,11 +1,13 @@
 ---
 title: Mahjong Poker
 parent: Mahjong Set Games
+has_children: true
 ---
 
 # Playing Poker Games with a Mahjong Set
 
-You can substitute a poker deck for a mahjong set 
+In theory, 
+you can substitute a poker deck for a mahjong set 
 and still use [standard poker hands](category-poker):
 
 - Remove the flowers and seasons
@@ -27,7 +29,7 @@ Although the probabilities of each hand will be different,
 The *probability ranking* will be the same. 
 4-of-a-kind will be more rare than full house etc.
 
-[Here's a table](mahjong-poker-odds) comparing the probability of each poker hand
+[Here's a table](mahjong-poker-odds) comparing the probability of each poker hand.
 
 ---
 

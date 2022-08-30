@@ -1,6 +1,7 @@
 ---
 title: Gaslands
 parent: Rules References
+nav_exclude: true
 ---
 
 ### Shift Dice

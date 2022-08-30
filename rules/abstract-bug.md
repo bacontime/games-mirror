@@ -1,6 +1,7 @@
 ---
 title: Bug
 parent: Abstract Games
+nav_exclude: true
 ---
 
 

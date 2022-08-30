@@ -2,7 +2,7 @@
 title: Lasers & Feelings
 layout: post
 parent: Micro RPGs
-has_children: true
+has_children: false
 ---
 
 You are the crew of the interstellar scout ship **RAPTOR**. Your mission is to explore

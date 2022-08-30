@@ -1,6 +1,7 @@
 ---
 title: Ayu
 parent: Abstract Games
+nav_exclude: true
 ---
 
 

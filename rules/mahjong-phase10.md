@@ -1,6 +1,7 @@
 ---
 title: Phase Shí
 parent: Mahjong Set Games
+nav_exclude: true
 ---
 # Phase 10 but with Mahjong Tiles
 

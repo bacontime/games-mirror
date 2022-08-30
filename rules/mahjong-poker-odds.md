@@ -1,6 +1,7 @@
 ---
 title: Odds Comparison
 parent: Mahjong Poker
+grandparent: Mahjong Set Games
 nav_exclude: true
 ---
 

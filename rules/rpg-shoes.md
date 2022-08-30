@@ -1,6 +1,7 @@
 ---
 title: Roll for Shoes
 parent: Micro RPGs
+nav_exclude: true
 ---
 
 <!DOCTYPE html>

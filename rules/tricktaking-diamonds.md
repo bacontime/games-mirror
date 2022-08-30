@@ -1,6 +1,7 @@
 ---
 title: Diamonds
 parent: Trick-taking Games
+nav_exclude: true
 ---
 
 # Diamonds
