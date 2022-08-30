@@ -51,10 +51,6 @@ Depth bias: <input id="depthBiasSlider" type="range" min="0" max="100" value="10
 
 ## Random Pages from the Superpower Wiki
 
-The following links open in a new tab.
-
-<a href="https://powerlisting.fandom.com/wiki/Special:Random/main" target="_blank" rel="noopener noreferrer">Random Superpower</a>
-
-<a href="https://powerlisting.fandom.com/wiki/Special:Random/Archetype" target="_blank" rel="noopener noreferrer">Random Archetype</a>
-
-<a href="https://powerlisting.fandom.com/wiki/Special:Random/Trait" target="_blank" rel="noopener noreferrer">Random Trait</a>
+- [Random Superpower](https://powerlisting.fandom.com/wiki/Special:Random/main)
+- [Random Archetype](https://powerlisting.fandom.com/wiki/Special:Random/Archetype)
+- [Random Trait](https://powerlisting.fandom.com/wiki/Special:Random/Trait)
