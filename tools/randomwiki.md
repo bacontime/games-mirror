@@ -11,9 +11,9 @@ layout: post
 
 ### Wikipedia's Special:Random
 
-<a href="https://en.wikipedia.org/wiki/Special:Random" style="font-size:x-large;">Random English Wikipedia Article</a>
+<a href="https://en.wikipedia.org/wiki/Special:Random">Random English Wikipedia Article</a>
 
-<a href="https://simple.wikipedia.org/wiki/Special:Random" style="font-size:x-large;">Random Simple English Wikipedia Article</a>
+<a href="https://simple.wikipedia.org/wiki/Special:Random">Random Simple English Wikipedia Article</a>
 
 
 
@@ -26,7 +26,10 @@ My little widget below does recurse.
 If it selects a subcategory, will enter that subcategory and then draw one of *its* members,
 and so on.
 
-Here is [a list of high-level Wikipedia categories](https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories).
+Here is [a list of high-level Wikipedia categories](https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories) for reference.
+
+
+------------------
 
 <form id="categorySelectionForm">
 <input placeholder="Type the name of a Wikipedia Category." value="Physical_objects" type="search" id="categoryInput" autofocus />
@@ -44,7 +47,7 @@ Depth bias: <input id="depthBiasSlider" type="range" min="0" max="100" value="10
 <script src="./randomWikipedia.js"></script>
 
 
-------------
+------------------
 
 ## Random Pages from the Superpower Wiki
 
