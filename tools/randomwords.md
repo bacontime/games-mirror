@@ -1,5 +1,6 @@
 ---
 title: Random Word Generator
+parent: tools
 ---
 
 # Random Word Generator

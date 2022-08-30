@@ -1,0 +1,138 @@
+
+<!--Widget based on this tutorial: https://freshman.tech/wikipedia-javascript/
+
+Modified to:
+1. Look at a wikipedia category page; identify its pages and subcategories.
+2. Choose a random subcategory or page in that category 
+    - If a page is chosen, show the user a link to that page. We're done.
+    - If a subcategory is chosen, draw a random child of that category, and continue.
+
+This does mean that pages closer to the root are more likely to be chosen.
+Whether that's a bug or a feature depends on your perspective.
+-->
+
+<form id="categorySelectionForm">
+<input placeholder="Type the name of a Wikipedia Category." value="Physical_objects" type="search" id="categoryInput" autofocus />
+<button id="randomArticleButton">Click to get an article from this category.</button>
+</form>
+
+<style>
+    #wikiDiveResults a {font-size: small;}
+    #wikiDiveResults a:last-child {font-size: x-large;}
+</style>
+<div id="wikiDiveResults"></div>
+
+  
+<script>
+
+async function drawMemberFromWikipediaCategory(categoryName) {
+    /**
+    Talks to Wikipedia to get a random category member.
+    This is drawn uniformly from both subcategories and 
+    from pages which are directly included in the category.
+
+    API Weirdness
+    -------------
+    origin=* : Tell wikipedia to treat us like a non-logged-in user.
+    format=json : defines format I want the results in
+    action=query and prop=info : Tells wikipedia we are asking for basic information about the page
+    list=categorymembers : This is what we are specifically asking for.
+    cmtitle=${categoryName} : And here is where we plug in the title we want to query.
+
+    Parameters
+    ----------
+    categoryName : string
+        Category to pull the members from. Must include `Category:` prefix. EG "Category:Objects".
+
+    Returns
+    -------
+    page: dict
+        A dictionary containing the information for the randomly selected category member.
+        "ns" is namespace. 14 for a category, 0 for an actual article.
+        "title" is self explanatory. EG 'Category:Lost objects' or 'Bread'
+        "pageid" is ... I think a unique identifier. I dunno. I'm not using it.
+    */
+    const endpoint = `https://en.wikipedia.org/w/api.php?origin=*&format=json&action=query&prop=info&list=categorymembers&cmtitle=${categoryName}`;
+    const response = await fetch(endpoint);
+    if (!response.ok) {
+        throw Error(response.statusText);
+    }
+    const json = await response.json();
+    memberList = json.query.categorymembers;
+    /*Now choose a random member*/
+    member = memberList[Math.floor(Math.random()*memberList.length)]
+    return member;
+}
+
+
+async function diveIntoWikipediaCategory(categoryName) {
+    /**
+    This function repeatedly selects random members from wikipedia categories.
+    It continues crawling bewteen categories until a page is selected.
+    Then it returns a list of the places it's been.
+
+    Parameters
+    ----------
+    categoryName : string
+        Top level category to start the search at. 
+        Must include `Category:` prefix. EG "Category:Objects".
+
+    Returns
+    -------
+    breadcrumbs: list
+        A list containing the titles of all of the categories and pages that were seen during the dive.
+        The last item in the list contains the title of the actual article.
+    */
+    breadcrumbs = Array(0);
+    console.log(breadcrumbs)
+
+    do {
+        breadcrumbs.push(categoryName);
+        randomMember = await drawMemberFromWikipediaCategory(categoryName);
+        console.log(categoryName);
+        categoryName = randomMember.title;
+        namespace = randomMember.ns;
+    } while (namespace == 14)
+    
+    breadcrumbs.push(categoryName); // The final category is the article we found.
+    return breadcrumbs
+}
+
+function displayDiveResults(breadcrumbs) {
+    htmlSnippet = "";
+    console.log(breadcrumbs)
+    breadcrumbs.forEach(
+        element => htmlSnippet += `<br><a href="https://en.wikipedia.org/wiki/${element}">${element}</a>\n`
+    );
+    document.getElementById("wikiDiveResults").innerHTML = htmlSnippet;
+    return breadcrumbs[breadcrumbs.length - 1];
+}
+
+
+
+async function readInputsAndFindArticle(){
+    /*categoryInput = document.getElementById('categoryInput').value;
+    console.log(categoryInput);*/
+    diveResults = await diveIntoWikipediaCategory("Category:Objects");
+    /*displayDiveResults(breadcrumbs);*/
+}
+
+async function handleSubmit(event) {
+    event.preventDefault(); // prevent page from reloading when form is submitted
+    categoryInput = document.getElementById('categoryInput').value;
+    if (! categoryInput.startsWith("Category:")){
+        categoryInput = "Category:"+categoryInput;
+    }
+    diveResults = await diveIntoWikipediaCategory(categoryInput);
+    displayDiveResults(diveResults);
+    console.log(diveResults);
+}
+
+const form = document.getElementById("categorySelectionForm");
+form.addEventListener('submit', handleSubmit);
+
+
+/*onst form = document.getElementById("categorySelectionForm");
+#form.addEventListener('submit', readInputsAndFindArticle());*/
+
+</script>
