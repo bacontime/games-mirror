@@ -1,4 +1,6 @@
-
+// TODO: convert crawling to run based on ids
+// Category:Dungeons_&_Dragons_magic_items gummed things up.
+// TODO: Mabye display categories as they are crawled to?
 async function drawMemberFromWikipediaCategory(categoryName, depthBias=0 ) {
     /**
     Talks to Wikipedia to get a random category member.
