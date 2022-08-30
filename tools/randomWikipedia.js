@@ -117,12 +117,18 @@ async function handleSubmit(event) {
     }
 
     depthBiasInput =  document.getElementById('depthBiasSlider').value;
+
+    try {
+        diveResults = await diveIntoWikipediaCategory(categoryInput, depthBias=depthBiasInput);
+        displayDiveResults(diveResults);
+        console.log(diveResults);
+      } catch (error) {
+        console.error(error);
+        document.getElementById("wikiDiveResults").innerHTML = `Woops, that didn't work. Perhaps "${categoryInput}" isn't an actual category on Wikipedia.`;
+        document.getElementById("articleExcerptHolder").innerHTML = ``;
+      }
     
-    console.log()
-    diveResults = await diveIntoWikipediaCategory(categoryInput, depthBias=depthBiasInput);
-    
-    displayDiveResults(diveResults);
-    console.log(diveResults);
+
 }
 
 const form = document.getElementById("categorySelectionForm");
