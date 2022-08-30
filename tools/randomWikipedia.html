@@ -22,6 +22,7 @@ Depth bias: <input id="depthBiasSlider" type="range" min="0" max="100" value="10
     #wikiDiveResults a:last-child {font-size: x-large;}
 </style>
 <div id="wikiDiveResults"></div>
+<div id="articleExcerptHolder"></div>
 
   
 <script>
@@ -107,23 +108,31 @@ async function diveIntoWikipediaCategory(categoryName,  depthBias=0) {
     return breadcrumbs
 }
 
-function displayDiveResults(breadcrumbs) {
+async function grabPlaintextExcerpt(title){
+    const endpoint = `https://en.wikipedia.org/w/api.php?origin=*&format=json&action=query&prop=extracts&exintro&explaintext&indexpageids&redirects=1&titles=${title}`;
+    //api call copied from https://stackoverflow.com/questions/8555320/is-there-a-wikipedia-api-just-for-retrieve-the-content-summary
+    const response = await fetch(endpoint);
+    if (!response.ok) {throw Error(response.statusText);}
+    const json = await response.json();
+    // Turns out I actually *do* need to use the pageid paramater.
+    pageid = json.query.pageids[0];
+    pageExtract = json.query.pages[pageid].extract;
+    return pageExtract;
+}
+
+
+async function displayDiveResults(breadcrumbs) {
     htmlSnippet = "";
     console.log(breadcrumbs)
     breadcrumbs.forEach(
         element => htmlSnippet += `<a href="https://en.wikipedia.org/wiki/${element}">${element}</a>\n`
     );
     document.getElementById("wikiDiveResults").innerHTML = htmlSnippet;
-    return breadcrumbs[breadcrumbs.length - 1];
-}
-
-
-
-async function readInputsAndFindArticle(){
-    /*categoryInput = document.getElementById('categoryInput').value;
-    console.log(categoryInput);*/
-    diveResults = await diveIntoWikipediaCategory("Category:Objects");
-    /*displayDiveResults(breadcrumbs);*/
+    articleTitle = breadcrumbs[breadcrumbs.length - 1];
+    articleExcerpt = await grabPlaintextExcerpt(articleTitle);
+    document.getElementById("articleExcerptHolder").innerHTML = `<blockquote>${articleExcerpt}</blockquote>`;
+    //`<iframe src="https://m.wikipedia.org/wiki/${articleTitle}" width="100%"></iframe>`
+    
 }
 
 async function handleSubmit(event) {
@@ -145,9 +154,5 @@ async function handleSubmit(event) {
 
 const form = document.getElementById("categorySelectionForm");
 form.addEventListener('submit', handleSubmit);
-
-
-/*onst form = document.getElementById("categorySelectionForm");
-#form.addEventListener('submit', readInputsAndFindArticle());*/
 
 </script>
