@@ -12,6 +12,7 @@ async function drawMemberFromWikipediaCategory(categoryName, depthBias=0 ) {
     action=query and prop=info : Tells wikipedia we are asking for basic information about the page
     list=categorymembers : This is what we are specifically asking for.
     cmtitle=${categoryName} : And here is where we plug in the title we want to query.
+    cmlimit=5000 : the cap on the number of distinct members we want to see. (default is only 10?)
 
     Parameters
     ----------
@@ -28,7 +29,7 @@ async function drawMemberFromWikipediaCategory(categoryName, depthBias=0 ) {
         "title" is self explanatory. EG 'Category:Lost objects' or 'Bread'
         "pageid" is ... I think a unique identifier. I dunno. I'm not using it.
     */
-    const endpoint = `https://en.wikipedia.org/w/api.php?origin=*&format=json&action=query&prop=info&list=categorymembers&cmtitle=${categoryName}`;
+    const endpoint = `https://en.wikipedia.org/w/api.php?origin=*&format=json&action=query&prop=info&list=categorymembers&cmlimit=5000&cmtitle=${categoryName}`;
     const response = await fetch(endpoint);
     if (!response.ok) {
         throw Error(response.statusText);

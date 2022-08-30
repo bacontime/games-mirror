@@ -34,7 +34,7 @@ Here is [a list of high-level Wikipedia categories](https://en.wikipedia.org/wik
 <form id="categorySelectionForm">
 <input placeholder="Type the name of a Wikipedia Category." value="Physical_objects" type="search" id="categoryInput" autofocus />
 <button id="randomArticleButton">Click to get an article from this category.</button><br>
-Depth bias: <input id="depthBiasSlider" type="range" min="0" max="100" value="10">
+Depth bias: <input id="depthBiasSlider" type="range" min="0" max="20" value="5">
 </form>
 
 <style>
