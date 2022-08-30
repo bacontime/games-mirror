@@ -13,7 +13,7 @@ layout: post
     function adjustIframeHeight(){
         var frame = document.getElementById("randomFromCategoryIframe");
         frameContentHeight =  frame.contentWindow.document.body.scrollHeight;
-        frameHeight = Math.max(200,frameContentHeight)
+        frameHeight = Math.max(350,frameContentHeight)
         frame.style.height = frameHeight + 'px';
     }
 </script>

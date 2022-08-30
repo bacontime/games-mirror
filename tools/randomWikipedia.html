@@ -13,11 +13,12 @@ Whether that's a bug or a feature depends on your perspective.
 
 <form id="categorySelectionForm">
 <input placeholder="Type the name of a Wikipedia Category." value="Physical_objects" type="search" id="categoryInput" autofocus />
-<button id="randomArticleButton">Click to get an article from this category.</button>
+<button id="randomArticleButton">Click to get an article from this category.</button><br>
+Depth bias: <input id="depthBiasSlider" type="range" min="0" max="100" value="10">
 </form>
 
 <style>
-    #wikiDiveResults a {font-size: small;}
+    #wikiDiveResults a {font-size: small; display:block;}
     #wikiDiveResults a:last-child {font-size: x-large;}
 </style>
 <div id="wikiDiveResults"></div>
@@ -25,7 +26,7 @@ Whether that's a bug or a feature depends on your perspective.
   
 <script>
 
-async function drawMemberFromWikipediaCategory(categoryName) {
+async function drawMemberFromWikipediaCategory(categoryName, depthBias=0 ) {
     /**
     Talks to Wikipedia to get a random category member.
     This is drawn uniformly from both subcategories and 
@@ -43,6 +44,8 @@ async function drawMemberFromWikipediaCategory(categoryName) {
     ----------
     categoryName : string
         Category to pull the members from. Must include `Category:` prefix. EG "Category:Objects".
+    depthBias : int
+        Redraw this many times when running into an article. A simple way of reducing the frequency of top-level articles.
 
     Returns
     -------
@@ -60,12 +63,20 @@ async function drawMemberFromWikipediaCategory(categoryName) {
     const json = await response.json();
     memberList = json.query.categorymembers;
     /*Now choose a random member*/
-    member = memberList[Math.floor(Math.random()*memberList.length)]
+    member = memberList[Math.floor(Math.random()*memberList.length)];
+
+    while (depthBias > 0 && member.ns == 0){
+        // If depth bias is set to X, redraw the first X articles we get.
+        console.log("redrawing "+member.title);
+        member = memberList[Math.floor(Math.random()*memberList.length)];
+        depthBias -= 1;
+    }
+
     return member;
 }
 
 
-async function diveIntoWikipediaCategory(categoryName) {
+async function diveIntoWikipediaCategory(categoryName,  depthBias=0) {
     /**
     This function repeatedly selects random members from wikipedia categories.
     It continues crawling bewteen categories until a page is selected.
@@ -84,14 +95,12 @@ async function diveIntoWikipediaCategory(categoryName) {
         The last item in the list contains the title of the actual article.
     */
     breadcrumbs = Array(0);
-    console.log(breadcrumbs)
-
     do {
         breadcrumbs.push(categoryName);
-        randomMember = await drawMemberFromWikipediaCategory(categoryName);
-        console.log(categoryName);
+        randomMember = await drawMemberFromWikipediaCategory(categoryName, depthBias=depthBias);
         categoryName = randomMember.title;
         namespace = randomMember.ns;
+        console.log(categoryName);
     } while (namespace == 14)
     
     breadcrumbs.push(categoryName); // The final category is the article we found.
@@ -102,7 +111,7 @@ function displayDiveResults(breadcrumbs) {
     htmlSnippet = "";
     console.log(breadcrumbs)
     breadcrumbs.forEach(
-        element => htmlSnippet += `<br><a href="https://en.wikipedia.org/wiki/${element}">${element}</a>\n`
+        element => htmlSnippet += `<a href="https://en.wikipedia.org/wiki/${element}">${element}</a>\n`
     );
     document.getElementById("wikiDiveResults").innerHTML = htmlSnippet;
     return breadcrumbs[breadcrumbs.length - 1];
@@ -119,11 +128,17 @@ async function readInputsAndFindArticle(){
 
 async function handleSubmit(event) {
     event.preventDefault(); // prevent page from reloading when form is submitted
+    
     categoryInput = document.getElementById('categoryInput').value;
     if (! categoryInput.startsWith("Category:")){
         categoryInput = "Category:"+categoryInput;
     }
-    diveResults = await diveIntoWikipediaCategory(categoryInput);
+
+    depthBiasInput =  document.getElementById('depthBiasSlider').value;
+    
+    console.log()
+    diveResults = await diveIntoWikipediaCategory(categoryInput, depthBias=depthBiasInput);
+    
     displayDiveResults(diveResults);
     console.log(diveResults);
 }
