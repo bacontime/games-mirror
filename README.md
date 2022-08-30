@@ -11,5 +11,10 @@ with fifteen different regional variants and a step-by-step explanation of the t
 
 Sometimes I just want some bullet points reminding me how to count the score.
 
-Additionally, this site is not a general reference for all card games.
-It contains only the rules for games that I personally have played.
+
+Rules blurbs for games I know how to play, and assorted little widgets can be found in the navigation menu.
+This site is not a general reference for all card games, only those I've personally played.
+
+Card games should be assumed to use a standard 52 card deck unless otherwise mentioned. 
+
+See also Kevan Davis' [Freeze-dried Game Pack](https://kevan.org/fdgp/index.php).
