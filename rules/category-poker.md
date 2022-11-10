@@ -9,6 +9,7 @@ nav_order: 2
 <style>
     .bigCard {
         width: 60px; 
+        max-width: 18%;
         vertical-align: text-bottom;
         }
 </style>
