@@ -1,10 +1,9 @@
 ---
 title: Cthulhu Wars
 parent: Rules References
+grand_parent: Boardgames
+layout: post
 ---
-
-
-### Cthulhu Wars Reference
 
 
 ## Phases

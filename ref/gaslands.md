@@ -2,9 +2,11 @@
 title: Gaslands
 parent: Rules References
 nav_exclude: true
+grand_parent: Boardgames
+layout: post
 ---
 
-### Shift Dice
+## Shift Dice
 
 1. HAZARD
 2. SPIN (Rotate up to 90°, + Hazard)
@@ -13,7 +15,7 @@ nav_exclude: true
 5. SHIFT 
 6. SHIFT
 
-### Spending SHIFTs
+## Spending SHIFTs
 
 - Remove a Hazard.
 - Cancel out a rolled HAZARD, SPIN, or SLIDE
@@ -21,11 +23,11 @@ nav_exclude: true
 
 ---
 
-# Mario Kart Variant
+## Mario Kart Variant
 
 This is a tweaked version of [these rules.](https://geekorthodoxy.com/downloads/). I've removed the special items, and generally changed the powerups to be more similar to the original Gaslands Ruleset.
 
-## Activation Steps
+### Activation Steps
 
 (These are specific to the Mario Kart variant)
 
@@ -54,7 +56,7 @@ This is a tweaked version of [these rules.](https://geekorthodoxy.com/downloads/
     2. Remove all its Hazard
     3. Randomly orient the kart
     
-## Collisions
+### Collisions
 
 If any part of a kart's movement brings it into contact with another obstacle, whether it be a kart or a wall:
 
