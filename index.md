@@ -6,11 +6,10 @@ nav_exclude: true
 
 # Game Rules and Tools
 
-Rules blurbs for games
+This site has 
+rules blurbs for games
 I know how to play,
-and assorted little widgets 
-can be found in the navigation menu.
-
+as well as a few assorted little widgets.
 Card games should be assumed to use a standard 52 card deck unless otherwise mentioned. 
 
 ## Quick Links
@@ -20,8 +19,6 @@ Card games should be assumed to use a standard 52 card deck unless otherwise men
 
 
 ### Partial Site Map
-
-See the navigation menu for the full list of pages.
 
 - Card or Tile Games:
     - [Climbing Games](rules/category-climbing.html)
@@ -35,7 +32,7 @@ See the navigation menu for the full list of pages.
     - [Rules for Abstract Games](rules/category-abstract.html)
     - [Rules for Simple Tabletop RPGs](rules/category-rpg.html)
 - [Assorted Useful Widgets](tools/):
-    - [Random Wiki Pages](tools/randomwiki.html), either from WikiPedia (with the option to draw from a specific category), or from the Superpowers Wiki 
+    - [Random Wiki Pages](tools/randomwiki.html), either from Wikipedia (with the option to draw from a specific category), or from the Superpowers Wiki 
     - [An simple tool which draws from a short list of words.](tools/randomwords.html) I tried to choose the list to be charadesable.
 
 
