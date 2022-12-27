@@ -2,7 +2,7 @@
 title: Ship's Crew 
 parent: Trick-taking Games
 has_children: true
-nav_exclude: true
+nav_exclude: false
 ---
 
 # Ship's Crew 
