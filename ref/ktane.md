@@ -1,10 +1,11 @@
 ---
 title: KTANE
+subtitle: Module Reference for Keep Talking and Nobody Explodes
 parent: Rules References
+grand_parent: Boardgames
+layout: post
 ---
 
-
-### Keep Talking and Nobody Explodes Rules
 
 
 ## Default Modules
@@ -21,7 +22,7 @@ parent: Rules References
 - Mazes: [EN](https://bombmanual.com/web/index.html#Mazes), [ZH](https://bombmanual.com/zh-CN/web/index.html#Mazes)
 - Passwords: [EN](https://bombmanual.com/web/index.html#Passwords), [ZH](https://bombmanual.com/zh-CN/web/index.html#Passwords)
 
-### Needy Modules
+## Needy Modules
 
 - VentingGas: [EN](https://bombmanual.com/web/index.html#VentingGas), [ZH](https://bombmanual.com/zh-CN/web/index.html#VentingGas)\*
 - CapacitorDischarge: [EN](https://bombmanual.com/web/index.html#CapacitorDischarge), [ZH](https://bombmanual.com/zh-CN/web/index.html#CapacitorDischarge)
