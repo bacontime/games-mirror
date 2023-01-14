@@ -1,9 +1,12 @@
 ---
 title: Lamarckian Poker
+subtitle: Evolve your hand over the course of the game.
+players: 3-6
+layout: post
 parent: Poker Hand Games
 ---
 
-# Lamarckian Poker
+
 
 *Dad is freakishly good at this.*
 
@@ -20,6 +23,5 @@ parent: Poker Hand Games
 
 ---
 
-3-6 players.
 Game by James Ernest and Dave Howel.
 From [Poker Suite by Cheapass Games](https://cheapass.com/free-games/poker-suite/)

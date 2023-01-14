@@ -1,9 +1,10 @@
 ---
 title: Ocean's Eleven
+subtitle: A simple push-your-luck duel.
+players: 2
+layout: post
 parent: Poker Hand Games
 ---
-
-# Ocean's Eleven
 
 
 - Each Player takes a Deck of Cards.
@@ -31,5 +32,5 @@ parent: Poker Hand Games
 
 ---
 
-2 players.
+Game by Eliott Adkins.
 [Full rules here.](https://www.pagat.com/invented/oceans11.html)

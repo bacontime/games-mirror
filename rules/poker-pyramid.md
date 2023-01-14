@@ -1,11 +1,12 @@
 ---
 title: Pyramid Poker
+subtitle: Build and then tear down a pyramid to form three poker hands.
+players: 2
+layout: post
 parent: Poker Hand Games
 ---
 
-# Pyramid Poker
 ![](poker-pyramid.jpg)
-*Build and then tear down a pyramid to form three poker hands.*
 
 This game requires "cards" which can stand on their sides.
 Like mahjong style tiles.
@@ -22,5 +23,4 @@ Like mahjong style tiles.
 
 ---
 
-2 players.
-Adapted from the original game by Aaron Weissblum and Norman Woods
+Adapted from [the original game](https://boardgamegeek.com/boardgame/213953/pyramid-poker) by Aaron Weissblum and Norman Woods
