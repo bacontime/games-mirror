@@ -1,14 +1,15 @@
 ---
 title: Slither
+subtitle: Shuffle pieces around to form them into a big blob.
+players: 2
+equipment: Uses a grid and two colors of stones.
+author: Corey Clark
+layout: game
 parent: Abstract Games
 nav_exclude: false
 ---
 
 
-
-# Slither
-
-*Shuffle pieces around to form them into a big blob.*
 
 ## Winning
 Black wants to form a path of orthogonally-connected stones linking the top to the bottom of the board.  
@@ -23,8 +24,8 @@ No bare diagonals: After your move, two allied stones can't be diagonally adjace
 
 ```
 Bad:            Fine:
-    XO                  XX
-    OX                  OX
+    XO               XX
+    OX               OX
 ```
 
 ## Optional Advanced variant:
