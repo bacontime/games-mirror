@@ -1,10 +1,10 @@
 ---
 title: Mahjong Poker
+subtititle: Playing Poker Games with a Mahjong Set
+layout: post
 parent: Mahjong Set Games
-has_children: true
+has_children: false
 ---
-
-# Playing Poker Games with a Mahjong Set
 
 In theory, 
 you can substitute a poker deck for a mahjong set 
@@ -29,7 +29,22 @@ Although the probabilities of each hand will be different,
 The *probability ranking* will be the same. 
 4-of-a-kind will be more rare than full house etc.
 
-[Here's a table](mahjong-poker-odds) comparing the probability of each poker hand.
+## Odds Comparison: 52 card deck vs Mahjong Set
+
+Here's a table comparing the probability of each poker hand:
+
+| Hand | Mahjong % Chance | 52-card % Chance
+|---|---|---|
+| 5 of a Kind | .002 | 0 |
+| Straight Flush | .004 | .001 |
+| 4 of a Kind | .154 | .024 |
+| Full House | .318 | .141 |
+| Flush | .335 | .197 |
+| Straight | .341 | .393 |
+| 3 of a Kind | 3.92 | 2.11 |
+| Two Pair | 5.70 | 4.75 |
+| Pair | 43.6 | 42.3 |
+| High Card | 45.6 | 50.1 |
 
 ---
 
