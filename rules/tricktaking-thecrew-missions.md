@@ -125,7 +125,7 @@ main dd{
 49. 10 tasks; <span class="crewtile">α</span><span class="crewtile">β</span><span class="crewtile">γ</span>.
 50. *One player must take first four tricks; another must take last trick; all other tricks must be taken by other players.*
 
----
+
 
 ## Expansion Missions
 
