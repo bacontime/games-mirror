@@ -1,9 +1,9 @@
 ---
 title: Kings Corners
+players: 2-4
+layout: game
 parent: Other Card Games
 ---
-
-# Kings Corners
 
 *Fond memories of playing this with Grandma.*
 

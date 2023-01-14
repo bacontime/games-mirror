@@ -1,14 +1,13 @@
 ---
 title: Regicide
+subtitle: Cooperative Hand Management
+players: 1-4
+equipment: "Uses a variable number of Jokers."
+author: Paul Abrahams, Luke Badger, and Andy Richdale
+layout: game
 parent: Other Card Games
 ---
 
-# Regicide
-
-*Cooperative Hand Managment.*
-
-Players
-: 2-4
 
 | Players | Number of Jokers | Max Hand Size |
 |:-:|:-:|:-:|
@@ -80,7 +79,7 @@ Players
     - If the current player runs out, then the next player has to start discarding cards.
     - If all the players run out of cards, then they lose.
 
----
+
 
 ## Single Player Variant
 

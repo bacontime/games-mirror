@@ -1,21 +1,15 @@
 ---
 title: No Merci!
+subtitle: Inverse Bidding
+players: 3-5
+equipment: "2-10 in 4 suits. Chips."
+author: Thorsten Gimmler
+layout: game
 parent: Other Card Games
 ---
 
-# No Merci!
-
-*Inverse Bidding*
-
-Players
-: 3-5
-
-Deck
-: 2-10 in 4 suits
-
-Equipment
-: Chips
-
+Game is played with 2-10 in 4 suits. 
+Remove the Aces and Faces.
 
 - Give each player 13 chips.
 - Randomly remove 7 cards.
