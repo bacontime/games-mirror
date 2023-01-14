@@ -1,9 +1,11 @@
 ---
 title: Phase Shí
+subtitle: Phase 10 but with Mahjong Tiles
+players: 2-6
+layout: game
 parent: Mahjong Set Games
 nav_exclude: true
 ---
-# Phase 10 but with Mahjong Tiles
 
 
 
