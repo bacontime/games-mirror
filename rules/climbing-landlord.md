@@ -1,19 +1,14 @@
 ---
-title: 斗地主
+title: Do Dizhu (斗地主)
+subtitle: Fight the Landlord. 2v1
 players: 3
+equipment: Use both Jokers.
+layout: game
 parent: Climbing Games
 ---
 
-# 斗地主
 
 *Inlaws like this game.*
-
-
-Players
-: 3
-
-Deck
-: Poker Deck with 2 Jokers
 
 
 - One person is the landlord; the other two are farmers. Farmers are on a team.
