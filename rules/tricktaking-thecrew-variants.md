@@ -1,6 +1,5 @@
 ---
 title: Player Count Variants
-layout: game
 parent: Ship's Crew 
 grand_parent: Trick-taking Games
 ---

@@ -4,7 +4,22 @@ parent: Ship's Crew
 grand_parent: Trick-taking Games
 ---
 
-# Key for icons in mission list
+# Icon Key for Missions
+
+<style>
+main dl{
+    display: grid;
+    grid-template: auto/3em auto;
+}
+main dt{
+    grid-column: 1;
+    text-align: right;
+}
+main dd{
+    grid-column: 2;
+    margin-left: 1em;
+}
+</style>
 
 
 ## Task Tokens:
