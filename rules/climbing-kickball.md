@@ -1,11 +1,10 @@
 ---
 title: Kickball
+subtitle: Symetric Do Dizhu
+players: 4
+layout: post
 parent: Climbing Games
 ---
-
-# Kickball
-
-*Symetric Do Dizhu.*
 
 - 2 teams of 2. Teammates sit across from each other.
 - Deal 13 cards to each player.
