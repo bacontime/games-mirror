@@ -22,13 +22,13 @@ layout: default
   </div>
 {% endif %}
 
-{% if page.date or page.last_modified_date or page.author %}
-  <div class="game-header" style="font-size: small; text-align: right;">
+{% if page.players or page.equipment or page.author %}
+  <div class="game-header" style="font-size: small; text-align: right; line-height: 1;">
     {% if page.players %}
     Players: {{page.players}}.
     {% endif %}
     {% if page.equipment %}
-    {{page.equipment}}
+    <br>{{page.equipment}}
     {% endif %}
     {% if page.author %}
     <br>Game by {{page.author}}.
