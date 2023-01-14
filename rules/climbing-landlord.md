@@ -1,5 +1,6 @@
 ---
 title: 斗地主
+players: 3
 parent: Climbing Games
 ---
 
