@@ -2,7 +2,9 @@
 title: Ocean's Eleven
 subtitle: A simple push-your-luck duel.
 players: 2
-layout: post
+equipment: 1 deck per player.
+author: Eliott Adkins
+layout: game
 parent: Poker Hand Games
 ---
 

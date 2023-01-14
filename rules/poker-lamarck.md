@@ -2,7 +2,8 @@
 title: Lamarckian Poker
 subtitle: Evolve your hand over the course of the game.
 players: 3-6
-layout: post
+author: James Ernest and Dave Howel
+layout: game
 parent: Poker Hand Games
 ---
 
