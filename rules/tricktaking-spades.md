@@ -1,9 +1,11 @@
 ---
 title: Spades
+subtitle: Play as a team and guess how many tricks you'll win.
+players: 4
+layout: game
 parent: Trick-taking Games
 ---
 
-# Spades
 
 
 - 2 teams of 2. Each person sits across from their teammate.

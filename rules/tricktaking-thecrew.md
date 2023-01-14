@@ -1,25 +1,21 @@
 ---
 title: Ship's Crew 
+subtitle: Cooperative mission-based trick-taking 
+players: 3-5
+equipment: "Deck: 2-10 in 4 suites, + 4 trumps.Requires additional tokens."
+author: Rüdiger Dorn
+layout: game
 parent: Trick-taking Games
 has_children: true
 nav_exclude: false
 ---
 
-# Ship's Crew 
 
-*Cooperative mission-based trick-taking for 2-5*
+This game uses a deck with cards 2-10 in 4 suites, in addition to 4 trump cards.
+It also requires the use of a second "Task Deck" with no trumps,
+and assorted tokens for communication and tasks.
 
-Players
-: 2-5 (variants for 2,3,5)
 
-Deck
-: 2-10 in 4 suites, + 4 trumps;
-
-Task Deck
-: Second deck with no trumps;  
-
-Equipment
-: Tokens for communication and tasks 
 
 ## Rules
 

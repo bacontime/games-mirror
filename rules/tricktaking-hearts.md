@@ -1,5 +1,8 @@
 ---
 title: Hearts
+subtitle: The hearts are poison.
+players: 4
+layout: game
 parent: Trick-taking Games
 ---
 
