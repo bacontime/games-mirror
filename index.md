@@ -55,6 +55,7 @@ Card games should be assumed to use a standard 52 card deck unless otherwise men
     {% if game_page.subtitle %}<br>{{ game_page.subtitle }}{% endif %}
     {% if game_page.description %}<br>{{ game_page.description }}{% endif %}
 </li>
+{% endif %}
 {% endfor %}
 </ul>
 
