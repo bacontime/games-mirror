@@ -41,3 +41,20 @@ Card games should be assumed to use a standard 52 card deck unless otherwise men
 - [Pagat](https://www.pagat.com/) is a fantastic website, which hundreds of in-depth rulesets for all sorts of card games, but it can be a bit *too* much. Sometimes I don't need  an in-depth history of the game, with fifteen different variants and a detailed explanation of the regionally-favored shuffling technique. Sometimes I just want some bullet points reminding me how to score.
 - Kevan Davis' [Freeze-dried Game Pack](https://kevan.org/fdgp/index.php), which has rules for games in 100 words or less.
 
+
+
+## List of Games
+
+<ul>
+{%- assign game_pages = site.pages   |   where:"layout", "game" -%}
+{% for game_page in game_pages %}
+{%- if game_page.nav_exclude != true -%}
+<li>
+    <b><a href="{{ game_page.url | absolute_url }}">{{ game_page.title }}</a></b>
+    <small style="display: inline-block;"><i>{% if game_page.players %}({{ game_page.players }} Players){% endif %}</small></i>
+    {% if game_page.subtitle %}<br>{{ game_page.subtitle }}{% endif %}
+    {% if game_page.description %}<br>{{ game_page.description }}{% endif %}
+</li>
+{% endfor %}
+</ul>
+
