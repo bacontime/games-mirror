@@ -6,7 +6,7 @@ equipment: Assorted Pieces.
 author:  Kory Heath
 layout: game
 parent: Abstract Games
-nav_exclude: true
+nav_exclude: false
 ---
 
 This game can be played with cards or random knickknacks.

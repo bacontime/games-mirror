@@ -1,5 +1,5 @@
 ---
-title: Go / Weiqi / Baduk
+title: Go (Weiqi)
 subtitle: An ancient game of area control.
 players: 2
 equipment: Uses a grid and two colors of stones.
