@@ -34,7 +34,20 @@ Some coins or other means of keeping score would also be handy.
 Use the Dragons, Winds, and pip tiles 1-7 to build a face-up **Dragon's Castle** with three floors in the middle of the table.
 
 Here are some suggested layouts:
-```
+
+<style>
+@font-face {
+    font-family: Jianpu;
+    src: url("{{site.webfontdirectory}}/jianpu/colrJianpu.ttf ");
+}
+.colorNumbers {
+    font-family: Jianpu;
+    line-height: 1;
+}
+</style>
+
+
+<pre class="colorNumbers">
   2332        1111 1111           1         
  123321      11112 21111       1112111      
  233332      11123 32111       1223221      
@@ -44,7 +57,9 @@ Here are some suggested layouts:
  223321      11123 32111       1223221      
   2332       11112 21111       1112111      
               1111 1111           1         
-```
+</pre>
+
+
 <!--
 Rulebook:
 116 tiles:
