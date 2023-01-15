@@ -33,7 +33,7 @@ by choosing two pyramids and stacking them to form a binary star system.
 They also choose a large pyramid (3 pips) as their starting ship,
 and place it next to their Homeworld.
 
-You lose if you don't have any ships at your Homeworld at the end of your turn.
+You lose if you don't have any ships at your Homeworld at the start of your turn.
 
 
 ### Action Types
@@ -74,6 +74,21 @@ If one of these pieces was the star itself, then all ships there are returned to
 
 Homeworlds are binary star systems and can survive one of their two stars being destroyed.
 
+
+## Variant for 3 or 4 Players
+
+To play with more than 2 players, make the following changes:
+- Add one extra copy of each pyramid to the bank for each extra player. (48 pieces for 3p, 60 for 4p).
+- The win condition becomes to eliminate the player sitting on your left.
+
+<!--
+https://boardgamegeek.com/thread/2969245/two-expansions-variants-use-black-pieces
+https://boardgamegeek.com/thread/2511362/additional-colors
+http://new.wunderland.com/2021/02/03/peaceful-homeworlds/
+https://boardgamegeek.com/thread/2620770/antisocial-homeworlds
+https://boardgamegeek.com/thread/2943589/black-ops-9-new-powers-one-new-color
+
+-->
 
 
 ---
