@@ -10,5 +10,7 @@ compress_html:
     envs: all
 
 
+webfontdirectory: https://www.rmwinslow.com/webfonts
+
 plugins:
   - jekyll-sitemap
