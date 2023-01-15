@@ -1,7 +1,7 @@
 ---
 title: Honey Heist
 parent: Micro RPGs
-layout: post
+layout: game
 has_children: false
 ---
 

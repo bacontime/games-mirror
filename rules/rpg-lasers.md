@@ -1,6 +1,6 @@
 ---
 title: Lasers & Feelings
-layout: post
+layout: game
 parent: Micro RPGs
 has_children: false
 ---
