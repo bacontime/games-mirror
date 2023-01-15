@@ -9,5 +9,5 @@
    <style>
       .cardfont { font: bold 90px serif; fill: #3a3a3a;}
    </style>
-   <text class="cardfont" text-anchor="middle" alignment-baseline="central"  x="0" y="0" >2</text>
+   <text class="cardfont" text-anchor="middle" x="0" y="30" >2</text>
 </svg>
