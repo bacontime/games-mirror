@@ -17,6 +17,8 @@ Card games should be assumed to use a standard 52 card deck unless otherwise men
 - [Poker Hand ranking chart](rules/category-poker), along with a list of games that use poker hands.
 - [My Board Game Collection](ref/bgcollection.html), with the ability to sort by rules complexity and language dependence.
 
+<!--- [Game Links](links), to games like Spyfall which can be played with phones.-->
+
 
 ### Partial Site Map
 
@@ -52,7 +54,7 @@ Card games should be assumed to use a standard 52 card deck unless otherwise men
 <li>
     <b><a href="{{ game_page.url | absolute_url }}">{{ game_page.title }}</a></b>
     <small style="display: inline-block;"><i>{% if game_page.players %}({{ game_page.players }} Players){% endif %}</i></small>
-    {% if game_page.subtitle %}<br>{{ game_page.subtitle }}{% endif %}
+    {% if game_page.subtitle %}{{ game_page.subtitle }}{% endif %}
     {% if game_page.description %}<br>{{ game_page.description }}{% endif %}
 </li>
 {% endif %}
