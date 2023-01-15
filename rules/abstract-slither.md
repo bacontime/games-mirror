@@ -1,6 +1,6 @@
 ---
 title: Slither
-subtitle: Shuffle pieces around to form them into a big blob.
+subtitle: Make a chain of pieces across the board.
 players: 2
 equipment: Uses a grid and two colors of stones.
 author: Corey Clark

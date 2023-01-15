@@ -1,6 +1,6 @@
 ---
 title: Dameo
-subtitle: More complex Checkers Variant, with diagonal movement and orthogonal capture.
+subtitle: Checkers Variant with diagonal movement, orthogonal capture.
 players: 2
 equipment: Uses an 8x8 grid and two colors of stackable pieces.
 author: Christian Freeling
