@@ -34,4 +34,5 @@ parent: Other Card Games
 
 ---
 
-Adapted from "[Las Vegas](https://boardgamegeek.com/boardgame/117959/las-vegas)", by  Stefan Brück
+Adapted from "[Las Vegas](https://boardgamegeek.com/boardgame/117959/las-vegas)", by Stefan BrÃ¼ck
+
