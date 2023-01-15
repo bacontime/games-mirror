@@ -11,8 +11,7 @@ nav_exclude: false
 
 
 
-<a href="https://commons.wikimedia.org/wiki/File:Hex_zig-zag.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Hex_zig-zag.jpg" alt="Public Domain photo of retail version of Hex, from François Haffner on Wikimedia."/></a>
-
+<a href="https://commons.wikimedia.org/wiki/File:Hex_zig-zag.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Hex_zig-zag.jpg" alt="Public Domain photo of retail version of Hex, from FranÃ§ois Haffner on Wikimedia."/></a>
 
 ## Rules for Hex
 
@@ -179,14 +178,14 @@ Pippinzip
 |:--|:--|:--|
 | Hex | Piet Hein | 1942 |
 | Y | John Milnor | 1952 |
-| Gonnect | João Pedro Neto | 2000 |
+| Gonnect | JoÃ£o Pedro Neto | 2000 |
 | Crossway | Mark Steere | 2007 |
 | Slither | Corey Clark | 2010 |
 | Shifty | Nick Bently | 2012 |
-| Vimbre | Luis Bolaños Mures | 2012 |
-| Quinten | Luis Bolaños Mures | 2012 |
-| Kopano | Luis Bolaños Mures | 2013 |
-| Rhode | Luis Bolaños Mures | 2016 |
+| Vimbre | Luis BolaÃ±os Mures | 2012 |
+| Quinten | Luis BolaÃ±os Mures | 2012 |
+| Kopano | Luis BolaÃ±os Mures | 2013 |
+| Rhode | Luis BolaÃ±os Mures | 2016 |
 | Resolve | Alek Erickson | 2020 |
 
 Though this family of games is simple enough that independent invention often happens.
