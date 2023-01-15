@@ -7,6 +7,7 @@ author: "Piet Hein, Corey Clark, others"
 layout: game
 parent: Abstract Games
 nav_exclude: false
+toc: true
 ---
 
 
