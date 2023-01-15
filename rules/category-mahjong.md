@@ -16,4 +16,4 @@ A set of Mahjong tiles is essentially just a really thick deck of cards. A Chine
 - And also 8 distinct tiles representing flowers or seasons.
 
 
-In addition to the games linked below, a set of Mahjong tiles is well suited to playing [3 player Crew](https://www.robertmwinslow.com/games/rules/tricktaking-thecrew-variants.html#3-player-challenge-variant-mahjong-compatible)
+In addition to the games linked below, a set of Mahjong tiles is suited to playing [3 player Crew](https://www.robertmwinslow.com/games/rules/tricktaking-thecrew-variants.html#3-player-challenge-variant-mahjong-compatible)

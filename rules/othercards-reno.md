@@ -1,5 +1,6 @@
 ---
 title: Reno
+subtitle: Roll dice to claim cards.
 players: 3-5
 equipment: "Requires dice in multiple colors."
 author: Rüdiger Dorn
@@ -33,4 +34,4 @@ parent: Other Card Games
 
 ---
 
-Adapted from "Las Vegas", by Rüdiger Dorn
+Adapted from "[Las Vegas](https://boardgamegeek.com/boardgame/117959/las-vegas)", by  Stefan Br�ck

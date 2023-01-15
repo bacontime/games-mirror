@@ -1,5 +1,6 @@
 ---
 title: Honey Heist
+subtitle: Micro RPG. Balance your animal and Criminal Instincts.
 parent: Micro RPGs
 layout: game
 has_children: false
@@ -8,7 +9,7 @@ has_children: false
 It’s HoneyCon 2018 . You are about to undertake The Greatest Heist
 the World Has Ever Seen. Two things:  
 **One**: You have a complex plan that requires precise planning.  
-**Two**: You are a *goddamn bear*.
+**Two**: You are an actual bear.
 
 <details open markdown="block">
   <summary>

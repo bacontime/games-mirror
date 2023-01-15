@@ -1,5 +1,6 @@
 ---
 title: Kings Corners
+subtitle: Multiplayer version of Solitairesque stacking.
 players: 2-4
 layout: game
 parent: Other Card Games

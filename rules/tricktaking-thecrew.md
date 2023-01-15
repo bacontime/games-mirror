@@ -1,6 +1,6 @@
 ---
 title: Ship's Crew 
-subtitle: Cooperative mission-based trick-taking 
+subtitle: Cooperative mission-based trick-taking.
 players: 3-5
 equipment: "Deck: 2-10 in 4 suites, + 4 trumps.Requires additional tokens."
 author: Rüdiger Dorn

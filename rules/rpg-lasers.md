@@ -1,5 +1,6 @@
 ---
 title: Lasers & Feelings
+subtitle: Micro Sci-Fi RPG.
 layout: game
 parent: Micro RPGs
 has_children: false
