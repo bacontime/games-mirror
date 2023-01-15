@@ -1,18 +1,7 @@
 
 
 
-document.write(`
-<div class="rulesBlock"   style="background-color: hsl(0, 80%, 80%);">
-    <center>
-        <div id="flex-container">
-            <div class="flex-item" >   <img src="imgs/dragon.svg" >    </div>
-            <div class="flex-item" >   <img src="imgs/mahjong.svg" >    </div>
-            <div class="flex-title">    
-                <h3 id="dragoncastle">    Dragon Castle    </h3> 
-            </div>
-            <div class="flex-item" >   <img src="imgs/mahjong.svg">    </div>
-            <div class="flex-item" >   <img src="imgs/dragon.svg" >    </div>
-        </div>
+
 
         <p><i>  YET TO PLAY </i></p>
         <p>(2-4) Matching. Mahjong tiles, pyramids, chips.</p>
@@ -73,8 +62,7 @@ document.write(`
         <li>Ties go to the player with the most stacks which are topped by a face-down tile. After that, ties are broken by the number of pyramids in your castle.</li>
     </div>
     <p class="cardAuthor">traditional game</p>
-</div><br>
-`)
+
 
 
 
