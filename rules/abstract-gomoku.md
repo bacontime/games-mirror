@@ -1,6 +1,7 @@
 ---
 title: Five in a Row
 subtitle: A simple game that I somehow always manage to lose.
+description: Rules for Five in a Row, aka Gomoku, as well as rules for several similar abstract games like Connect6 and Pente. 
 players: 2
 equipment: Uses an grid and two colors of stones.
 layout: game
@@ -8,14 +9,12 @@ parent: Abstract Games
 nav_exclude: false
 ---
 
-
-## Basic Rules
+Five-in-a-Row is a simple game.
 
 - Take turns placing stones onto a grid.
 - Black places a stone, then white, then black...
-- Five stones in a row and you have won.
-
-Rows can be orthogonal or diagonal.
+- Place five stones in a row and you've won.
+    - (Winning rows may be diagonal.)
 
 
 ## Variants
