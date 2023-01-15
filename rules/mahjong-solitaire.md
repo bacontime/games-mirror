@@ -25,7 +25,7 @@ How do you match up the seasons and flowers? I guess either remove them or treat
 a game by Hjalmar Hach, Luca Ricci, and Lorenzo Silva
 which attempts to boardgamify the mechanics in Mahjong Solitaire.
 
-The basic version of the game can be played with Mahjong Tiles,
+A basic version of the game can be played with Mahjong Tiles,
 along with some markers (such as black go stones) to represent shrines.
 Some coins or other means of keeping score would also be handy.
 
@@ -33,20 +33,56 @@ Some coins or other means of keeping score would also be handy.
 
 Use the Dragons, Winds, and pip tiles 1-7 to build a face-up **Dragon's Castle** with three floors in the middle of the table.
 
-The rulebook has the following suggested layout:
+Here are some suggested layouts:
 ```
-  2332
- 133331
- 233332
-12333321
-12333321
- 233332
- 233331
-  2332
+  2332        1111 1111           1         
+ 123321      11112 21111       1112111      
+ 233332      11123 32111       1223221      
+12333321     11233 33211     3 1233321 3    
+12333321                     31233233213    
+ 233332      11233 33211     3 1233321 3    
+ 223321      11123 32111       1223221      
+  2332       11112 21111       1112111      
+              1111 1111           1         
 ```
+<!--
+Rulebook:
+116 tiles:
+    72 pip tiles (6*4*3)
+    12 Dragons
+    16 Winds
+    16 Seasons
+
+My recommendation above:
+112 tiles:
+    84 pip tiles (7*4*3)
+    12 Dragons
+    16 Winds
+
+Rulebook layouts can't be done.
+No duplicate season tiles. (-16 tile)
+Increase pip range by 1 from 6 to 7 get +12 more tiles.
+This leaves us 4 short of the count in the rulebook.
+
+Alternately, Using all pips
+136 tiles:
+    108 pip tiles (9*4*3)
+    12 Dragons
+    16 Winds
+
+Poker tiles doesn't really work because there are only 2 of a kind using both decks.
+On the other hand, use both decks and we have
+52*2+8 cards = 112 cards.
+I suppose the rule changes could be:
+- option 1: take a second open tile of the same rank.
+- Jokers build two shrines and get bonus point.
+Or you could tweak the consolidation rules to be based on suit/rank or maybe poker hands?
+-->
 
 
-Each player also has their own seperate castle which has yet to be built.
+
+Each player also has their own separate castle which has yet to be built.
+The footprint of each player's castle should stay inside a 6x6 area.
 
 
 ### Each Turn
