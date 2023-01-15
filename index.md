@@ -46,7 +46,7 @@ Card games should be assumed to use a standard 52 card deck unless otherwise men
 ## List of Games
 
 <ul>
-{%- assign game_pages = site.pages   |   where:"layout", "game" -%}
+{%- assign game_pages = site.pages   |   where:"layout", "game"   |   sort:"title" -%}
 {% for game_page in game_pages %}
 {%- if game_page.nav_exclude != true -%}
 <li>
