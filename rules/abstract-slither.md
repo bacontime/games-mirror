@@ -10,56 +10,17 @@ nav_exclude: false
 ---
 
 
-## Rules for Slither
 
-<!--called particlebond on iggamecenter-->
-
-Slither is played on a square grid.
-
-### Winning
-One player wants to form a path of orthogonally-connected stones linking the top to the bottom of the board.  
-The other wants to form such a path linking the left to the right.
-
-### Each Turn
-
-1. (optionally) Move one of your stones to an adjacent space, diagonally or orthogonally.
-2.  Place one of your stones on an empty space.
-
-No bare diagonals: After your move, two allied stones can't be diagonally adjacent unless both are orthogonally adjacent to the same third allied stone.
-
-```
-Fine:          Bare:      Crosscut:
-    ????        ???        ???? 
-    ???        ???        ???? 
-```
-
-This rule is required to prevent "crosscuts" which block both players from winning.
-
-
-### Optional Advanced variant:
-
-You can only move a stone if it's touching a group of stones containing both colors.
-
-
-<!--
-Game by Corey Clark.
-[Full](http://www.iggamecenter.com/info/en/particlebond.html) [Rules](https://mindsports.nl/index.php/the-pit/625-slither)
--->
-
-
-
+<a href="https://commons.wikimedia.org/wiki/File:Hex_zig-zag.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Hex_zig-zag.jpg" alt="Public Domain photo of retail version of Hex, from François Haffner on Wikimedia."/></a>
 
 
 ## Rules for Hex
 
-Hex is an older game played on a rhombic hex grid.
-Such a board is harder to find, but the rules can be simpler as a result.
-
+Hex is played on a rhombic hex grid.
 
 ### Winning
-One player wants to form a path of stones linking the top to the bottom of the board.  
+One player wants to form a connected path of their stones linking the top to the bottom of the board.  
 The other wants to form such a path linking the left to the right.
-
 
 ### Each Turn
 
@@ -67,64 +28,124 @@ The other wants to form such a path linking the left to the right.
 
 That's it.
 
+### Hex Variants
+
+*Y* is like Hex, but played on a triangular hex grid and the objective is to connect all three sides with a single connected shape.
+
+<!--
+Havannah has more complicated movement patterns.
+Atoll has more complicated goal zones on the borders. And played on a square hex grid.
+-->
 
 
 
 
 
-## Similar Connection Games
+## Slither and Other Square Board Connection Games
 
-Hex is the oldest game on this page. 
-There have been many games since then with the same connection goal.
-Most of these games are attempts to work around the difficulties of 
-adapting Hex's mechanics to a square grid.
+<!--called particlebond on iggamecenter-->
+
+The basic rules are the same as in Hex.
+Players take turns placing stones on the grid. 
+One player wants to form an orthogonally-connected path of their stones linking the top to the bottom of the board.  
+The other wants to form such a path linking the left to the right.
+
+<!--It's much easier to find a square grid board to play on.
+But such a grid creates additional rules complications.-->
+
+### Complications When Playing on a Square Grid 
+
+Firstly: Stones do not connect in the diagonal directions.
+Only orthogonal directions
+count for connection and adjacency, 
+unless otherwise mentioned.
+<!--
+Orthogonality symbol: ?
+-->
+
+Secondly:
+Special attention must be paid to "bare diagonals".
+Two diagonally-adjacent allied stones form a bare diagonal
+unless they're also adjacent to the same third allied stone.
+
+```
+Okay:        Bare:     Crosscut:
+    ????        ???        ???? 
+    ???        ???        ???? 
+```
+
+Bare diagonals risk the formation of "crosscuts",
+which can block both players from winning.
 
 
-Y
-: Y is like Hex, but played on a triangular hex grid and the objective is to connect all three sides.
 
-Gonnect
-: Gonnect is played on on a square grid with [Go mechanics](abstract-go) stapled on. 
-: No movement. Bare-diagonals are allowed. Surrounded pieces are removed, as in Go.
+### Additional Rules for Slither
+- Before you place a stone, you may optionally move one of your stones.
+	- Stones move like a chess king (to an orthogonally or diagonally adjacent empty space).
+- At the end of your turn, there must be no bare diagonals. 
+- Optional Advanced variant: You can only move a stone if it's adjacent to a group of stones containing both colors.
 
-Resolve
-: Square grid. No movement. Bare diagonals are allowed.
-: When a crosscut is formed, the active player swaps two stones in the formation to resolve the crosscut, and continues swapping until no crosscuts remain.
+<!--
+Game by Corey Clark.
+[Full](http://www.iggamecenter.com/info/en/particlebond.html) [Rules](https://mindsports.nl/index.php/the-pit/625-slither)
+-->
 
-Rhode
-: Square grid. No movement. Bare diagonals are allowed.
-: If you have a bare diagonal on your turn, you have to place your piece to close it.
-: At the end of your turn, remove any of your pieces that are part of crosscuts except for the one you just placed.
+### Rules for Similar Games
 
-Vimbre
-: Square grid. No movement. Bare diagonals are *not* allowed.
-: Instead of moving, you can steal an enemy piece if it is orthogonally sandwiched between your pieces (OXO), and is orthogonally adjacent to an empty space. 
+#### Quinten
+- After placing a stone, some regions of the board are automatically filled in.
+	- The *regions* are the maximal connected sets of empty spaces.
+	- A *narrow territory* is a region which doesn't contain any 2x2 empty spaces.
+	- After placing your stone, fill in all narrow territories with the color of stone which makes up the majority of its border. Ties are broken in favor of non-active player.
+- At the end of your turn, there must be no bare diagonals. 
 
-
-Quinten
-: Square grid. No movement. Large regions of the board are automatically filled in.
+<!--
 : A *region* is a set of connected empty spaces which is closed under adjacency.
-: A *valid territory* is a region which doesn't contain any 2x2 empty spaces.
-: After placing each stone, fill in all valid territories with the color of stone which makes up the majority of its border. Ties are broken in favor of non-active player.
+: A "*region*" is a set of connected empty spaces surrounded by stones.
+https://cseweb.ucsd.edu//~clbailey/ClosureOverview.htm
+-->
 
-Shifty
-: Square Grid. Either place or move a stone on your turn.
-: Stones must be placed next to allied stones (after the first move).
-: Stones move like a chess queen. To move a stone, it must start adjacent to an allied stone, and end *not* adjacent to any allied stones.
-: Bare diagonals are allowed, but crosscuts are not.
+#### Resolve
+- Bare diagonals are allowed.
+- When a crosscut is formed, the active player swaps two stones in the formation to resolve the crosscut, and continues swapping until no crosscuts remain.
+
+#### Rhode
+- Bare diagonals are allowed, but must be dealt with ASAP.
+- If you have a bare diagonal at the start of your turn, you have to place your piece to close it.
+- At the end of your turn, remove any of your pieces that are part of crosscuts except for the one you just placed.
+
+#### Shifty
+- *Either* place or move a stone on your turn. Additional restrictions apply.
+	- Stones may only be placed adjacent to allied stones (except on the first move).
+	- Stones move like a chess queen. 
+	-To move a stone, it must start adjacent to an allied stone, and end *non*-adjacent to any allied stones.
+- Bare diagonals are allowed, but crosscuts are not.
 
 <!--https://www.nickbentley.games/new-game-shifty/-->
 
+#### Vimbre
+- Instead of placing a stone, you may convert an enemy piece if certain conditions are met:
+	- It must be sandwiched between your pieces (OXO), 
+	- and it must be adjacent to an empty space. 
+- Bare diagonals are *not* allowed.
 
+#### Gonnect
+- Bare diagonals are allowed.
+- The capturing [rules from Go](abstract-go) are stapled on:
+	- Surrounded groups are removed.
+	- Board states may not be repeated.
 
-Crossway
-: Square grid. No movement. Bare diagonals are allowed, but crosscuts are not.
-: Stones are connected both orthogonally *and diagonally*.
+<!--- (Unlike Go, passing is not allowed. And the win condition is different too, of course.)-->
 
-Kopano
-: Kopano is like Crossway except that bare diagonals are only sometimes allowed.
-: A stone can only be placed to make a bare diagonal if placing an enemy stone in the same position would also create a bare diagonal.
+#### Crossway
+- Stones are connected both orthogonally *and diagonally*.
+- Bare diagonals are allowed, but crosscuts are not.
 
+#### Kopano
+- Stones are connected both orthogonally *and diagonally*.
+- Bare diagonals are only sometimes allowed.
+	- A stone can only be placed to make a bare diagonal if placing an enemy stone in the same position would also create a bare diagonal.
+- Crosscuts are not allowed.
 
 
 
@@ -132,8 +153,6 @@ Kopano
 
 
 <!--
-Havannah has more complicated movement patterns.
-Atoll has more complicated goal zones on the borders. And played on a square hex grid.
 Chain lightning lets only white (P2) connect diagonally. Start with any number of white on the board, then let the other player choose whether they want to play black or white.
 Sligo adds the movement rule of Slither to Go.
 Tiananmen is a connection game where one player wants to encircle the other but then with a million fiddly extra bits stapled on. 
@@ -152,9 +171,9 @@ Pippinzip
 
 -->
 
----
 
-Attribution for the invention of each game:
+
+## Inventor Attribution for Each Game
 
 | Game | Author | Date |
 |:--|:--|:--|
@@ -169,9 +188,6 @@ Attribution for the invention of each game:
 | Kopano | Luis Bolaños Mures | 2013 |
 | Rhode | Luis Bolaños Mures | 2016 |
 | Resolve | Alek Erickson | 2020 |
-|  |  |  |
-|  |  |  |
-|  |  |  |
 
 Though this family of games is simple enough that independent invention often happens.
 
