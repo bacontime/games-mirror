@@ -55,7 +55,6 @@ Card games should be assumed to use a standard 52 card deck unless otherwise men
     <b><a href="{{ game_page.url | absolute_url }}">{{ game_page.title }}</a></b>
     <small style="display: inline-block;"><i>{% if game_page.players %}({{ game_page.players }} Players){% endif %}</i></small>
     {% if game_page.subtitle %}{{ game_page.subtitle }}{% endif %}
-    {% if game_page.description %}<br>{{ game_page.description }}{% endif %}
 </li>
 {% endif %}
 {% endfor %}
