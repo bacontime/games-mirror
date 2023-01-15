@@ -67,11 +67,11 @@ Special attention must be paid to "bare diagonals".
 Two diagonally-adjacent allied stones form a bare diagonal
 unless they're also adjacent to the same third allied stone.
 
-```
+<pre>
 Okay:        Bare:     Crosscut:
-    ????        ???        ???? 
-    ???        ???        ???? 
-```
+    🔴🔴        🔴⬜        🔴🔵
+    ⬜🔴        ⬜🔴        🔵🔴
+</pre>
 
 Bare diagonals risk the formation of "crosscuts",
 which can block both players from winning.
