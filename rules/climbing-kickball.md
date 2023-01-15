@@ -1,14 +1,13 @@
 ---
 title: Kickball
+subtitle: Symetric Do Dizhu
+players: 4
+layout: game
 parent: Climbing Games
 ---
 
-# Kickball
-
-*Symetric Do Dizhu.*
-
 - 2 teams of 2. Teammates sit across from each other.
-- Deal 13 cards to each player.
+- Deal 13 cards to each player. (No Jokers.)
 - After dealing, a player can **boast** that they will go out first.
 - Person with <span class="cC">3♣︎</span> leads first.
 - Scoring at the end of each hand:

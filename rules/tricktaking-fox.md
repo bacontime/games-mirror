@@ -1,17 +1,13 @@
 ---
 title: Fox in the Forest
+players: 2
+author: Joshua Buergel
+equipment: "Deck: 3 suits, A-10 and Q"
+layout: game
 parent: Trick-taking Games
 nav_exclude: true
 ---
 
-# Fox in the Forest
-
-
-Players
-: 2
-
-Deck
-: 3 suits, A-10 and Q
 
 - Cards are ranked QX98765432A, high to low. (Ace low).
 - Each hand, deal 13 cards to each player. Flip a card to determine Trump.

@@ -1,11 +1,11 @@
 ---
 title: Oh Hell!
+subtitle: Good for teaching the concept of trick-taking.
+players: 3-7
+layout: game
 parent: Trick-taking Games
 ---
 
-# Oh Hell!
-
-*Good for teaching the concept of trick-taking.*
 
 
 - A hand of 10 cards is played, then a hand of 9, then 8, etc., all the way down to 1.

@@ -1,12 +1,12 @@
 ---
 title: Literature
+subtitle: Like Go Fish, but more so.
+players: 6 or 8
+author: Hervé Marly
+layout: game
 parent: Other Card Games
 nav_exclude: true
 ---
-
-# Literature
-
-*Like Go Fish, but more so.*
 
 For 6 (3 teams of 2) or 8 (2 teams of 4) players.
 

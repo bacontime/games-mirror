@@ -1,17 +1,15 @@
 ---
 title: Reno
+players: 3-5
+equipment: "Requires dice in multiple colors."
+author: Rüdiger Dorn
+layout: game
 parent: Other Card Games
 ---
 
-# Reno
 
 *Works fine. Made a few tweaks and need to replay.*
 
-Players
-: 3-5
-
-Equipment
-: Dice in multiple colors, Cards
 
 
 - Each player gets 8 dice of their color and 2 neutral dice.

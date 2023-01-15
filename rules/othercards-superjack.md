@@ -1,15 +1,16 @@
 ---
 title: Superjack
-parent: NULL
+subtitle: An attempt to adapt MtG to a standard deck of cards.
+players: 2
+equipment: "One 40-card deck per player."
+layout: game
+parent: Other Card Games
 nav_exclude: true
 ---
 
-# Superjack
 
-*An attempt to adapt MtG to a standard deck of cards.*
 
-Decks
-: 40 card deck for each player.  
+Played with a 40 card deck for each player.  
 Use 2-7,J,Q,K,A.  
 Remove 8,9,10,Jokers.  
 One player plays with <span class="cD">♦︎</span>s and <span class="cS">♠︎</span>s.  

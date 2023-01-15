@@ -1,8 +1,8 @@
 ---
 title: GoPS
-subtitle: The "Game of Pure Strategy". Aka Goofenspiel
+subtitle: 'The "Game of Pure Strategy". Aka Goofenspiel.'
 players: 2-3
-layout: post
+layout: game
 parent: Other Card Games
 ---
 

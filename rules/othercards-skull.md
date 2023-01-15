@@ -1,11 +1,12 @@
 ---
-title: Skull
+title: Skull & Roses
+subtitle: Distilled bluffing.
+players: 3+
+author: Hervé Marly
+layout: game
 parent: Other Card Games
 ---
 
-# Skull / Skull & Roses
-
-*Distilled bluffing.*
 
 - Give each player a set of four cards, all the same rank, from each of the four suits.
 - The player's spade card is their **Skull**.

@@ -1,5 +1,5 @@
 ---
-title: Variants for different player counts
+title: Player Count Variants
 parent: Ship's Crew 
 grand_parent: Trick-taking Games
 ---

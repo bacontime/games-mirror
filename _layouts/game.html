@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+{% if page.title %}
+  <hgroup>
+  <h1>{{page.title}}</h1>
+    {% if page.subtitle %}<p>{{page.subtitle}}</p>{% endif %}
+  </hgroup>
+{% endif %}
+{% if page.date or page.last_modified_date or page.author %}
+  <div class="date-header" hidden>
+    {% if page.date %}
+    Posted: {{page.date | date_to_string: "ordinal", "US" }}
+    {% endif %}
+    {% if page.last_modified_date %}
+    - Modified: {{page.last_modified_date | date_to_string: "ordinal", "US" }}
+    {% endif %}
+    {% if page.author %}
+    by {{page.author}}
+    {% endif %}
+  </div>
+{% endif %}
+
+{% if page.players or page.equipment or page.author %}
+  <div class="game-header" style="font-size: small; text-align: right; line-height: 1;">
+    {% if page.players %}
+    Players: {{page.players}}.
+    {% endif %}
+    {% if page.equipment %}
+    <br>{{page.equipment}}
+    {% endif %}
+    {% if page.author %}
+    <br>Game by {{page.author}}.
+    {% endif %}
+  </div>
+{% endif %}
+
+{% if page.toc and page.toc != false %}
+<nav class="aside-like" id="sidebar-TOC"><details open>
+  <summary>Table of Contents</summary>
+  {% include toc.html html=content %}
+</details></nav>
+{% endif %}
+
+{{ content }}
+

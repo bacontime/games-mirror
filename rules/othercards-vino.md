@@ -1,11 +1,13 @@
 ---
 title: "Vizzini's Battle of Wits"
+subtitle: Distilled bluffing.
+players: 4+
+equipment: "Uses hearts and spades."
+author: Chris Anderson
+layout: game
 parent: Other Card Games
 ---
 
-# Vizzini's Battle of Wits
-
-*Distilled bluffing.*
 
 - The dealer deals one card, face down, to each player, including themself. Either a hearts card (wine) or a spades card (poison). 
     - The dealer knows what they've dealt out, and can choose what card to give to each player.
@@ -20,4 +22,4 @@ parent: Other Card Games
 
 ---
 
-Based on [In Vino Morte](https://buttonshygames.com/products/in-vino-morte) by Chris Anderson
+Adapted from [In Vino Morte](https://buttonshygames.com/products/in-vino-morte) by Chris Anderson

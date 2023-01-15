@@ -1,17 +1,12 @@
 ---
 title: Diamonds
+players: 3-6
+author: Mike Fitzgerald
+equipment: "Uses chips and bags/cups."
+layout: game
 parent: Trick-taking Games
 nav_exclude: true
 ---
-
-# Diamonds
-
-
-Players
-: 3-6
-
-Equipment
-: Chips and bags/cups
 
 - No trump suit
 - Give three chips to each player.
@@ -30,7 +25,7 @@ Equipment
     - <span class="cC">♣︎</span>: Steal a chip. (*You can't steal bagged chips.*)
 - After a predetermined number of rounds (4/5/6), most chips wins.
 - Chips in the bag count as doubled.
-- 
+
 
 
 

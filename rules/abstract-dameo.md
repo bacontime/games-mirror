@@ -1,14 +1,16 @@
 ---
 title: Dameo
+subtitle: More complex Checkers Variant, with diagonal movement and orthogonal capture.
+players: 2
+equipment: Uses an 8x8 grid and two colors of stackable pieces.
+author: Christian Freeling
+layout: game
 parent: Abstract Games
-nav_exclude: true
+nav_exclude: false
 ---
 
 
-
-# Dameo
 ![Setup your pieces by placing them in a trapezoid on the first three rows of your board.](abstract-dameo.jpg)  
-*More complex Checkers Variant, diagonal movement and orthogonal capture.*
 
 
 ## Winning
@@ -25,10 +27,11 @@ Capture all your opponent's pieces or make it so they can't move.
 ## Capturing
 
 - Men capture by hopping over an enemy **forwards**, **backwards**, or **sideways** ←↑→↓
-- Kings capture by moving **orthogonally through** the captured piece.
+- Kings capture by moving **orthogonally through** a single captured piece.
 - Capturing is mandatory. 
     - You have to capture as many as possible.
-- Multiple captures can happen in a turn
+- Multiple captures can happen in a turn.
+    - If the piece you just moved can capture again, it can and must do so. 
     - The pieces aren't removed until the end of the turn
     - You can't capture the same piece twice
     - So dead pieces can 'block' additional captures.

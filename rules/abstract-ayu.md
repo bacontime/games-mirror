@@ -1,14 +1,17 @@
 ---
 title: Ayu
+subtitle: Attach Your Units
+players: 2
+equipment: Uses a grid and two colors of stones.
+author: Luis Bolaños Mures
+layout: game
 parent: Abstract Games
 nav_exclude: true
 ---
 
 
-
-# Attach Your Units  
 ![Setup of the board with two sparse interleaved grids of pieces.](abstract-ayu.jpg)  
-*Shuffle pieces around to form them into a big blob.*
+
 
 ## Winning
 Join all your pieces into one unit, or trick your opponent into making it so you can't move.
@@ -29,4 +32,4 @@ A group of allied pieces orthogonally connected. (Like in Go)
 
 ---
 
-[Full Rules and Strategy](https://mindsports.nl/index.php/arena/ayu)
+Game by Luis Bolaños Mures. [Full Rules and Strategy](https://mindsports.nl/index.php/arena/ayu)
