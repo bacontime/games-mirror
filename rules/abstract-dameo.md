@@ -302,6 +302,37 @@ Capturing:
 
 
 
+### Canadian Checkers
+
+Canadian Checkers is Exactly the Same as International Checkers, but with a larger 32x32 board.
+
+<pre style="line-height:1.3; text-align: center;">
+⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵
+🔵⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵⬜
+⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵
+🔵⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵⬜
+⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜
+⬜🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜🔴
+🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜
+⬜🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜🔴
+🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜
+</pre>
+
+Moving:
+
+- Men move one space **diagonally forward**: ↖↗ 
+- Kings are **Flying** and move **diagonally**: ↖↗↙↘
+- If a Man ends his move on the back row, he is promoted to a King. 
+
+Capturing:
+
+- Men capture **diagonally**: ↖↗↙↘
+- Kings are **Flying** and capture **diagonally**: ↖↗↙↘ 
+- You have to **capture as many as possible**.
+
 
 
 
@@ -427,6 +458,7 @@ Capturing:
 | 🇺🇸    |    ↖↗    |      ↖↗     |     ↖↗↙↘     |     ↖↗↙↘     |              |                           |                      |                       |           12           |     8x8    |
 | 🗺️     |    ↖↗    |     ↖↗↙↘    |     ↖↗↙↘     |     ↖↗↙↘     |       ✅      |                           |           ✅          |                       |           20           |    10x10   |
 | 🇧🇷     |    ↖↗    |     ↖↗↙↘    |     ↖↗↙↘     |     ↖↗↙↘     |       ✅      |                           |           ✅          |                       |           12           |    8x8   |
+| 🇨🇦     |    ↖↗    |     ↖↗↙↘    |     ↖↗↙↘     |     ↖↗↙↘     |       ✅      |                           |           ✅          |                       |           30           |    12x12   |
 | 🇷🇺    |    ↖↗    |     ↖↗↙↘    |     ↖↗↙↘     |     ↖↗↙↘     |       ✅      |             ✅             |                      |                       |           12           |     8x8    |
 | 🇹🇷    |    ←↑→   |     ←↑→     |     ←↑→↓     |     ←↑→↓     |       ✅      |                           |           ✅          |           ✅           |           16           |     8x8    |
 | 🇦🇲    |   ↖←↑→↗  |     ←↑→     | ←↑→↓<br>↖↗↙↘ |     ←↑→↓     |       ✅      |                           |           ✅          |           ✅           |           16           |     8x8    |
@@ -470,4 +502,17 @@ https://www.iggamecenter.com/en/rules/breakthrough
 https://www.iggamecenter.com/en/rules/harzdame
 Harzdame is standard checkers turned 45degrees
 
+
+WP has a seperate page for Czech Checkers, but I don't really understand the key differences.
+https://en.wikipedia.org/wiki/Czech_draughts
+It would make for a good pun though.
+
+There's also American Pool Checkers,
+https://en.wikipedia.org/wiki/American_Pool_Checkers
+which I think is just Brazilian Checkers with a endgame countdown.?
+
+
+Several pages mention a dropped "Huff rule"
+which means you can choose not to capture. But that destroys your own piece.
 -->
+
