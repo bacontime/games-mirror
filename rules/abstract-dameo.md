@@ -24,44 +24,45 @@ Variants will have different setup, movement, etc.
 <details open markdown="block">
 <summary>Click to collapse. (You probably know this stuff already.)</summary>
 
-### Winning
-
-Capture all your opponent's pieces or make it so they otherwise cannot make a move.
-
-### Movement and Capturing
-
+You know the basics.
 - Players take turns moving pieces.
-- Men move one space. <!--(Diagonally forwards in most variants.)-->
-- Men capture by hopping over an adjacent enemy piece to the empty space on the other side.
-- Kings move and capture in a similar manner.<!--, but have more options.-->
-- In variants with **Flying Kings**, Kings can move and capture across longer distances.
-    - A flying king can move in a straight line through as many empty spaces as he wants.
-    - A flying king still captures by jumping over exactly one enemy piece in a straight line. But he doesn't have to start or end the jump adjacent to that target piece.
-
-#### Mandatory Capturing
-
-- Capturing is mandatory. If you can capture a piece, you can't choose to make a non-capturing move.
-- Multiple captures can happen in a turn.
-    - If the piece you just moved can capture again, it can and must do so as part of the same turn.
-    - In most variant, the captured pieces are removed at the end of the turn. You can't capture the same piece twice, and dead pieces can thus sometimes 'block' additional captures.
-    - In other variants, captured pieces are immediately removed. But pieces cannot immediate turn 180 for back-to-back captures.
-- When multiple captures are available:
-    - In some variants, you may freely choose which capture you want to do.
-    - In other variants, You must choose a sequence which captures as many pieces as possible.
-
-#### Promotion
-
 - All pieces on the board start as Men.
-- If a Man makes it to the back row, he is promoted to a King. 
-    - In some variants, the Man is only promoted if he *ends the turn* in the back row.
-    - In other variants, the Man can be promoted mid capture-sequence. He immediately becomes a King and can continue the capture sequence like one.
+- Men move one square or can capture pieces by hopping over them.
+- Capturing is mandatory and can be chained. 
+- If your Man ends the turn on the back row, he is promoted to a King. Kings have better movement options.
+- You win if you capture all your opponent's pieces or make it so they otherwise cannot make a move.
 
-<!--
-- If a Man ends his move on the back row, he is promoted to a King. 
-- If a Man makes it to the back row in the middle of capture sequence, what happens?
-    - In some variants, the Man immediately becomes a King and can continue the capture sequence.
-    - In other variants, the Man is not promoted mid capture-sequence. He is only promoted if he ends his turn in the back row.
--->
+But there are a few rules which differe between countries.
+These include how pieces move, the setup of the board, etc.
+Take note of the following rules:
+
+### Flying Kings
+
+In variants with **Flying Kings**, Kings can move and capture across longer distances.
+- A flying king can move in a straight line through as many empty spaces as he wants.
+- A flying king still captures by jumping over exactly one enemy piece in a straight line. But he doesn't have to start or end the jump adjacent to that target piece.
+
+Otherwise, a King moves one space and captures by two spaces, just like a Man.
+
+### Majority Capture
+
+All major checkers variants have mandatory capture.
+But what if there are multiple capture sequences available?
+In a variant with **Majority Capture**, you must choose a capture sequence 
+which captures the most pieces.
+
+Otherwise, you can freely choose which capture you want to do.
+
+
+### Immediate Removal
+
+In most variants, the captured pieces are all removed at the end of the turn. 
+You can't capture the same piece twice, 
+and dead pieces can thus sometimes 'block' additional captures.
+
+In a variant with **Immediate Removal**,
+captured pieces are hoovered up immediately.
+An additional restriction is added to say that a King can't immediately turn 180° mid capture-sequence.
 </details>
 
 
