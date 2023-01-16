@@ -7,6 +7,9 @@ layout: game
 parent: Abstract Games
 nav_exclude: false
 toc: true
+permalink: /rules/abstract-checkers
+redirect_from:
+  - /rules/abstract-dameo
 ---
 
 <!--author: Christian Freeling-->
@@ -85,8 +88,9 @@ In Dameo, pieces have diagonal movement, but only orthogonal capture.
 There is also a group movement rule to get the Men into action more quickly.
 
 Game by Christian Freeling (2000).
-[See here for full rules](https://boardgamegeek.com/thread/1747520/dameo-rule-set).
+[See here for full rules](https://mindsports.nl/index.php/arena/dameo/65-rules).
 <!--
+https://boardgamegeek.com/thread/1747520/dameo-rule-set
 [See here for full rules](https://boardgamegeek.com/thread/1747520/dameo-rule-set) [and Strategy](https://mindsports.nl/images/stories/arena/damvar/Dameo.pdf) -->
 
 
