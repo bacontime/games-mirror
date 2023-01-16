@@ -178,6 +178,11 @@ Setup your pieces intermingled around all four edges of the board.
 
 ### English Checkers
 
+
+|    | Man Move | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|:--:|:--------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
+| 🇺🇸 | ↖↗       | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              |                      |                       | 8x8        |
+
 <pre style="line-height:1.3; text-align: center;">
 ⬜🔵⬜🔵⬜🔵⬜🔵
 🔵⬜🔵⬜🔵⬜🔵⬜
