@@ -4,6 +4,7 @@ subtitle: Micro RPG. Balance your animal and Criminal Instincts.
 parent: Micro RPGs
 layout: game
 has_children: false
+nav_exclude: true
 ---
 
 It’s HoneyCon 2018 . You are about to undertake The Greatest Heist
