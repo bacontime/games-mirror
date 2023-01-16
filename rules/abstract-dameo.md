@@ -9,6 +9,7 @@ nav_exclude: false
 toc: true
 permalink: /rules/abstract-checkers
 redirect_from:
+  - /rules/abstract-dameo.html
   - /rules/abstract-dameo
 ---
 
