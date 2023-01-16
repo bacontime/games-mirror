@@ -14,34 +14,36 @@ toc: true
 ![For Dameo, setup your pieces by placing them in a trapezoid on the first three rows of your board.](abstract-dameo.jpg)  
 
 
-## Generic Rules For Checkers Variants
+## Generic Checkers Rules
+
+These are the commonalities between Checkers variants.
+Variants will have different setup, movement, etc.
 
 ### Winning
 
 Capture all your opponent's pieces or make it so they otherwise cannot make a move.
 
-
 ### Movement and Capturing
 
-- Men move one space. (Diagonally forwards in most variants.)
+- Players take turns moving pieces.
+- Men move one space. <!--(Diagonally forwards in most variants.)-->
 - Men capture by hopping over an adjacent enemy piece to the empty space on the other side.
-- Kings move and capture in a similar manner, but with more options.
+- Kings move and capture in a similar manner.<!--, but have more options.-->
 - In variants with **Flying Kings**, Kings can move and capture across longer distances.
     - A flying king can move in a straight line through as many empty spaces as he wants.
     - A flying king still captures by jumping over exactly one enemy piece in a straight line. But he doesn't have to start or end the jump adjacent to that target piece.
 
 #### Mandatory Capturing
 
-- Capturing is mandatory. If you can capture a piece, you may not choose to make a non-capturing move.
+- Capturing is mandatory. If you can capture a piece, you can't choose to make a non-capturing move.
 - Multiple captures can happen in a turn.
-    - If the piece you just moved can capture again, it can and must do so. 
-    - The captured pieces are removed at the end of the turn. 
-    - You can't capture the same piece twice, and dead pieces can thus sometimes 'block' additional captures.
+    - If the piece you just moved can capture again, it can and must do so as part of the same turn.
+    - The captured pieces are removed at the end of the turn. You can't capture the same piece twice, and dead pieces can thus sometimes 'block' additional captures.
 - When multiple captures are available:
     - In some variants, you may freely choose which capture you want to do.
-    - In other variants, You have to choose a sequence which captures as many pieces as possible.
+    - In other variants, You must choose a sequence which captures as many pieces as possible.
 
-#### Promotion:
+#### Promotion
 
 - All pieces on the board start as Men.
 - If a Man makes it to the back row, he is promoted to a King. 
@@ -73,7 +75,7 @@ Game by Christian Freeling (2000).
 
 Setup your pieces by placing them in a trapezoid on the first three rows of the board.
 
-<pre style="line-height:1.3;">
+<pre style="line-height:1.3; text-align: center;">
 🔵🔵🔵🔵🔵🔵🔵🔵
 ⬜🔵🔵🔵🔵🔵🔵⬜
 ⬜⬜🔵🔵🔵🔵⬜⬜
@@ -117,7 +119,7 @@ Setup your pieces by placing them in a trapezoid on the first three rows of the 
 
 - Men can move **forward** or **diagonally forward**: ↖⬆↗
     - one space by himself
-    - by jumping over a straight  unbroken line of allied men (equivalently, move the entire line of men)
+    - by jumping over a straight unbroken line of allied men (equivalently, move the entire line of men)
 - Kings are **Flying** and move in **all eight directions**: ←↑→↓↖↗↙↘
 - If a Man ends his move on the back row, he is promoted to a King. 
 
@@ -138,39 +140,7 @@ Setup your pieces by placing them in a trapezoid on the first three rows of the 
 
 ### Setup
 
-
-<style>
-.checkerboard{
-    line-height: 1.3em;
-}
-.gSq{
-    display: inline-block;
-    height: 1.3em;
-    width: 1.3em;
-    text-align: center;
-    background-color: #c5edc4;
-}
-.wSq{
-    display: inline-block;
-    height: 1.3em;
-    width: 1.3em;
-    text-align: center;
-    background-color: #ffffdd;
-}
-</style>
-
-<div class="checkerboard">
-<span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><br>
-<span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><br>
-<span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><br>
-<span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><br>
-<span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><br>
-<span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><br>
-<span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><br>
-<span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><br>
-</div>
-
-<pre style="line-height:1.3;">
+<pre style="line-height:1.3; text-align: center;">
 ⬜🔵⬜🔵⬜🔵⬜🔵
 🔵⬜🔵⬜🔵⬜🔵⬜
 ⬜🔵⬜🔵⬜🔵⬜🔵
@@ -186,7 +156,7 @@ Setup your pieces by placing them in a trapezoid on the first three rows of the 
 ### Moving
 
 - Men move one space **diagonally forward**: ↖↗ 
-- Kings move one space **diagonally forward or backward**: ↖↗↙↘
+- Kings move one space **diagonally**: ↖↗↙↘
 - If a Man ends his move on the back row, he is promoted to a King. 
 
 ### Capturing
@@ -203,9 +173,9 @@ Setup your pieces by placing them in a trapezoid on the first three rows of the 
 
 ### Setup
 
-Similar to American Checkers but on a 10x10 board.
+Similar to English Checkers but on a 10x10 board.
 
-<pre style="line-height:1.3;">
+<pre style="line-height:1.3; text-align: center;">
 ⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵
 🔵⬜🔵⬜🔵⬜🔵⬜🔵⬜
 ⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵
@@ -224,13 +194,13 @@ Similar to American Checkers but on a 10x10 board.
 ### Moving
 
 - Men move one space **diagonally forward**: ↖↗ 
-- Kings are **Flying** and move **diagonally forward or backward**: ↖↗↙↘
+- Kings are **Flying** and move **diagonally**: ↖↗↙↘
 - If a Man ends his move on the back row, he is promoted to a King. 
 
 ### Capturing
 
-- Men capture **diagonally forward or backward**: ↖↗↙↘
-- Kings are **Flying** and capture **diagonally forward or backward**: ↖↗↙↘ 
+- Men capture **diagonally**: ↖↗↙↘
+- Kings are **Flying** and capture **diagonally**: ↖↗↙↘ 
 - You have to **capture as many as possible**.
 
 
@@ -249,7 +219,7 @@ Similar to American Checkers but on a 10x10 board.
 Same as English Checkers.
 
 
-<pre style="line-height:1.3;">
+<pre style="line-height:1.3; text-align: center;">
 ⬜🔵⬜🔵⬜🔵⬜🔵
 🔵⬜🔵⬜🔵⬜🔵⬜
 ⬜🔵⬜🔵⬜🔵⬜🔵
@@ -265,12 +235,12 @@ Same as English Checkers.
 ### Moving
 
 - Men move one space **diagonally forward**: ↖↗ 
-- Kings are **Flying** and move **diagonally forward or backward**: ↖↗↙↘
+- Kings are **Flying** and move **diagonally**: ↖↗↙↘
 
 ### Capturing
 
-- Men capture **diagonally forward or backward**: ↖↗↙↘
-- Kings are **Flying** and capture **diagonally forward or backward**: ↖↗↙↘
+- Men capture **diagonally**: ↖↗↙↘
+- Kings are **Flying** and capture **diagonally**: ↖↗↙↘
 - You have to **capture as many as possible**.
 - A Man can be promoted mid-capture-sequence.
 
@@ -285,15 +255,17 @@ Same as English Checkers.
 |:--|:-:|:-:|:-:|:-:|
 | Man Move | ↖↗ | ↖↗ | ↖↗ | ↖↑↗ |
 | Man Capture | ↖↗ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ |
-| King Move | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓↖↗↙↘ |
+| King Move | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓<br>↖↗↙↘ |
 | King Capture | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ |
-| Flying King? |  | ✔️ | ✔️ | ✔️ |
-| Mid-Capture Promotion? |  |  | ✔️ |  |
-|  |  |  |  |  |
+| Flying King? |  | ✅ | ✅ | ✅ |
+| Mid-Capture Promotion? |  |  | ✅ |  |
+| Num. Pieces Per Player | 12 | 20 | 12 | 18 |
 
 
 
 <!--
+row for phalanx rule?
+|  |  |  |  |  |
 ←↑→↓
 ←↑→↓↖↗↙↘
 ←↖↑↗→↘↓↙
