@@ -50,7 +50,7 @@ In variants with **Flying Kings**, Kings can move and capture across longer dist
 - A flying king can move in a straight line through as many empty spaces as he wants.
 - A flying king still captures by jumping over exactly one enemy piece in a straight line. But he doesn't have to start or end the jump adjacent to that target piece.
 
-Otherwise, a King moves one space and captures by two spaces, just like a Man.
+Otherwise, a King moves one space and captures by hopping two spaces, just like a Man.
 
 ### Majority Capture
 
@@ -81,7 +81,7 @@ An additional restriction is typically added to say that a King can't immediatel
 ## Rules for Dameo
 
 Dameo is one of the most highly rated Checkers Variants on BGG.
-In Dameo, pieces have diagonal movement, but orthogonal capture.
+In Dameo, pieces have diagonal movement, but only orthogonal capture.
 There is also a group movement rule to get the Men into action more quickly.
 
 Game by Christian Freeling (2000).
@@ -89,9 +89,6 @@ Game by Christian Freeling (2000).
 <!--
 [See here for full rules](https://boardgamegeek.com/thread/1747520/dameo-rule-set) [and Strategy](https://mindsports.nl/images/stories/arena/damvar/Dameo.pdf) -->
 
-
-
-### Setup
 
 Setup your pieces by placing them in a trapezoid on the first three rows of the board.
 
@@ -137,17 +134,17 @@ Setup your pieces by placing them in a trapezoid on the first three rows of the 
 
 ### Moving
 
-- Men can move **forward** or **diagonally forward**: ↖⬆↗
+- Men move **forward** or **diagonally forward**: ↖⬆↗. Two ways for Men to move:
     - one space by himself
     - by jumping over a straight unbroken line of allied men (equivalently, move the entire line of men)
-- Kings are **Flying** and move in **all eight directions**: ←↑→↓↖↗↙↘
-
-
-### Capturing
-
 - Men capture **orthogonally** ←↑→↓
-- Kings are **Flying** and capture **orthogonally**: ←↑→↓
-- Majority Capture rule applies. You have to capture as many as possible.
+- Kings move in **all eight directions**: ←↑→↓↖↗↙↘
+- Kings capture **orthogonally**: ←↑→↓
+- **Flying Kings**
+- **Majority Capture** rule applies. You have to capture as many as possible.
+- Captured pieces are removed at the end of the turn.
+
+
 
 
 
@@ -194,19 +191,26 @@ Setup your pieces intermingled around all four edges of the board.
 <!--🇺🇸 🇬🇧 🇪🇸 🇲🇽 🇵🇹 🇧🇷 🇫🇷 🇩🇪 🇯🇵 🇨🇳 🇰🇷 🇮🇳-->
 
 
-|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
-|:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
-| 🇺🇸 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              |                      |                       | 8x8        |
-| 🗺️ | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 10x10      |
-| 🇧🇷 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 8x8        |
-| 🇨🇦 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 12x12      |
-| 🇲🇾 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 12x12      |
-| 🇮🇹 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              | ✅+                  |                       | 8x8        |
-| 🇪🇸 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅+                  |                       | 8x8        |
-| 🇷🇺 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           |                      |                       | 8x8        |
-| 🇹🇷 | ←↑→       | ←↑→         | ←↑→↓         | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
-| 🇦🇲 | ←↑→<br>↖↗ | ←↑→         | ←↑→↓<br>↖↗↙↘ | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
-| 🇹🇭 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅-          |                      | ✅+                   | 8x8        |
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate... | Board Size |
+|:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:-----------:|:----------:|
+| 🇺🇸 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              |                      |              | 8x8        |
+| 🗺️ | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |              | 10x10      |
+| 🇧🇷 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |              | 8x8        |
+| 🇨🇦 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |              | 12x12      |
+| 🇲🇾 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |              | 12x12      |
+| 🇮🇹 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              | ✅+                  |              | 8x8        |
+| 🇪🇸 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅+                  |              | 8x8        |
+| 🇷🇺 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           |                      | Promotion    | 8x8        |
+| 🇹🇷 | ←↑→       | ←↑→         | ←↑→↓         | ←↑→↓         | ✅           | ✅                   | Removal      | 8x8        |
+| 🇦🇲 | ←↑→<br>↖↗ | ←↑→         | ←↑→↓<br>↖↗↙↘ | ←↑→↓         | ✅           | ✅                   | Removal      | 8x8        |
+| 🇹🇭 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅-          |                      | Removal+     | 8x8        |
+
+Special Rules:
+- In Russian Checkers, pieces are *immediately* promoted when they reach the back row, even in the middle of a capture sequence.
+- In Italian Checkers, Men cannot capture Kings.
+- In Italian and Spanish checkers, there are additional restrictions on which capture sequences you must choose.
+- In Thai Checkers, Kings are semi-flying. They can move and capture from far away, but must land directly behind a piece when they capture it.
+- In Thai Checkers, captured pieces are immediately removed, and Kings can turn 180° in the middle of a capture sequence.
 
 
 
@@ -226,8 +230,8 @@ Also known as British Draughts.
 </pre>
 
 
-- Men move and capture one space **diagonally forward**: ↖↗ 
-- Kings move and capture one space **diagonally**: ↖↗↙↘
+- Men move and capture  **diagonally forward**: ↖↗ 
+- Kings move (one space) and capture  **diagonally**: ↖↗↙↘
 - Kings don't fly.
 - If there are multiple captures available, you may choose which to do.
 - Captured pieces are removed at the end of the turn.
@@ -238,7 +242,7 @@ Also known as British Draughts.
 
 
 
-|    | Man Move | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|    | Man Move | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate... | Board Size |
 |:--:|:--------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
 | 🇺🇸 | ↖↗       | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              |                      |                       | 8x8        |
 
@@ -308,7 +312,7 @@ and 60 pieces.
 </pre>
 
 
-|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate... | Board Size |
 |:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
 | 🗺️ | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 10x10      |
 | 🇧🇷 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 8x8        |
@@ -321,7 +325,7 @@ and 60 pieces.
 Malaysian/Singaporean Checkers is played the same as Canadian Checkers,
 but Men can only capture **diagonally forward**: ↖↗ 
 
-|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate... | Board Size |
 |:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
 | 🇲🇾 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 12x12      |
 
@@ -342,8 +346,8 @@ but Men can only capture **diagonally forward**: ↖↗
 🔴⬜🔴⬜🔴⬜🔴⬜
 </pre>
 
-- Men move and capture one space **diagonally forward**: ↖↗ 
-- Kings move and capture one space **diagonally**: ↖↗↙↘
+- Men move and capture  **diagonally forward**: ↖↗ 
+- Kings move (one space) and capture  **diagonally**: ↖↗↙↘
 - Kings don't fly.
 - **Majority Capture** rule applies. You have to capture as many as possible. 
 - Captured pieces are removed at the end of the turn.
@@ -358,7 +362,7 @@ Oddities:
     4. Choose the sequence that captures a King earliest in the sequence.
 
 
-|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate... | Board Size |
 |:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
 | 🇮🇹 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              | ✅+                  |                       | 8x8        |
 
@@ -377,15 +381,15 @@ Oddities:
 🔴⬜🔴⬜🔴⬜🔴⬜
 </pre>
 
-- Men move and capture one space **diagonally forward**: ↖↗ 
-- Kings move and capture one space **diagonally**: ↖↗↙↘
+- Men move and capture  **diagonally forward**: ↖↗ 
+- Kings move (one space) and capture  **diagonally**: ↖↗↙↘
 - **Flying Kings**
 - **Majority Capture** rule applies. You have to capture as many as possible. 
     - If there are multiple such options, you must capture as many Kings as possible.
 - Captured pieces are removed at the end of the turn.
 
 
-|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate... | Board Size |
 |:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
 | 🇪🇸 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅+                  |                       | 8x8        |
 
@@ -429,7 +433,7 @@ In other variants, a Man isn't promoted
 if he enters then leaves the back row before the turn is done.
 
 
-|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate... | Board Size |
 |:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
 | 🇷🇺 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           |                      |                       | 8x8        |
 
@@ -450,13 +454,14 @@ Aka Dama
 </pre>
 
 
-- Men move and capture one space **forward** or **sideways**: ←↑→ 
+- Men move and capture  **forward** or **sideways**: ←↑→ 
 - Kings move and capture **orthogonally**: ←↑→↓
 - **Flying Kings**
 - **Majority Capture** rule applies. You have to capture as many as possible.
-- Pieces are **immediately removed** from the board when captured. Kings can't turn turn 180°.
+- Pieces are **immediately removed** from the board when captured. 
+    - Kings can't turn turn 180°.
 
-|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate... | Board Size |
 |:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
 | 🇹🇷 | ←↑→       | ←↑→         | ←↑→↓         | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
 
@@ -483,15 +488,16 @@ Same as Turkish Checkers
 
 
 
-- Men move and capture one space **forward, diagonally forward,** or **sideways**: ↖←↑→↗ 
+- Men move and capture  **forward, diagonally forward,** or **sideways**: ↖←↑→↗ 
 - Men capture one space **forward** or **sideways**: ←↑→ 
 - Kings move **in all eight directions**: ←↑→↓↖↗↙↘
 - Kings capture **orthogonally**: ←↑→↓
 - **Flying Kings**
 - **Majority Capture** rule applies. You have to capture as many as possible.
-- Pieces are **immediately removed** from the board when captured. Kings can't turn turn 180°.
+- Pieces are **immediately removed** from the board when captured. 
+    - Kings can't turn turn 180°.
 
-|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate... | Board Size |
 |:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
 | 🇦🇲 | ←↑→<br>↖↗ | ←↑→         | ←↑→↓<br>↖↗↙↘ | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
 
@@ -512,15 +518,16 @@ This game is played with only 8 pieces per side.
 </pre>
 
 
-- Men move and capture one space **diagonally forward**: ↖↗ 
+- Men move and capture  **diagonally forward**: ↖↗ 
 - Kings move and capture **diagonally**: ↖↗↙↘
 - **Flying Kings**
     - However, a king must **land directly behind** a captured piece. 
 - If there are multiple captures available, you may choose which to do.
-- Pieces are **immediately removed** from the board when captured. **Kings can turn turn 180°.**
+- Pieces are **immediately removed** from the board when captured. 
+    - Kings **can turn turn 180°** after a capture.
 
 
-|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate... | Board Size |
 |:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
 | 🇹🇭 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅-          |                      | ✅+                   | 8x8        |
 
