@@ -205,9 +205,44 @@ Capturing:
 
 
 
+### Italian Checkers
+
+<pre style="line-height:1.3; text-align: center;">
+⬜🔵⬜🔵⬜🔵⬜🔵
+🔵⬜🔵⬜🔵⬜🔵⬜
+⬜🔵⬜🔵⬜🔵⬜🔵
+⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜
+🔴⬜🔴⬜🔴⬜🔴⬜
+⬜🔴⬜🔴⬜🔴⬜🔴
+🔴⬜🔴⬜🔴⬜🔴⬜
+</pre>
+
+
+
+Moving:
+
+- Men move one space **diagonally forward**: ↖↗ 
+- Kings move one space **diagonally**: ↖↗↙↘
+- If a Man ends his move on the back row, he is promoted to a King. 
+
+Capturing:
+
+- Men and Kings capture by hopping over an enemy in the same directions they can move.
+- Men Cannot Capture Kings.
+- You have to **capture as many as possible**. 
+- There are additional heirarchical criteria determining which capture sequence you must choose. In order:
+    1. Capture as many pieces as possible.
+    2. Capture using a King.
+    3. Capture as many Kings as possible.
+    4. Choose the sequence that captures a King earliest in the sequence.
+
+
+
 
 
 ### International Checkers
+This variant is also called Polish Checkers and originates from the Netherlands.
 
 Board Setup:
 Similar to English Checkers but on a 10x10 board.
@@ -223,6 +258,34 @@ Similar to English Checkers but on a 10x10 board.
 🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜
 ⬜🔴⬜🔴⬜🔴⬜🔴⬜🔴
 🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜
+</pre>
+
+Moving:
+
+- Men move one space **diagonally forward**: ↖↗ 
+- Kings are **Flying** and move **diagonally**: ↖↗↙↘
+- If a Man ends his move on the back row, he is promoted to a King. 
+
+Capturing:
+
+- Men capture **diagonally**: ↖↗↙↘
+- Kings are **Flying** and capture **diagonally**: ↖↗↙↘ 
+- You have to **capture as many as possible**.
+
+
+### Brazilian Checkers
+
+Brazilian Checkers is Exactly the Same as International Checkers, but with a smaller board.
+
+<pre style="line-height:1.3; text-align: center;">
+⬜🔵⬜🔵⬜🔵⬜🔵
+🔵⬜🔵⬜🔵⬜🔵⬜
+⬜🔵⬜🔵⬜🔵⬜🔵
+⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜
+🔴⬜🔴⬜🔴⬜🔴⬜
+⬜🔴⬜🔴⬜🔴⬜🔴
+🔴⬜🔴⬜🔴⬜🔴⬜
 </pre>
 
 Moving:
@@ -360,14 +423,19 @@ Capturing:
 
 <div style="width:150%;" markdown="block">
 |       | Man Move | Man Capture |   King Move  | King Capture | Flying King? | Mid-Capture<br>Promotion? | Majority<br>Capture? | Immediate<br>Removal? | Num. Pieces Per Player | Board Size |
-|-------|:--------:|:-----------:|:------------:|:------------:|:------------:|:-------------------------:|:--------------------:|:---------------------:|:----------------------:|:----------:|
+|:-----:|:--------:|:-----------:|:------------:|:------------:|:------------:|:-------------------------:|:--------------------:|:---------------------:|:----------------------:|:----------:|
 | 🇺🇸    |    ↖↗    |      ↖↗     |     ↖↗↙↘     |     ↖↗↙↘     |              |                           |                      |                       |           12           |     8x8    |
 | 🗺️     |    ↖↗    |     ↖↗↙↘    |     ↖↗↙↘     |     ↖↗↙↘     |       ✅      |                           |           ✅          |                       |           20           |    10x10   |
+| 🇧🇷     |    ↖↗    |     ↖↗↙↘    |     ↖↗↙↘     |     ↖↗↙↘     |       ✅      |                           |           ✅          |                       |           12           |    8x8   |
 | 🇷🇺    |    ↖↗    |     ↖↗↙↘    |     ↖↗↙↘     |     ↖↗↙↘     |       ✅      |             ✅             |                      |                       |           12           |     8x8    |
-| Dameo |    ↖↑↗   |     ←↑→↓    | ←↑→↓<br>↖↗↙↘ |     ←↑→↓     |       ✅      |                           |           ✅          |                       |           18           |     8x8    |
 | 🇹🇷    |    ←↑→   |     ←↑→     |     ←↑→↓     |     ←↑→↓     |       ✅      |                           |           ✅          |           ✅           |           16           |     8x8    |
 | 🇦🇲    |   ↖←↑→↗  |     ←↑→     | ←↑→↓<br>↖↗↙↘ |     ←↑→↓     |       ✅      |                           |           ✅          |           ✅           |           16           |     8x8    |
+| 🇮🇹    |   ↖↗  |     ↖↗     | ↖↗↙↘ |     ↖↗↙↘     |             |                           |           ✅          |                      |           16           |     8x8    |
 </div>
+
+<!--
+| Dameo |    ↖↑↗   |     ←↑→↓    | ←↑→↓<br>↖↗↙↘ |     ←↑→↓     |       ✅      |                           |           ✅          |                       |           18           |     8x8    |
+-->
 
 <!--
 row for phalanx rule?
