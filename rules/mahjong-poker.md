@@ -1,6 +1,6 @@
 ---
 title: Mahjong Poker
-subtititle: Playing Poker Games with a Mahjong Set
+subtitle: Playing Poker Games with a Mahjong Set
 layout: post
 parent: Mahjong Set Games
 has_children: false

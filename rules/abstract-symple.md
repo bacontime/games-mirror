@@ -1,5 +1,6 @@
 ---
 title: Symple
+subtitle: Grow groups of stones.
 players: 2
 equipment: Uses an grid and two colors of stones.
 author: Christian Freeling and Benedikt Rosenau
@@ -26,4 +27,4 @@ I've looked at the entries up to 17.
 
 ---
 
-[Game by Christian Freeling and Benedikt Rosenau](https://www.mindsports.nl/index.php/arena/symple/)
+Game by Christian Freeling and Benedikt Rosenau. [See here for full rules.](https://www.mindsports.nl/index.php/arena/symple/585-symple-rules)

@@ -1,6 +1,6 @@
 ---
 title: "Vizzini's Battle of Wits"
-subtitle: Distilled bluffing.
+subtitle: Even more distilled bluffing.
 players: 4+
 equipment: "Uses hearts and spades."
 author: Chris Anderson

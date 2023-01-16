@@ -1,5 +1,6 @@
 ---
 title: 6-Card Golf
+subtitle: Build a tableau without high cards.
 players: 2-4
 equipment: "Use both jokers."
 layout: game

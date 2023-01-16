@@ -1,6 +1,6 @@
 ---
 title: GoPS
-subtitle: 'The "Game of Pure Strategy". Aka Goofenspiel.'
+subtitle: Use cards to buy cards, a la For Sale.
 players: 2-3
 layout: game
 parent: Other Card Games
