@@ -9,9 +9,8 @@ nav_exclude: false
 toc: true
 permalink: /rules/abstract-checkers
 redirect_from:
-  - /rules/abstract-dameo.html
-  - /rules/abstract-dameo
-  - dameotest
+  - /post/123456789/
+  - /post/test
 ---
 
 <!--author: Christian Freeling-->
