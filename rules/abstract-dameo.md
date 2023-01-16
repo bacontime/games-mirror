@@ -373,7 +373,7 @@ if he enters then leaves the back row before the turn is done.
 - Kings move and capture **orthogonally**: ←↑→↓
 - **Flying Kings**
 - **Majority Capture** rule applies. You have to capture as many as possible.
-- Pieces are **immediately removed** from the board when captured.
+- Pieces are **immediately removed** from the board when captured. Kings can't turn turn 180°.
 
 
 
@@ -404,7 +404,32 @@ Same as Turkish Checkers
 - Kings capture **orthogonally**: ←↑→↓
 - **Flying Kings**
 - **Majority Capture** rule applies. You have to capture as many as possible.
-- Pieces are **immediately removed** from the board when captured.
+- Pieces are **immediately removed** from the board when captured. Kings can't turn turn 180°.
+
+
+
+### Thai Checkers
+
+This game is played with only 8 pieces per side.
+
+<pre style="line-height:1.3; text-align: center;">
+⬜🔵⬜🔵⬜🔵⬜🔵
+🔵⬜🔵⬜🔵⬜🔵⬜
+⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜
+⬜🔴⬜🔴⬜🔴⬜🔴
+🔴⬜🔴⬜🔴⬜🔴⬜
+</pre>
+
+
+- Men move and capture one space **diagonally forward**: ↖↗ 
+- Kings move and capture **diagonally**: ↖↗↙↘
+- **Flying Kings**
+    - However, a king must **land directly behind** a captured piece. 
+- If there are multiple captures available, you may choose which to do.
+- Pieces are **immediately removed** from the board when captured. **Kings can turn turn 180°.**
 
 
 
@@ -426,6 +451,7 @@ Same as Turkish Checkers
 | 🇷🇺 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           |                      |                       | 8x8        |
 | 🇹🇷 | ←↑→       | ←↑→         | ←↑→↓         | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
 | 🇦🇲 | ←↑→<br>↖↗ | ←↑→         | ←↑→↓<br>↖↗↙↘ | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
+| 🇹🇭 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅†          |                      | ✅†                   | 8x8        |
 
 
 
