@@ -10,13 +10,13 @@ toc: true
 permalink: /rules/checkers
 redirect_from:
   - /rules/abstract-dameo
+  - /rules/abstract-checkers
 ---
 
 <!--author: Christian Freeling-->
 
 <!--
 
-  - /rules/abstract-checkers
 
 https://boardgamegeek.com/wiki/page/Checkers_Family#
 
