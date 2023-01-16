@@ -7,14 +7,16 @@ layout: game
 parent: Abstract Games
 nav_exclude: false
 toc: true
-permalink: /rules/abstract-checkers
+permalink: /rules/checkers
 redirect_from:
   - /rules/abstract-dameo
+  - /rules/abstract-checkers
 ---
 
 <!--author: Christian Freeling-->
 
 <!--
+
 
 https://boardgamegeek.com/wiki/page/Checkers_Family#
 
