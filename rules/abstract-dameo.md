@@ -252,18 +252,54 @@ Same as English Checkers.
 
 
 
+## Rules for Turkish Checkers / Dama
+
+### Setup
+
+<pre style="line-height:1.3; text-align: center;">
+⬜⬜⬜⬜⬜⬜⬜⬜
+🔵🔵🔵🔵🔵🔵🔵🔵
+🔵🔵🔵🔵🔵🔵🔵🔵
+⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜
+🔴🔴🔴🔴🔴🔴🔴🔴
+🔴🔴🔴🔴🔴🔴🔴🔴
+⬜⬜⬜⬜⬜⬜⬜⬜
+</pre>
+
+
+
+### Moving
+
+- Men move one space **forward or sideways**: ↖↑↗ 
+- Kings are **Flying** and move **orthogonally**: ↖↗↙↘
+
+### Capturing
+
+- Men capture **diagonally**: ↖↗↙↘
+- Kings are **Flying** and capture **diagonally**: ↖↗↙↘
+- You have to **capture as many as possible**.
+- A Man can be promoted mid-capture-sequence.
+
+<!--- A Man is promoted to King if he reaches the back row,  mid-capture-sequence.-->
+
+
+
+
+
 
 ## Summary of Variants
 
-|  | Eng | Int | Rus | Dameo |
-|:--|:-:|:-:|:-:|:-:|
-| Man Move | ↖↗ | ↖↗ | ↖↗ | ↖↑↗ |
-| Man Capture | ↖↗ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ |
-| King Move | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓<br>↖↗↙↘ |
-| King Capture | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ |
-| Flying King? |  | ✅ | ✅ | ✅ |
-| Mid-Capture Promotion? |  |  | ✅ |  |
-| Num. Pieces Per Player | 12 | 20 | 12 | 18 |
+|  | Eng | Int | Rus | Dameo | Turk |
+|:--|:-:|:-:|:-:|:-:|  |
+| Man Move | ↖↗ | ↖↗ | ↖↗ | ↖↑↗ | ←↑→ |
+| Man Capture | ↖↗ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ | ←↑→ |
+| King Move | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓<br>↖↗↙↘ | ←↑→↓ |
+| King Capture | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ | ←↑→↓ |
+| Flying King? |  | ✅ | ✅ | ✅ | ✅ |
+| Mid-Capture Promotion? |  |  | ✅ |  | |
+| Num. Pieces Per Player | 12 | 20 | 12 | 18 | 16 |
+| Board Size | 8x8 | 10x10 | 8x8 | 8x8 | 8x8 |
 
 
 
@@ -275,3 +311,22 @@ row for phalanx rule?
 ←↖↑↗→↘↓↙
 -->
 
+
+
+<!--
+https://www.iggamecenter.com/en/rules/bashni
+Bashni - stacking mechanic I don't quite understand.
+Emergo is similar https://www.iggamecenter.com/en/rules/emergo
+
+Comments on Russian Checkers
+Not my favourite version of checkers but a VAST improvement over English Draughts/American Checkers or International Checkers both of which are in my opinion horrendously boring games. The best checkers variants I have, so far, encountered are Turkish Checkers, Frisian Checkers, Bashni and the modern Dameo. Russian Checkers is nowhere near the standard of these other games but it sort of feels like the rule set that English Draughts/American Checkers or International Checkers should have had to make them into games you'd actually bother to play at all.
+Only differences to Brazilian checkers is that in a capturing sequence, men promote to Kings(Queens) and continue capturing; and that there is NO requirement to select the sequence with the maximum number of captures.
+
+
+https://www.iggamecenter.com/en/rules/halma
+Halma is a bit different. The goal is to move your pieces to the opposite corner.
+That's basically chinese checkers rules.
+Oh. Huh. 
+https://boardgamegeek.com/boardgame/2386/chinese-checkers
+Chinese Checkers is actually called Stern-Halma.
+-->
