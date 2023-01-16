@@ -11,7 +11,15 @@ toc: true
 
 <!--author: Christian Freeling-->
 
-<!--https://boardgamegeek.com/wiki/page/Checkers_Family#-->
+<!--
+
+https://boardgamegeek.com/wiki/page/Checkers_Family#
+
+https://www.mindsports.nl/index.php/on-the-evolution-of-draughts-variants/draughts-variants
+
+https://www.di.fc.ul.pt/~jpn/gv/checkers.htm
+
+-->
 
 ![For Dameo, setup your pieces by placing them in a trapezoid on the first three rows of your board.](abstract-dameo.jpg)  
 
@@ -204,34 +212,6 @@ Also known as British Draughts.
 
 
 
-### Italian Checkers
-
-<pre style="line-height:1.3; text-align: center;">
-⬜🔵⬜🔵⬜🔵⬜🔵
-🔵⬜🔵⬜🔵⬜🔵⬜
-⬜🔵⬜🔵⬜🔵⬜🔵
-⬜⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜⬜
-🔴⬜🔴⬜🔴⬜🔴⬜
-⬜🔴⬜🔴⬜🔴⬜🔴
-🔴⬜🔴⬜🔴⬜🔴⬜
-</pre>
-
-- Men move and capture one space **diagonally forward**: ↖↗ 
-- Kings move and capture one space **diagonally**: ↖↗↙↘
-- Kings don't fly.
-- **Majority Capture** rule applies. You have to capture as many as possible. 
-- Captured pieces are removed at the end of the turn.
-
-Oddities:
-
-- Men Cannot Capture Kings.
-- There are additional criteria determining which capture sequence you must choose. In order of priority:
-    1. Capture as many pieces as possible.
-    2. Capture using a King.
-    3. Capture as many Kings as possible.
-    4. Choose the sequence that captures a King earliest in the sequence.
-
 
 |    | Man Move | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
 |:--:|:--------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
@@ -307,8 +287,65 @@ and 60 pieces.
 </pre>
 
 
+#### Malaysian Checkers
+
+Malaysian/Singaporean Checkers is played exactly the Same as Canadian Checkers,
+but Men can only capture **diagonally forward**: ↖↗ 
 
 
+
+
+
+### Italian Checkers
+
+<pre style="line-height:1.3; text-align: center;">
+⬜🔵⬜🔵⬜🔵⬜🔵
+🔵⬜🔵⬜🔵⬜🔵⬜
+⬜🔵⬜🔵⬜🔵⬜🔵
+⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜
+🔴⬜🔴⬜🔴⬜🔴⬜
+⬜🔴⬜🔴⬜🔴⬜🔴
+🔴⬜🔴⬜🔴⬜🔴⬜
+</pre>
+
+- Men move and capture one space **diagonally forward**: ↖↗ 
+- Kings move and capture one space **diagonally**: ↖↗↙↘
+- Kings don't fly.
+- **Majority Capture** rule applies. You have to capture as many as possible. 
+- Captured pieces are removed at the end of the turn.
+
+Oddities:
+
+- Men Cannot Capture Kings.
+- There are additional criteria determining which capture sequence you must choose. In order of priority:
+    1. Capture as many pieces as possible.
+    2. Capture using a King.
+    3. Capture as many Kings as possible.
+    4. Choose the sequence that captures a King earliest in the sequence.
+
+
+
+
+### Spanish Checkers
+
+<pre style="line-height:1.3; text-align: center;">
+⬜🔵⬜🔵⬜🔵⬜🔵
+🔵⬜🔵⬜🔵⬜🔵⬜
+⬜🔵⬜🔵⬜🔵⬜🔵
+⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜
+🔴⬜🔴⬜🔴⬜🔴⬜
+⬜🔴⬜🔴⬜🔴⬜🔴
+🔴⬜🔴⬜🔴⬜🔴⬜
+</pre>
+
+- Men move and capture one space **diagonally forward**: ↖↗ 
+- Kings move and capture one space **diagonally**: ↖↗↙↘
+- **Flying Kings**
+- **Majority Capture** rule applies. You have to capture as many as possible. 
+    - If there are multiple such options, you must capture as many Kings as possible.
+- Captured pieces are removed at the end of the turn.
 
 
 
@@ -444,10 +481,12 @@ This game is played with only 8 pieces per side.
 |    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
 |:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
 | 🇺🇸 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              |                      |                       | 8x8        |
-| 🇧🇷 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 8x8        |
 | 🗺️ | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 10x10      |
+| 🇧🇷 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 8x8        |
 | 🇨🇦 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 12x12      |
-| 🇮🇹 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              | ✅                   |                       | 8x8        |
+| 🇲🇾 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 12x12      |
+| 🇮🇹 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              | ✅+                  |                       | 8x8        |
+| 🇪🇸 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅+                  |                       | 8x8        |
 | 🇷🇺 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           |                      |                       | 8x8        |
 | 🇹🇷 | ←↑→       | ←↑→         | ←↑→↓         | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
 | 🇦🇲 | ←↑→<br>↖↗ | ←↑→         | ←↑→↓<br>↖↗↙↘ | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
@@ -508,5 +547,7 @@ which I think is just Brazilian Checkers with a endgame countdown.?
 
 Several pages mention a dropped "Huff rule"
 which means you can choose not to capture. But that destroys your own piece.
+
+It's astounding how several pages (canadian, malaysian, etc.) talk about the huffing rules as if its something unique to their variant.
 -->
 
