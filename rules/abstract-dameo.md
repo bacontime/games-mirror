@@ -32,9 +32,9 @@ You know the basics.
 - If your Man ends the turn on the back row, he is promoted to a King. Kings have better movement options.
 - You win if you capture all your opponent's pieces or make it so they otherwise cannot make a move.
 
-But there are a few rules which differe between countries.
-These include how pieces move, the setup of the board, etc.
-Take note of the following rules:
+<!--But there are a few rules which differe between countries.
+These include how pieces move, the setup of the board, etc.-->
+Take note of the following rules, which differ between regional variants.
 
 ### Flying Kings
 
@@ -133,13 +133,13 @@ Setup your pieces by placing them in a trapezoid on the first three rows of the 
     - one space by himself
     - by jumping over a straight unbroken line of allied men (equivalently, move the entire line of men)
 - Kings are **Flying** and move in **all eight directions**: ←↑→↓↖↗↙↘
-- If a Man ends his move on the back row, he is promoted to a King. 
+
 
 ### Capturing
 
 - Men capture **orthogonally** ←↑→↓
 - Kings are **Flying** and capture **orthogonally**: ←↑→↓
-- You have to **capture as many as possible**.
+- Majority Capture rule applies. You have to capture as many as possible.
 
 
 
@@ -178,12 +178,8 @@ Setup your pieces intermingled around all four edges of the board.
 
 ## Regional Checkers Variants
 
-### English Checkers
-
-
-|    | Man Move | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
-|:--:|:--------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
-| 🇺🇸 | ↖↗       | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              |                      |                       | 8x8        |
+### American Checkers 🇺🇸
+Also known as British Draughts.
 
 <pre style="line-height:1.3; text-align: center;">
 ⬜🔵⬜🔵⬜🔵⬜🔵
@@ -197,18 +193,14 @@ Setup your pieces intermingled around all four edges of the board.
 </pre>
 
 
+- Men move and capture one space **diagonally forward**: ↖↗ 
+- Kings move and capture one space **diagonally**: ↖↗↙↘
+- Kings don't fly.
+- If there are multiple captures available, you may choose which to do.
+- Captured pieces are removed at the end of the turn.
 
-Moving:
 
-- Men move one space **diagonally forward**: ↖↗ 
-- Kings move one space **diagonally**: ↖↗↙↘
-- If a Man ends his move on the back row, he is promoted to a King. 
-
-Capturing:
-
-- Men and Kings capture by hopping over an enemy in the same directions they can move.
-- If there are multiple captures available, **you may choose** which to do.
-
+<!--- Men and Kings capture in the same directions they can move.-->
 
 
 
@@ -225,25 +217,25 @@ Capturing:
 🔴⬜🔴⬜🔴⬜🔴⬜
 </pre>
 
+- Men move and capture one space **diagonally forward**: ↖↗ 
+- Kings move and capture one space **diagonally**: ↖↗↙↘
+- Kings don't fly.
+- **Majority Capture** rule applies. You have to capture as many as possible. 
+- Captured pieces are removed at the end of the turn.
 
+Oddities:
 
-Moving:
-
-- Men move one space **diagonally forward**: ↖↗ 
-- Kings move one space **diagonally**: ↖↗↙↘
-- If a Man ends his move on the back row, he is promoted to a King. 
-
-Capturing:
-
-- Men and Kings capture by hopping over an enemy in the same directions they can move.
 - Men Cannot Capture Kings.
-- You have to **capture as many as possible**. 
-- There are additional heirarchical criteria determining which capture sequence you must choose. In order:
+- There are additional criteria determining which capture sequence you must choose. In order of priority:
     1. Capture as many pieces as possible.
     2. Capture using a King.
     3. Capture as many Kings as possible.
     4. Choose the sequence that captures a King earliest in the sequence.
 
+
+|    | Man Move | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|:--:|:--------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
+| 🇺🇸 | ↖↗       | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              |                      |                       | 8x8        |
 
 
 
@@ -251,8 +243,8 @@ Capturing:
 ### International Checkers
 This variant is also called Polish Checkers and originates from the Netherlands.
 
-Board Setup:
-Similar to English Checkers but on a 10x10 board.
+Board Setup is Similar to English Checkers but on a 10x10 board
+with 40 pieces.
 
 <pre style="line-height:1.3; text-align: center;">
 ⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵
@@ -267,22 +259,20 @@ Similar to English Checkers but on a 10x10 board.
 🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜
 </pre>
 
-Moving:
-
 - Men move one space **diagonally forward**: ↖↗ 
-- Kings are **Flying** and move **diagonally**: ↖↗↙↘
-- If a Man ends his move on the back row, he is promoted to a King. 
-
-Capturing:
-
-- Men capture **diagonally**: ↖↗↙↘
-- Kings are **Flying** and capture **diagonally**: ↖↗↙↘ 
-- You have to **capture as many as possible**.
+- Men capture one space **diagonally**: ↖↗↙↘
+- Kings move and capture **diagonally**: ↖↗↙↘
+- **Flying Kings**
+- **Majority Capture** rule applies. You have to capture as many as possible.
+- Captured pieces are removed at the end of the turn.
 
 
-### Brazilian Checkers
 
-Brazilian Checkers is Exactly the Same as International Checkers, but with a smaller board.
+
+#### Brazilian Checkers
+
+Brazilian Checkers is played exactly the Same as International Checkers, but with a smaller 8x8 board 
+and 24 pieces.
 
 <pre style="line-height:1.3; text-align: center;">
 ⬜🔵⬜🔵⬜🔵⬜🔵
@@ -295,23 +285,11 @@ Brazilian Checkers is Exactly the Same as International Checkers, but with a sma
 🔴⬜🔴⬜🔴⬜🔴⬜
 </pre>
 
-Moving:
 
-- Men move one space **diagonally forward**: ↖↗ 
-- Kings are **Flying** and move **diagonally**: ↖↗↙↘
-- If a Man ends his move on the back row, he is promoted to a King. 
+#### Canadian Checkers
 
-Capturing:
-
-- Men capture **diagonally**: ↖↗↙↘
-- Kings are **Flying** and capture **diagonally**: ↖↗↙↘ 
-- You have to **capture as many as possible**.
-
-
-
-### Canadian Checkers
-
-Canadian Checkers is Exactly the Same as International Checkers, but with a larger 32x32 board.
+Canadian Checkers is played exactly the Same as International Checkers, but with a larger 32x32 board
+and 60 pieces.
 
 <pre style="line-height:1.3; text-align: center;">
 ⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵⬜🔵
@@ -328,17 +306,6 @@ Canadian Checkers is Exactly the Same as International Checkers, but with a larg
 🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜
 </pre>
 
-Moving:
-
-- Men move one space **diagonally forward**: ↖↗ 
-- Kings are **Flying** and move **diagonally**: ↖↗↙↘
-- If a Man ends his move on the back row, he is promoted to a King. 
-
-Capturing:
-
-- Men capture **diagonally**: ↖↗↙↘
-- Kings are **Flying** and capture **diagonally**: ↖↗↙↘ 
-- You have to **capture as many as possible**.
 
 
 
@@ -365,18 +332,23 @@ Same as English Checkers.
 </pre>
 
 
-
-Moving:
-
 - Men move one space **diagonally forward**: ↖↗ 
-- Kings are **Flying** and move **diagonally**: ↖↗↙↘
+- Men capture one space **diagonally**: ↖↗↙↘
+- Kings move and capture **diagonally**: ↖↗↙↘
+- **Flying Kings**
+- If there are multiple captures available, you may choose which to do.
+- Captured pieces are removed at the end of the turn.
 
-Capturing:
+Oddities:
 
-- Men capture **diagonally**: ↖↗↙↘
-- Kings are **Flying** and capture **diagonally**: ↖↗↙↘
-- If there are multiple captures available, **you may choose** which to do.
-- A Man can be promoted mid-capture-sequence.
+- Instant Promotion.
+
+A Man is promoted immediately upon reaching the back row, 
+even in the middle of a capture-sequence. 
+He may then immediately be able to capture new pieces as a King.
+
+In other variants, a Man isn't promoted 
+if he enters then leaves the back row before the turn is done.
 
 <!--- A Man is promoted to King if he reaches the back row,  mid-capture-sequence.-->
 
@@ -397,21 +369,12 @@ Capturing:
 </pre>
 
 
+- Men move and capture one space **forward** or **sideways**: ←↑→ 
+- Kings move and capture **orthogonally**: ←↑→↓
+- **Flying Kings**
+- **Majority Capture** rule applies. You have to capture as many as possible.
+- Pieces are **immediately removed** from the board when captured.
 
-Moving:
-
-- Men move one space **forward** or **sideways**: ←↑→ 
-- Kings are **Flying** and move **orthogonally**: ←↑→↓
-- If a Man ends his move on the back row, he is promoted to a King. 
-
-Capturing:
-
-- Men capture one space **forward** or **sideways**: ←↑→ 
-- Kings are **Flying** and capture **orthogonally**: ←↑→↓
-- You have to **capture as many as possible**.
-- Pieces are *immediately* removed from the board when captured.
-
-<!--- A Man is promoted to King if he reaches the back row,  mid-capture-sequence.-->
 
 
 
@@ -435,20 +398,14 @@ Same as Turkish Checkers
 
 
 
-Moving:
-
-- Men move one space **forward, diagonally forward,** or **sideways**: ↖←↑→↗ 
-- Kings are **Flying** and move in **all eight directions**: ←↑→↓↖↗↙↘
-- If a Man ends his move on the back row, he is promoted to a King. 
-
-Capturing:
-
+- Men move and capture one space **forward, diagonally forward,** or **sideways**: ↖←↑→↗ 
 - Men capture one space **forward** or **sideways**: ←↑→ 
-- Kings are **Flying** and capture **orthogonally**: ←↑→↓
-- You have to **capture as many as possible**.
-- Pieces are *immediately* removed from the board when captured.
+- Kings move **in all eight directions**: ←↑→↓↖↗↙↘
+- Kings capture **orthogonally**: ←↑→↓
+- **Flying Kings**
+- **Majority Capture** rule applies. You have to capture as many as possible.
+- Pieces are **immediately removed** from the board when captured.
 
-<!--- A Man is promoted to King if he reaches the back row,  mid-capture-sequence.-->
 
 
 
