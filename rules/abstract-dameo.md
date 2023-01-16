@@ -16,6 +16,9 @@ toc: true
 
 ## Generic Checkers Rules
 
+<details open markdown="block">
+<summary>Click to collapse. (You probably know this stuff already.)</summary>
+
 These are the commonalities between Checkers variants.
 Variants will have different setup, movement, etc.
 
@@ -56,6 +59,10 @@ Capture all your opponent's pieces or make it so they otherwise cannot make a mo
     - In some variants, the Man immediately becomes a King and can continue the capture sequence.
     - In other variants, the Man is not promoted mid capture-sequence. He is only promoted if he ends his turn in the back row.
 -->
+</details>
+
+
+
 
 
 ## Rules for Dameo
@@ -187,9 +194,6 @@ Similar to English Checkers but on a 10x10 board.
 ⬜🔴⬜🔴⬜🔴⬜🔴⬜🔴
 🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜
 </pre>
-
-
-
 
 ### Moving
 
