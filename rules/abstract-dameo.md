@@ -3,12 +3,13 @@ title: Checkers Etc.
 subtitle: Dameo and other checkers variants.
 players: 2
 equipment: Uses an 8x8 grid and two colors of stackable pieces.
-author: Christian Freeling
 layout: game
 parent: Abstract Games
 nav_exclude: false
 toc: true
 ---
+
+<!--author: Christian Freeling-->
 
 
 ![For Dameo, setup your pieces by placing them in a trapezoid on the first three rows of your board.](abstract-dameo.jpg)  
@@ -41,7 +42,8 @@ Capture all your opponent's pieces or make it so they otherwise cannot make a mo
 - Capturing is mandatory. If you can capture a piece, you can't choose to make a non-capturing move.
 - Multiple captures can happen in a turn.
     - If the piece you just moved can capture again, it can and must do so as part of the same turn.
-    - The captured pieces are removed at the end of the turn. You can't capture the same piece twice, and dead pieces can thus sometimes 'block' additional captures.
+    - In most variant, the captured pieces are removed at the end of the turn. You can't capture the same piece twice, and dead pieces can thus sometimes 'block' additional captures.
+    - In other variants, captured pieces are immediately removed. But pieces cannot immediate turn 180 for back-to-back captures.
 - When multiple captures are available:
     - In some variants, you may freely choose which capture you want to do.
     - In other variants, You must choose a sequence which captures as many pieces as possible.
@@ -245,7 +247,7 @@ Same as English Checkers.
 
 - Men capture **diagonally**: ↖↗↙↘
 - Kings are **Flying** and capture **diagonally**: ↖↗↙↘
-- You have to **capture as many as possible**.
+- If there are multiple captures available, **you may choose** which to do.
 - A Man can be promoted mid-capture-sequence.
 
 <!--- A Man is promoted to King if he reaches the back row,  mid-capture-sequence.-->
@@ -271,15 +273,16 @@ Same as English Checkers.
 
 ### Moving
 
-- Men move one space **forward or sideways**: ↖↑↗ 
-- Kings are **Flying** and move **orthogonally**: ↖↗↙↘
+- Men move one space **forward** or **sideways**: ←↑→ 
+- Kings are **Flying** and move **orthogonally**: ←↑→↓
+- If a Man ends his move on the back row, he is promoted to a King. 
 
 ### Capturing
 
-- Men capture **diagonally**: ↖↗↙↘
-- Kings are **Flying** and capture **diagonally**: ↖↗↙↘
+- Men capture one space **forward** or **sideways**: ←↑→ 
+- Kings are **Flying** and capture **orthogonally**: ←↑→↓
 - You have to **capture as many as possible**.
-- A Man can be promoted mid-capture-sequence.
+- Pieces are *immediately* removed from the board when captured.
 
 <!--- A Man is promoted to King if he reaches the back row,  mid-capture-sequence.-->
 
@@ -287,19 +290,56 @@ Same as English Checkers.
 
 
 
+## Rules for Armenian Checkers / Tama
+
+### Setup
+
+<pre style="line-height:1.3; text-align: center;">
+⬜⬜⬜⬜⬜⬜⬜⬜
+🔵🔵🔵🔵🔵🔵🔵🔵
+🔵🔵🔵🔵🔵🔵🔵🔵
+⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜
+🔴🔴🔴🔴🔴🔴🔴🔴
+🔴🔴🔴🔴🔴🔴🔴🔴
+⬜⬜⬜⬜⬜⬜⬜⬜
+</pre>
+
+
+
+### Moving
+
+- Men move one space **forward, diagonally forward,** or **sideways**: ↖←↑→↗ 
+- Kings are **Flying** and move in **all eight directions**: ←↑→↓↖↗↙↘
+- If a Man ends his move on the back row, he is promoted to a King. 
+
+### Capturing
+
+- Men capture one space **forward** or **sideways**: ←↑→ 
+- Kings are **Flying** and capture **orthogonally**: ←↑→↓
+- You have to **capture as many as possible**.
+- Pieces are *immediately* removed from the board when captured.
+
+<!--- A Man is promoted to King if he reaches the back row,  mid-capture-sequence.-->
+
+
+
+
 
 ## Summary of Variants
 
-|  | Eng | Int | Rus | Dameo | Turk |
-|:--|:-:|:-:|:-:|:-:|  |
-| Man Move | ↖↗ | ↖↗ | ↖↗ | ↖↑↗ | ←↑→ |
-| Man Capture | ↖↗ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ | ←↑→ |
-| King Move | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓<br>↖↗↙↘ | ←↑→↓ |
-| King Capture | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ | ←↑→↓ |
-| Flying King? |  | ✅ | ✅ | ✅ | ✅ |
-| Mid-Capture Promotion? |  |  | ✅ |  | |
-| Num. Pieces Per Player | 12 | 20 | 12 | 18 | 16 |
-| Board Size | 8x8 | 10x10 | 8x8 | 8x8 | 8x8 |
+|  | Eng | Int | Rus | Dameo | Turk | Arm |
+|:--|:-:|:-:|:-:|:-:|  |  |
+| Man Move | ↖↗ | ↖↗ | ↖↗ | ↖↑↗ | ←↑→ | ↖←↑→↗ |
+| Man Capture | ↖↗ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ | ←↑→ | ←↑→ |
+| King Move | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓<br>↖↗↙↘ | ←↑→↓ | ←↑→↓<br>↖↗↙↘ |
+| King Capture | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ | ←↑→↓ | ←↑→↓ |
+| Flying King? |  | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Mid-Capture Promotion? |  |  | ✅ |  |  |  |
+| Majority Capture? |  | ✅ |  | ✅ | ✅ | ✅ |
+| Immediate Removal? |  |  |  |  | ✅ | ✅ |
+| Num. Pieces Per Player | 12 | 20 | 12 | 18 | 16 | 16 |
+| Board Size | 8x8 | 10x10 | 8x8 | 8x8 | 8x8 | 8x8 |
 
 
 
