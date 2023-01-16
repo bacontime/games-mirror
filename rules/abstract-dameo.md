@@ -11,6 +11,7 @@ permalink: /rules/abstract-checkers
 redirect_from:
   - /rules/abstract-dameo.html
   - /rules/abstract-dameo
+  - dameotest
 ---
 
 <!--author: Christian Freeling-->
