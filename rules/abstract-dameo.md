@@ -142,12 +142,12 @@ Setup your pieces by placing them in a trapezoid on the first three rows of the 
 
 
 
+## Standard Checkers Variants by Country
+
+### English Checkers
 
 
-## Rules for English Checkers
-
-
-### Setup
+#### Setup
 
 <pre style="line-height:1.3; text-align: center;">
 ⬜🔵⬜🔵⬜🔵⬜🔵
@@ -162,13 +162,13 @@ Setup your pieces by placing them in a trapezoid on the first three rows of the 
 
 
 
-### Moving
+#### Moving
 
 - Men move one space **diagonally forward**: ↖↗ 
 - Kings move one space **diagonally**: ↖↗↙↘
 - If a Man ends his move on the back row, he is promoted to a King. 
 
-### Capturing
+#### Capturing
 
 - Men and Kings capture by hopping over an enemy in the same directions they can move.
 - If there are multiple captures available, **you may choose** which to do.
@@ -178,9 +178,9 @@ Setup your pieces by placing them in a trapezoid on the first three rows of the 
 
 
 
-## Rules for International Checkers
+### International Checkers
 
-### Setup
+#### Setup
 
 Similar to English Checkers but on a 10x10 board.
 
@@ -197,13 +197,13 @@ Similar to English Checkers but on a 10x10 board.
 🔴⬜🔴⬜🔴⬜🔴⬜🔴⬜
 </pre>
 
-### Moving
+#### Moving
 
 - Men move one space **diagonally forward**: ↖↗ 
 - Kings are **Flying** and move **diagonally**: ↖↗↙↘
 - If a Man ends his move on the back row, he is promoted to a King. 
 
-### Capturing
+#### Capturing
 
 - Men capture **diagonally**: ↖↗↙↘
 - Kings are **Flying** and capture **diagonally**: ↖↗↙↘ 
@@ -218,9 +218,9 @@ Similar to English Checkers but on a 10x10 board.
 
 
 
-## Rules for Russian Checkers / Shashki
+### Russian Checkers / Shashki
 
-### Setup
+#### Setup
 
 Same as English Checkers.
 
@@ -238,12 +238,12 @@ Same as English Checkers.
 
 
 
-### Moving
+#### Moving
 
 - Men move one space **diagonally forward**: ↖↗ 
 - Kings are **Flying** and move **diagonally**: ↖↗↙↘
 
-### Capturing
+#### Capturing
 
 - Men capture **diagonally**: ↖↗↙↘
 - Kings are **Flying** and capture **diagonally**: ↖↗↙↘
@@ -254,9 +254,9 @@ Same as English Checkers.
 
 
 
-## Rules for Turkish Checkers / Dama
+### Turkish Checkers / Dama
 
-### Setup
+#### Setup
 
 <pre style="line-height:1.3; text-align: center;">
 ⬜⬜⬜⬜⬜⬜⬜⬜
@@ -271,13 +271,13 @@ Same as English Checkers.
 
 
 
-### Moving
+#### Moving
 
 - Men move one space **forward** or **sideways**: ←↑→ 
 - Kings are **Flying** and move **orthogonally**: ←↑→↓
 - If a Man ends his move on the back row, he is promoted to a King. 
 
-### Capturing
+#### Capturing
 
 - Men capture one space **forward** or **sideways**: ←↑→ 
 - Kings are **Flying** and capture **orthogonally**: ←↑→↓
@@ -290,9 +290,9 @@ Same as English Checkers.
 
 
 
-## Rules for Armenian Checkers / Tama
+### Armenian Checkers / Tama
 
-### Setup
+#### Setup
 
 <pre style="line-height:1.3; text-align: center;">
 ⬜⬜⬜⬜⬜⬜⬜⬜
@@ -307,13 +307,13 @@ Same as English Checkers.
 
 
 
-### Moving
+#### Moving
 
 - Men move one space **forward, diagonally forward,** or **sideways**: ↖←↑→↗ 
 - Kings are **Flying** and move in **all eight directions**: ←↑→↓↖↗↙↘
 - If a Man ends his move on the back row, he is promoted to a King. 
 
-### Capturing
+#### Capturing
 
 - Men capture one space **forward** or **sideways**: ←↑→ 
 - Kings are **Flying** and capture **orthogonally**: ←↑→↓
