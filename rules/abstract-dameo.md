@@ -184,7 +184,32 @@ Setup your pieces intermingled around all four edges of the board.
 
 
 
+
 ## Regional Checkers Variants
+
+
+
+### Summary of Regional Variants
+
+<!--🇺🇸 🇬🇧 🇪🇸 🇲🇽 🇵🇹 🇧🇷 🇫🇷 🇩🇪 🇯🇵 🇨🇳 🇰🇷 🇮🇳-->
+
+
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
+| 🇺🇸 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              |                      |                       | 8x8        |
+| 🗺️ | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 10x10      |
+| 🇧🇷 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 8x8        |
+| 🇨🇦 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 12x12      |
+| 🇲🇾 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 12x12      |
+| 🇮🇹 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              | ✅+                  |                       | 8x8        |
+| 🇪🇸 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅+                  |                       | 8x8        |
+| 🇷🇺 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           |                      |                       | 8x8        |
+| 🇹🇷 | ←↑→       | ←↑→         | ←↑→↓         | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
+| 🇦🇲 | ←↑→<br>↖↗ | ←↑→         | ←↑→↓<br>↖↗↙↘ | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
+| 🇹🇭 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅-          |                      | ✅+                   | 8x8        |
+
+
+
 
 ### American Checkers 🇺🇸
 Also known as British Draughts.
@@ -246,12 +271,9 @@ with 40 pieces.
 - **Majority Capture** rule applies. You have to capture as many as possible.
 - Captured pieces are removed at the end of the turn.
 
+#### Brazilian Checkers 🇧🇷
 
-
-
-#### Brazilian Checkers
-
-Brazilian Checkers is played exactly the Same as International Checkers, but with a smaller 8x8 board 
+Brazilian Checkers is played the same as International Checkers, but with a smaller 8x8 board 
 and 24 pieces.
 
 <pre style="line-height:1.3; text-align: center;">
@@ -265,10 +287,9 @@ and 24 pieces.
 🔴⬜🔴⬜🔴⬜🔴⬜
 </pre>
 
+#### Canadian Checkers 🇨🇦
 
-#### Canadian Checkers
-
-Canadian Checkers is played exactly the Same as International Checkers, but with a larger 32x32 board
+Canadian Checkers is played the same as International Checkers, but with a larger 32x32 board
 and 60 pieces.
 
 <pre style="line-height:1.3; text-align: center;">
@@ -287,16 +308,28 @@ and 60 pieces.
 </pre>
 
 
-#### Malaysian Checkers
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
+| 🗺️ | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 10x10      |
+| 🇧🇷 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 8x8        |
+| 🇨🇦 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 12x12      |
 
-Malaysian/Singaporean Checkers is played exactly the Same as Canadian Checkers,
+
+
+#### Malaysian Checkers 🇲🇾
+
+Malaysian/Singaporean Checkers is played the same as Canadian Checkers,
 but Men can only capture **diagonally forward**: ↖↗ 
 
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
+| 🇲🇾 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 12x12      |
 
 
 
 
-### Italian Checkers
+
+### Italian Checkers 🇮🇹
 
 <pre style="line-height:1.3; text-align: center;">
 ⬜🔵⬜🔵⬜🔵⬜🔵
@@ -325,9 +358,13 @@ Oddities:
     4. Choose the sequence that captures a King earliest in the sequence.
 
 
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
+| 🇮🇹 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              | ✅+                  |                       | 8x8        |
 
 
-### Spanish Checkers
+
+### Spanish Checkers 🇪🇸
 
 <pre style="line-height:1.3; text-align: center;">
 ⬜🔵⬜🔵⬜🔵⬜🔵
@@ -348,10 +385,14 @@ Oddities:
 - Captured pieces are removed at the end of the turn.
 
 
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
+| 🇪🇸 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅+                  |                       | 8x8        |
 
 
 
-### Russian Checkers / Shashki
+### Russian Checkers 🇷🇺
+Aka Shashki
 
 Board Setup:
 Same as English Checkers.
@@ -387,11 +428,14 @@ He may then immediately be able to capture new pieces as a King.
 In other variants, a Man isn't promoted 
 if he enters then leaves the back row before the turn is done.
 
-<!--- A Man is promoted to King if he reaches the back row,  mid-capture-sequence.-->
+
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
+| 🇷🇺 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           |                      |                       | 8x8        |
 
 
-
-### Turkish Checkers / Dama
+### Turkish Checkers 🇹🇷
+Aka Dama
 
 
 <pre style="line-height:1.3; text-align: center;">
@@ -412,12 +456,16 @@ if he enters then leaves the back row before the turn is done.
 - **Majority Capture** rule applies. You have to capture as many as possible.
 - Pieces are **immediately removed** from the board when captured. Kings can't turn turn 180°.
 
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
+| 🇹🇷 | ←↑→       | ←↑→         | ←↑→↓         | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
 
 
 
 
 
-### Armenian Checkers / Tama
+### Armenian Checkers 🇦🇲
+Aka Tama
 
 Board Setup:
 Same as Turkish Checkers
@@ -443,9 +491,12 @@ Same as Turkish Checkers
 - **Majority Capture** rule applies. You have to capture as many as possible.
 - Pieces are **immediately removed** from the board when captured. Kings can't turn turn 180°.
 
+|    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
+|:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
+| 🇦🇲 | ←↑→<br>↖↗ | ←↑→         | ←↑→↓<br>↖↗↙↘ | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
 
 
-### Thai Checkers
+### Thai Checkers 🇹🇭
 
 This game is played with only 8 pieces per side.
 
@@ -469,35 +520,28 @@ This game is played with only 8 pieces per side.
 - Pieces are **immediately removed** from the board when captured. **Kings can turn turn 180°.**
 
 
-
-
-
-
-## Summary of National Variants
-
-<!--🇺🇸 🇬🇧 🇪🇸 🇲🇽 🇵🇹 🇧🇷 🇫🇷 🇩🇪 🇯🇵 🇨🇳 🇰🇷 🇮🇳-->
-
-
 |    | Man Move  | Man Capture | King Move    | King Capture | Flying King? | Majority<br>Capture? | Immediate<br>Removal? | Board Size |
 |:--:|:---------:|:-----------:|:------------:|:------------:|:------------:|:--------------------:|:---------------------:|:----------:|
-| 🇺🇸 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              |                      |                       | 8x8        |
-| 🗺️ | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 10x10      |
-| 🇧🇷 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 8x8        |
-| 🇨🇦 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 12x12      |
-| 🇲🇾 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅                   |                       | 12x12      |
-| 🇮🇹 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         |              | ✅+                  |                       | 8x8        |
-| 🇪🇸 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           | ✅+                  |                       | 8x8        |
-| 🇷🇺 | ↖↗        | ↖↗↙↘        | ↖↗↙↘         | ↖↗↙↘         | ✅           |                      |                       | 8x8        |
-| 🇹🇷 | ←↑→       | ←↑→         | ←↑→↓         | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
-| 🇦🇲 | ←↑→<br>↖↗ | ←↑→         | ←↑→↓<br>↖↗↙↘ | ←↑→↓         | ✅           | ✅                   | ✅                    | 8x8        |
-| 🇹🇭 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅†          |                      | ✅†                   | 8x8        |
+| 🇹🇭 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅-          |                      | ✅+                   | 8x8        |
 
+
+## Relevant Links
+
+While reading about regional checkers variants, I found the following sites useful:
+- [igGameCenters' list of Abstract Game Rules](https://www.iggamecenter.com/en/info/rules)
+- [Christian Freeling's page on Draughts Variants](https://www.mindsports.nl/index.php/on-the-evolution-of-draughts-variants/draughts-variants)
+- [BGG's list of Checkers-based games, and the discussion within each linked forum](https://boardgamegeek.com/boardgamefamily/96/traditional-games-checkers-draughts/linkeditems/boardgamefamily?pageid=1&sort=usersrated)
+
+<!--- Various random pages about specific variants.-->
 
 
 
 <!--
 Italy has capture priority.
 Russia has mid-capture promotion.
+
+| 🇩🇪 | ↖↗        | ↖↗          | ↖↗↙↘         | ↖↗↙↘         | ✅           |                      |                       | 8x8        |
+Unclear whether german variant has Thai-style semi-flying.
 
 | Dameo |    ↖↑↗   |     ←↑→↓    | ←↑→↓<br>↖↗↙↘ |     ←↑→↓     |       ✅      |                           |           ✅          |                       |           18           |     8x8    |
 -->
