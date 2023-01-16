@@ -46,6 +46,26 @@ Five-in-a-Row is a simple game.
 - You win with either a five-in-a-row or five captures (ten captured stones).
 
 
+### Connect 4
+
+Connect 4 is played with a vertical "board",
+such that pieces fall to the bottom.
+but can also easily be played on an actual flat board.
+
+- Designate one side of the board as "bottom".
+- Placed pieces are 'dropped' to the bottom-most empty row within their column.
+- You win with four-in-row, checked only after pieces have 'settled'.
+
+See also [this variant with 4-way gravity](https://www.itsyourturn.com/t_helptopic2070.html#helpitem1222).
+
+<!--Other fun variants here too:
+https://www.itsyourturn.com/t_rules_main.html
+Including for Checkers.
+-->
+
+-
+
+
 
 <!--
 https://boardgamegeek.com/boardgame/22847/connect6
