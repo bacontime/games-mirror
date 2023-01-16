@@ -11,6 +11,7 @@ toc: true
 
 <!--author: Christian Freeling-->
 
+<!--https://boardgamegeek.com/wiki/page/Checkers_Family#-->
 
 ![For Dameo, setup your pieces by placing them in a trapezoid on the first three rows of your board.](abstract-dameo.jpg)  
 
@@ -142,12 +143,40 @@ Setup your pieces by placing them in a trapezoid on the first three rows of the 
 
 
 
-## Regonal Checkers Variants
+## Rules for King's Court
+
+Game by Christopher Wroth (1986).
+<!--
+[See here for full rules](https://boardgamegeek.com/thread/1747520/dameo-rule-set) [and Strategy](https://mindsports.nl/images/stories/arena/damvar/Dameo.pdf) -->
+
+Setup your pieces intermingled around all four edges of the board.
+
+<pre style="line-height:1.3; text-align: center;">
+🔴🔵🔴🔵🔴🔵🔴🔵
+🔵🔴🔵🔴🔵🔴🔵🔴
+🔴🔵⬜⬜⬜⬜🔴🔵
+🔵🔴⬜⬜⬜⬜🔵🔴
+🔴🔵⬜⬜⬜⬜🔴🔵
+🔵🔴⬜⬜⬜⬜🔵🔴
+🔴🔵🔴🔵🔴🔵🔴🔵
+🔵🔴🔵🔴🔵🔴🔵🔴
+</pre>
+
+- Men move one space **orthogonally**: ←↑→↓
+- Men capture **orthogonally** ←↑→↓
+- Capturing is optional.
+- You may also jump over your own pieces. This doesn't remove them from the board.
+- Pieces are never promoted.
+- In the first two turns, no jumping is permitted. Each player enters the central 4x4 "court".
+- After the first two turns, you immediately lose if you don't have any pieces in the court.
+
+
+
+
+
+## Regional Checkers Variants
 
 ### English Checkers
-
-
-Board Setup:
 
 <pre style="line-height:1.3; text-align: center;">
 ⬜🔵⬜🔵⬜🔵⬜🔵
@@ -181,7 +210,6 @@ Capturing:
 ### International Checkers
 
 Board Setup:
-
 Similar to English Checkers but on a 10x10 board.
 
 <pre style="line-height:1.3; text-align: center;">
@@ -221,7 +249,6 @@ Capturing:
 ### Russian Checkers / Shashki
 
 Board Setup:
-
 Same as English Checkers.
 
 
@@ -256,7 +283,6 @@ Capturing:
 
 ### Turkish Checkers / Dama
 
-Board Setup:
 
 <pre style="line-height:1.3; text-align: center;">
 ⬜⬜⬜⬜⬜⬜⬜⬜
@@ -293,6 +319,7 @@ Capturing:
 ### Armenian Checkers / Tama
 
 Board Setup:
+Same as Turkish Checkers
 
 <pre style="line-height:1.3; text-align: center;">
 ⬜⬜⬜⬜⬜⬜⬜⬜
