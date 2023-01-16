@@ -328,18 +328,15 @@ Same as English Checkers.
 
 ## Summary of Variants
 
-|  | Eng | Int | Rus | Dameo | Turk | Arm |
-|:--|:-:|:-:|:-:|:-:|  |  |
-| Man Move | ↖↗ | ↖↗ | ↖↗ | ↖↑↗ | ←↑→ | ↖←↑→↗ |
-| Man Capture | ↖↗ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ | ←↑→ | ←↑→ |
-| King Move | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓<br>↖↗↙↘ | ←↑→↓ | ←↑→↓<br>↖↗↙↘ |
-| King Capture | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ | ←↑→↓ | ←↑→↓ |
-| Flying King? |  | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Mid-Capture Promotion? |  |  | ✅ |  |  |  |
-| Majority Capture? |  | ✅ |  | ✅ | ✅ | ✅ |
-| Immediate Removal? |  |  |  |  | ✅ | ✅ |
-| Num. Pieces Per Player | 12 | 20 | 12 | 18 | 16 | 16 |
-| Board Size | 8x8 | 10x10 | 8x8 | 8x8 | 8x8 | 8x8 |
+
+|       | Man Move | Man Capture |   King Move  | King Capture | Flying King? | Mid-Capture<br>Promotion? | Majority<br>Capture? | Immediate<br>Removal? | Num. Pieces Per Player | Board Size |
+|-------|:--------:|:-----------:|:------------:|:------------:|:------------:|:-------------------------:|:--------------------:|:---------------------:|:----------------------:|:----------:|
+| Eng   |    ↖↗    |      ↖↗     |     ↖↗↙↘     |     ↖↗↙↘     |              |                           |                      |                       |           12           |     8x8    |
+| Int   |    ↖↗    |     ↖↗↙↘    |     ↖↗↙↘     |     ↖↗↙↘     |       ✅      |                           |           ✅          |                       |           20           |    10x10   |
+| Rus   |    ↖↗    |     ↖↗↙↘    |     ↖↗↙↘     |     ↖↗↙↘     |       ✅      |             ✅             |                      |                       |           12           |     8x8    |
+| Dameo |    ↖↑↗   |     ←↑→↓    | ←↑→↓<br>↖↗↙↘ |     ←↑→↓     |       ✅      |                           |           ✅          |                       |           18           |     8x8    |
+| Turk  |    ←↑→   |     ←↑→     |     ←↑→↓     |     ←↑→↓     |       ✅      |                           |           ✅          |           ✅           |           16           |     8x8    |
+| Arm   |   ↖←↑→↗  |     ←↑→     | ←↑→↓<br>↖↗↙↘ |     ←↑→↓     |       ✅      |                           |           ✅          |           ✅           |           16           |     8x8    |
 
 
 
@@ -369,4 +366,11 @@ That's basically chinese checkers rules.
 Oh. Huh. 
 https://boardgamegeek.com/boardgame/2386/chinese-checkers
 Chinese Checkers is actually called Stern-Halma.
+
+Other breakthrough games include breakthrough?
+https://www.iggamecenter.com/en/rules/breakthrough
+
+https://www.iggamecenter.com/en/rules/harzdame
+Harzdame is standard checkers turned 45degrees
+
 -->
