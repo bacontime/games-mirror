@@ -340,7 +340,7 @@ Capturing:
 | 🇦🇲    |   ↖←↑→↗  |     ←↑→     | ←↑→↓<br>↖↗↙↘ |     ←↑→↓     |       ✅      |                           |           ✅          |           ✅           |           16           |     8x8    |
 
 
-
+<div style="width:150%;">
 <table>
 <thead>
   <tr>
@@ -438,7 +438,106 @@ Capturing:
   </tr>
 </tbody>
 </table>
+</div>
 
+
+<table class="foo">
+<thead>
+  <tr>
+    <th></th>
+    <th>Man Move</th>
+    <th>Man Capture</th>
+    <th>King Move</th>
+    <th>King Capture</th>
+    <th>Flying King?</th>
+    <th>Mid-Capture<br>Promotion?</th>
+    <th>Majority<br>Capture?</th>
+    <th>Immediate<br>Removal?</th>
+    <th>Num. Pieces Per Player</th>
+    <th>Board Size</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>🇺🇸</td>
+    <td>↖↗</td>
+    <td>↖↗</td>
+    <td>↖↗↙↘</td>
+    <td>↖↗↙↘</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>12</td>
+    <td>8x8</td>
+  </tr>
+  <tr>
+    <td>🗺️</td>
+    <td>↖↗</td>
+    <td>↖↗↙↘</td>
+    <td>↖↗↙↘</td>
+    <td>↖↗↙↘</td>
+    <td>✅</td>
+    <td></td>
+    <td>✅</td>
+    <td></td>
+    <td>20</td>
+    <td>10x10</td>
+  </tr>
+  <tr>
+    <td>🇷🇺</td>
+    <td>↖↗</td>
+    <td>↖↗↙↘</td>
+    <td>↖↗↙↘</td>
+    <td>↖↗↙↘</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td></td>
+    <td></td>
+    <td>12</td>
+    <td>8x8</td>
+  </tr>
+  <tr>
+    <td>Dameo</td>
+    <td>↖↑↗</td>
+    <td>←↑→↓</td>
+    <td>←↑→↓<br>↖↗↙↘</td>
+    <td>←↑→↓</td>
+    <td>✅</td>
+    <td></td>
+    <td>✅</td>
+    <td></td>
+    <td>18</td>
+    <td>8x8</td>
+  </tr>
+  <tr>
+    <td>🇹🇷</td>
+    <td>←↑→</td>
+    <td>←↑→</td>
+    <td>←↑→↓</td>
+    <td>←↑→↓</td>
+    <td>✅</td>
+    <td></td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>16</td>
+    <td>8x8</td>
+  </tr>
+  <tr>
+    <td>🇦🇲</td>
+    <td>↖←↑→↗</td>
+    <td>←↑→</td>
+    <td>←↑→↓<br>↖↗↙↘</td>
+    <td>←↑→↓</td>
+    <td>✅</td>
+    <td></td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>16</td>
+    <td>8x8</td>
+  </tr>
+</tbody>
+</table>
 
 <!--
 row for phalanx rule?
