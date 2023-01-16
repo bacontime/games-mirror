@@ -13,10 +13,54 @@ toc: true
 
 ![For Dameo, setup your pieces by placing them in a trapezoid on the first three rows of your board.](abstract-dameo.jpg)  
 
+
+## Generic Rules For Checkers Variants
+
+### Winning
+
+Capture all your opponent's pieces or make it so they otherwise cannot make a move.
+
+
+### Movement and Capturing
+
+- Men move one space. (Diagonally forwards in most variants.)
+- Men capture by hopping over an adjacent enemy piece to the empty space on the other side.
+- Kings move and capture in a similar manner, but with more options.
+- In variants with **Flying Kings**, Kings can move and capture across longer distances.
+    - A flying king can move in a straight line through as many empty spaces as he wants.
+    - A flying king still captures by jumping over exactly one enemy piece in a straight line. But he doesn't have to start or end the jump adjacent to that target piece.
+
+#### Mandatory Capturing
+
+- Capturing is mandatory. If you can capture a piece, you may not choose to make a non-capturing move.
+- Multiple captures can happen in a turn.
+    - If the piece you just moved can capture again, it can and must do so. 
+    - The captured pieces are removed at the end of the turn. 
+    - You can't capture the same piece twice, and dead pieces can thus sometimes 'block' additional captures.
+- When multiple captures are available:
+    - In some variants, you may freely choose which capture you want to do.
+    - In other variants, You have to choose a sequence which captures as many pieces as possible.
+
+#### Promotion:
+
+- All pieces on the board start as Men.
+- If a Man makes it to the back row, he is promoted to a King. 
+    - In some variants, the Man is only promoted if he *ends the turn* in the back row.
+    - In other variants, the Man can be promoted mid capture-sequence. He immediately becomes a King and can continue the capture sequence like one.
+
+<!--
+- If a Man ends his move on the back row, he is promoted to a King. 
+- If a Man makes it to the back row in the middle of capture sequence, what happens?
+    - In some variants, the Man immediately becomes a King and can continue the capture sequence.
+    - In other variants, the Man is not promoted mid capture-sequence. He is only promoted if he ends his turn in the back row.
+-->
+
+
 ## Rules for Dameo
 
 Dameo is one of the most highly rated Checkers Variants on BGG.
 In Dameo, pieces have diagonal movement, but orthogonal capture.
+There is also a group movement rule to get the Men into action more quickly.
 
 Game by Christian Freeling (2000).
 [See here for full rules](https://boardgamegeek.com/thread/1747520/dameo-rule-set).
@@ -24,8 +68,6 @@ Game by Christian Freeling (2000).
 [See here for full rules](https://boardgamegeek.com/thread/1747520/dameo-rule-set) [and Strategy](https://mindsports.nl/images/stories/arena/damvar/Dameo.pdf) -->
 
 
-### Winning
-Capture all your opponent's pieces or make it so they have no legal moves.
 
 ### Setup
 
@@ -71,25 +113,19 @@ Setup your pieces by placing them in a trapezoid on the first three rows of the 
 🟫⬜🟫⬜🟫⬜🟫⬜
 -->
 
-
-
 ### Moving
 
 - Men can move **forward** or **diagonally forward**: ↖⬆↗
-    - one space by itself
+    - one space by himself
     - by jumping over a straight  unbroken line of allied men (equivalently, move the entire line of men)
-- Kings move like **chess-queens**
-- If a Man ends his move on the back row, he is promoted to a King.
+- Kings are **Flying** and move in **all eight directions**: ←↑→↓↖↗↙↘
+- If a Man ends his move on the back row, he is promoted to a King. 
 
 ### Capturing
 
-- Men capture by hopping over an enemy **forwards**, **backwards**, or **sideways** ←↑→↓
-- Kings capture by moving **orthogonally through** a single captured piece.
-- Capturing is mandatory. 
-    - You have to **capture as many as possible**.
-- Multiple captures can happen in a turn.
-    - If the piece you just moved can capture again, it can and must do so. 
-    - The pieces aren't removed until the end of the turn. You can't capture the same piece twice, so dead pieces can 'block' additional captures.
+- Men capture **orthogonally** ←↑→↓
+- Kings are **Flying** and capture **orthogonally**: ←↑→↓
+- You have to **capture as many as possible**.
 
 
 
@@ -97,16 +133,16 @@ Setup your pieces by placing them in a trapezoid on the first three rows of the 
 
 
 
-## Rules for American Checkers / English Draughts
+## Rules for English Checkers
 
-
-### Winning
-Capture all your opponent's pieces or make it so they have no legal moves.
 
 ### Setup
 
 
 <style>
+.checkerboard{
+    line-height: 1.3em;
+}
 .gSq{
     display: inline-block;
     height: 1.3em;
@@ -123,15 +159,15 @@ Capture all your opponent's pieces or make it so they have no legal moves.
 }
 </style>
 
-<div>
-<span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><br>
-<span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><br>
-<span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><br>
-<span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><br>
-<span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><span style="wSq"></span><span style="gSq"></span><br>
-<span style="gSq">🔴</span><span style="wSq"></span><span style="gSq">🔴</span><span style="wSq"></span><span style="gSq">🔴</span><span style="wSq"></span><span style="gSq">🔴</span><span style="wSq"></span><br>
-<span style="wSq"></span><span style="gSq">🔴</span><span style="wSq"></span><span style="gSq">🔴</span><span style="wSq"></span><span style="gSq">🔴</span><span style="wSq"></span><span style="gSq">🔴</span><br>
-<span style="gSq">🔴</span><span style="wSq"></span><span style="gSq">🔴</span><span style="wSq"></span><span style="gSq">🔴</span><span style="wSq"></span><span style="gSq">🔴</span><span style="wSq"></span><br>
+<div class="checkerboard">
+<span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><br>
+<span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><br>
+<span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><br>
+<span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><br>
+<span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><span class="wSq"></span><span class="gSq"></span><br>
+<span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><br>
+<span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><br>
+<span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><span class="gSq">🔴</span><span class="wSq"></span><br>
 </div>
 
 <pre style="line-height:1.3;">
@@ -149,19 +185,14 @@ Capture all your opponent's pieces or make it so they have no legal moves.
 
 ### Moving
 
-- Men can move **diagonally forward**: ↖↗ **one space**.
-- Kings move **diagonally forward or backwards**: ↖↗↙↘ **one space**.
-- If a Man ends his move on the back row, he is promoted to a King.
+- Men move one space **diagonally forward**: ↖↗ 
+- Kings move one space **diagonally forward or backward**: ↖↗↙↘
+- If a Man ends his move on the back row, he is promoted to a King. 
 
 ### Capturing
 
-- Men and Kings capture by hopping over an enemy in a direction they can move.
-- Capturing is mandatory. 
-    - If there are multiple captures available, **you may choose** which to do.
-- Multiple captures can happen in a turn.
-    - If the piece you just moved can capture again, it can and must do so. 
-    - You can't capture the same piece twice.
-
+- Men and Kings capture by hopping over an enemy in the same directions they can move.
+- If there are multiple captures available, **you may choose** which to do.
 
 
 
@@ -169,13 +200,6 @@ Capture all your opponent's pieces or make it so they have no legal moves.
 
 
 ## Rules for International Checkers
-
-Compared to American Checkers,
-this version of the game is played on a large board, with more pieces,
-and has "flying kings".
-
-### Winning
-Capture all your opponent's pieces or make it so they have no legal moves.
 
 ### Setup
 
@@ -199,23 +223,79 @@ Similar to American Checkers but on a 10x10 board.
 
 ### Moving
 
-- Men can move or **diagonally forward**: ↖↗ **one space**.
-- Kings move like **chess-bishops**
-- If a Man ends his move on the back row, he is promoted to a King.
+- Men move one space **diagonally forward**: ↖↗ 
+- Kings are **Flying** and move **diagonally forward or backward**: ↖↗↙↘
+- If a Man ends his move on the back row, he is promoted to a King. 
 
 ### Capturing
 
-- Men capture by hopping over an enemy **diagonally forward**: ↖↗
-- Kings capture by moving **diagonally through** a single captured piece.
-- Capturing is mandatory. 
-    - You have to **capture as many as possible**.
-- Multiple captures can happen in a turn.
-    - If the piece you just moved can capture again, it can and must do so. 
-    - The pieces aren't removed until the end of the turn. You can't capture the same piece twice, so dead pieces can 'block' additional captures.
+- Men capture **diagonally forward or backward**: ↖↗↙↘
+- Kings are **Flying** and capture **diagonally forward or backward**: ↖↗↙↘ 
+- You have to **capture as many as possible**.
 
 
 
 
 
 
+
+
+
+
+## Rules for Russian Checkers / Shashki
+
+### Setup
+
+Same as English Checkers.
+
+
+<pre style="line-height:1.3;">
+⬜🔵⬜🔵⬜🔵⬜🔵
+🔵⬜🔵⬜🔵⬜🔵⬜
+⬜🔵⬜🔵⬜🔵⬜🔵
+⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜
+🔴⬜🔴⬜🔴⬜🔴⬜
+⬜🔴⬜🔴⬜🔴⬜🔴
+🔴⬜🔴⬜🔴⬜🔴⬜
+</pre>
+
+
+
+### Moving
+
+- Men move one space **diagonally forward**: ↖↗ 
+- Kings are **Flying** and move **diagonally forward or backward**: ↖↗↙↘
+
+### Capturing
+
+- Men capture **diagonally forward or backward**: ↖↗↙↘
+- Kings are **Flying** and capture **diagonally forward or backward**: ↖↗↙↘
+- You have to **capture as many as possible**.
+- A Man can be promoted mid-capture-sequence.
+
+<!--- A Man is promoted to King if he reaches the back row,  mid-capture-sequence.-->
+
+
+
+
+## Summary of Variants
+
+|  | Eng | Int | Rus | Dameo |
+|:--|:-:|:-:|:-:|:-:|
+| Man Move | ↖↗ | ↖↗ | ↖↗ | ↖↑↗ |
+| Man Capture | ↖↗ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ |
+| King Move | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓↖↗↙↘ |
+| King Capture | ↖↗↙↘ | ↖↗↙↘ | ↖↗↙↘ | ←↑→↓ |
+| Flying King? |  | ✔️ | ✔️ | ✔️ |
+| Mid-Capture Promotion? |  |  | ✔️ |  |
+|  |  |  |  |  |
+
+
+
+<!--
+←↑→↓
+←↑→↓↖↗↙↘
+←↖↑↗→↘↓↙
+-->
 
