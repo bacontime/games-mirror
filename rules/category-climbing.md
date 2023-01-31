@@ -15,9 +15,10 @@ nav_order: 1
 - Play can continue multiple times around the table like this.
 - If all but one players pass in a row, then the last player to not pass takes all cards played, places them facedown, and leads with another pattern.
 - Typical Valid Patterns:
-    - Single: <span class="card">A</span>, Double: <span class="card">A</span><span class="card">A</span>, or Triple: <span class="card">A</span><span class="card">A</span><span class="card">A</span>
-    - Full House: <span class="card">A</span><span class="card">A</span><span class="card">A</span><span class="card">J</span><span class="card">J</span> or Three-and-One: <span class="card">A</span><span class="card">A</span><span class="card">A</span><span class="card">J</span>
-    - Runs of any of the above. (Runs of singles must have at least 5 cards.)
+    - **Single**: <span class="card">A</span>, **Double**: <span class="card">A</span><span class="card">A</span>, or **Triple**: <span class="card">A</span><span class="card">A</span><span class="card">A</span>
+    - **Full House**: <span class="card">A</span><span class="card">A</span><span class="card">A</span><span class="card">J</span><span class="card">J</span> or **Three-and-One**: <span class="card">A</span><span class="card">A</span><span class="card">A</span><span class="card">J</span>
+    - **Runs** of any of the above. 
+      - Runs must have at least 5 cards. (5+ singles, 3+ pairs, etc.)
       - Ex: <span class="card">5</span><span class="card">5</span><span class="card">5</span><span class="card">J</span> <span class="card">6</span><span class="card">6</span><span class="card">6</span><span class="card">Q</span>
     - **Bombs**: Four of a Kind: <span class="card">A</span><span class="card">A</span><span class="card">A</span><span class="card">A</span>, or a pair of Jokers: <span class="card">⭑</span><span class="card">⭒</span>
 - 2 cards are often treated as the high card, even above Aces, in this kind of game.
