@@ -326,7 +326,7 @@ and 60 pieces.
 
 
 
-#### Malaysian Checkers 🇲🇾
+### Malaysian Checkers 🇲🇾
 
 Malaysian/Singaporean Checkers is played the same as Canadian Checkers,
 but Men can only capture **diagonally forward**: ↖↗ 
