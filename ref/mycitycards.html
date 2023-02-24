@@ -11,7 +11,7 @@
     }
     @font-face {
         font-family: "emojiIcon";
-        src: url("NotoEmoji-VariableFont_wght.ttf"), local("OpenMoji Color"), url("OpenMoji-Color.ttf");
+        src: url(https://www.rmwinslow.com/webfonts/emoji/NotoEmoji-Medium.ttf); 
 }
 
     </style>
@@ -21,8 +21,9 @@
 
 
 
-
-
+<!--
+    src: url({{site.webfontdirectory}}/emoji/EmojiTwoCOLRv0.ttf); 
+-->
 
 
 
@@ -55,7 +56,7 @@
     <text x="38" y="12" fill="#000" font-size="3" text-anchor="end">+3</text>
     
     <text x="2"  y="15" fill="#000" font-size="3" >End: </text>
-    <text x="5"  y="18" fill="#000" font-size="3" >Empty Space</text>
+    <text x="5"  y="18" fill="#000" font-size="3" >Blank space</text>
     <text x="38" y="18" fill="#000" font-size="3" text-anchor="end">-1</text>
     <text x="5"  y="21" fill="#000" font-size="3" >4 buildings next to well</text>
     <text x="38" y="21" fill="#000" font-size="3" text-anchor="end">+4</text>
@@ -96,10 +97,13 @@
     <text x="38" y="16" fill="#000" font-size="3" text-anchor="end">+?</text>
 
     
-    <text x="3.5" y="24" font-size="4" text-anchor="middle">🏘️</text>
+    <text x="3.5" y="24" font-size="4" text-anchor="middle" font-family="emojiIcon">🏘️</text>
 </svg>
 
-
+<!--
+Non-emoji version has more consistent rendering but then doesn't present in default font.
+🏘
+-->
 
 
 <svg width="2.5in" height="1.625in" version="1.1" viewBox="0 0 40 26" xmlns="http://www.w3.org/2000/svg">
@@ -111,7 +115,7 @@
     <text x="5"  y="17" fill="#000" font-size="3">of blue buildings</text>
     <text x="38" y="16" fill="#000" font-size="3" text-anchor="end">+2</text>
     
-    <text x="3.5" y="24" font-size="4" text-anchor="middle">⚙️</text>
+    <text x="3.5" y="24" font-size="4" text-anchor="middle" font-family="emojiIcon">⚙️</text>
 </svg>
 
 
@@ -129,7 +133,7 @@
     <text x="5"  y="21" fill="#000" font-size="3">by same-color mine</text>
     <text x="38" y="20" fill="#000" font-size="3" text-anchor="end">+?</text>
     
-    <text x="3.5" y="24" font-size="4" text-anchor="middle">⛰️</text>
+    <text x="3.5" y="24" font-size="4" text-anchor="middle" font-family="emojiIcon">⛰️</text>
 </svg>
 
 
@@ -151,7 +155,7 @@
     <text x="9"  y="19" fill="#000" font-size="3" >Fill all coast spaces</text>
     <text x="38" y="19" fill="#000" font-size="3" text-anchor="end">+5</text>
     
-    <text x="3.5" y="24" font-size="4" text-anchor="middle">🏖️</text>
+    <text x="3.5" y="24" font-size="4" text-anchor="middle" font-family="emojiIcon">🏖️</text>
 </svg>
 
 
@@ -171,7 +175,7 @@
     <text x="9"  y="19" fill="#000" font-size="3" >Connect port-coast</text>
     <text x="38" y="19" fill="#000" font-size="3" text-anchor="end">+5</text>
 
-    <text x="3.5" y="24" font-size="4" text-anchor="middle">🛣️</text>
+    <text x="3.5" y="24" font-size="4" text-anchor="middle" font-family="emojiIcon">🛣️</text>
 </svg>
 
 
@@ -193,7 +197,7 @@
     
     <text x="21" y="23" fill="#000" font-size="3" font-style="italic" text-anchor="middle">Ignore courtyard rocks.</text>
     
-    <text x="3.5" y="24" font-size="4" text-anchor="middle">🏡</text>
+    <text x="3.5" y="24" font-size="4" text-anchor="middle" font-family="emojiIcon">🏡</text>
 </svg>
 
 
@@ -214,22 +218,11 @@
 
     <text x="21" y="23" fill="#000" font-size="3" font-style="italic" text-anchor="middle">You may build on forests.</text>
 
-    <text x="3.5" y="24" font-size="4" text-anchor="middle">🪓</text>
+    <text x="3.5" y="24" font-size="4" text-anchor="middle" font-family="emojiIcon">🪓</text>
 </svg>
 
 
 
-
-<svg width="2.5in" height="1.625in" version="1.1" viewBox="0 0 40 26" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="26" fill="none" stroke="black" stroke-width="1"/>
-    <text x="2" y="5" fill="#5c0625" font-size="4" text-decoration="underline" >The Flood</text>
-    
-    <text x="20" y="10" fill="#000" font-size="3" font-style="italic" text-anchor="middle">Build only east of the river.</text>
-    <text x="20" y="15" fill="#000" font-size="3" font-style="italic" text-anchor="middle">The blocking card</text>
-    <text x="20" y="18" fill="#000" font-size="3" font-style="italic" text-anchor="middle">cancels this restriction.</text>
-
-    <text x="3.5" y="24" font-size="4" text-anchor="middle">🌊</text>
-</svg>
 
 
 
@@ -245,8 +238,49 @@
     <text x="5" y="20" fill="#000" font-size="3" >Build next to investor</text>
     <text x="38" y="20" fill="#000" font-size="3" text-anchor="end">+1</text>
 
-    <text x="3.5" y="24" font-size="4" text-anchor="middle">🕴️</text>
+    <text x="3.5" y="24" font-size="4" text-anchor="middle" font-family="emojiIcon">🕴️</text>
 </svg>
+
+<!--👨‍💼-->
+
+
+<svg width="2.5in" height="1.625in" version="1.1" viewBox="0 0 40 26" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="26" fill="none" stroke="black" stroke-width="1"/>
+    <text x="2" y="5" fill="#5c0625" font-size="4" text-decoration="underline" >Restriction: The Flood</text>
+    
+    <text x="20" y="11" fill="#000" font-size="3" font-style="italic" text-anchor="middle">Build only east of the river.</text>
+    <text x="20" y="15.5" fill="#000" font-size="3" font-style="italic" text-anchor="middle">The blocking card</text>
+    <text x="20" y="18" fill="#000" font-size="3" font-style="italic" text-anchor="middle">cancels this restriction.</text>
+
+    <text x="3.5" y="24" font-size="4" text-anchor="middle" font-family="emojiIcon">🌊</text>
+</svg>
+
+
+
+
+<svg width="2.5in" height="1.625in" version="1.1" viewBox="0 0 40 26" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="26" fill="none" stroke="black" stroke-width="1"/>
+    <text x="2" y="5" fill="#5c0625" font-size="4" text-decoration="underline" >Restriction: Hug Trees</text>
+    
+    <text x="20" y="15" fill="#000" font-size="3" font-style="italic" text-anchor="middle">Don't cover trees.</text>
+
+    <text x="3.5" y="24" font-size="4" text-anchor="middle" font-family="emojiIcon">🌳</text>
+</svg>
+
+
+
+
+<svg width="2.5in" height="1.625in" version="1.1" viewBox="0 0 40 26" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="26" fill="none" stroke="black" stroke-width="1"/>
+    <text x="2" y="5" fill="#5c0625" font-size="4" text-decoration="underline" >Restriction: No Skips</text>
+    
+    <text x="20" y="11" fill="#000" font-size="3" font-style="italic" text-anchor="middle">You may not skip a building.</text>
+    <text x="20" y="15.5" fill="#000" font-size="3" font-style="italic" text-anchor="middle">If you cannot build one,</text>
+    <text x="20" y="18" fill="#000" font-size="3" font-style="italic" text-anchor="middle"> you are done building.</text>
+
+    <text x="3.5" y="24" font-size="4" text-anchor="middle" font-family="emojiIcon">❕</text>
+</svg>
+
 
 
 <!--
