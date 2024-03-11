@@ -70,8 +70,7 @@ For deck = pokerdeck
 
 
 
-there are people at harvard who are imaginitive but don't know any economics
-take a model you know well and apply it for the people who cant get into the nitty gritty
+
 '''
 
 #%% Mahjong Hand Counts
