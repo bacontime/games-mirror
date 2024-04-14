@@ -20,14 +20,18 @@ and still use [standard poker hands](category-poker):
         2. Green dragon
         3. White dragon
         4. North wind
-        5. South wind
-        6. East wind
-        7. West wind
+        5. West wind
+        6. South wind
+        7. East wind
         8. Pip cards 9-1
 
 Although the probabilities of each hand will be different,
 The *probability ranking* will be the same. 
 4-of-a-kind will be more rare than full house etc.
+
+*Additional Clarification: Like in poker, sets (pairs, triplets, etc.) can mix suits.*
+
+<!-- *In the rare cases it matters, myriads>strings>coins*-->
 
 ## Odds Comparison: 52 card deck vs Mahjong Set
 

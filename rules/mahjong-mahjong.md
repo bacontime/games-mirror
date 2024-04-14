@@ -37,3 +37,15 @@ nav_order: 1
 - [Here is another well-written explanation of the game](http://www.zj-mahjong.info/book_en/App%20C%20-%20Mahjong%20Rules.html).
 
 
+## Simple Scoring Variant.
+
+If playing multiple rounds:
+
+- +1 point for getting the Mahjong.
+- If you get the Mahjong, you also get +1 bonus point for each of the following conditions:
+    - Triplet of dragons
+    - Triplet of winds matching your seat
+    - No triplets  
+    - You never took a discard except to finish the Mahjong
+    - Each kong (if playing with that variant)
+

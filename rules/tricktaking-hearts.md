@@ -6,7 +6,6 @@ layout: game
 parent: Trick-taking Games
 ---
 
-# Hearts
 
 *The hearts are poison.*
 
