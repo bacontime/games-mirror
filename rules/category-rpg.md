@@ -1,6 +1,7 @@
 ---
 title: Micro RPGs
 has_children: true
+nav_order: 102
 ---
 
 # Micro RPGs

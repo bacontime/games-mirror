@@ -18,7 +18,7 @@ suitable for playing when everyone has their own smartphone or tablet on hand.
 
 
 [See this pdf for a more exhaustive list](https://drive.google.com/file/d/1NO-05LM-SakbwqNajBXgIO4HuCSkBd6n/view),
-though many of the links therein are non
+though many of the links therein are non-functional.
 
 
 <!--
