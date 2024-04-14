@@ -18,7 +18,7 @@ parent: Party Games
 ---
 
 
-[See here for a digital implementation.](https://drawphone.tannerkrewson.com/.
+[See here for a digital implementation.](https://drawphone.tannerkrewson.com/).
 
 There is also a version sold with dry-erase flipbooks sold as [Telestrations](https://boardgamegeek.com/boardgame/46213/telestrations/credits#alternatename)
 
